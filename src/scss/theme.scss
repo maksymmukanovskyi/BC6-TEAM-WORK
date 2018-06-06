@@ -1,0 +1,16 @@
+.wrapper-color{
+  background-color: $white;
+
+  &--black{
+    background-color: $black;
+  }
+}
+
+.welcome{
+  padding: rem(65) 0;
+
+  &__title {
+    color: $grey;
+    font-size: $mobTitle;
+    margin-bottom: rem(10);
+  }

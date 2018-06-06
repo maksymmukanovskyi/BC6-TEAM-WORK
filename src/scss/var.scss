@@ -1,0 +1,28 @@
+//-----------colors-------------
+$green: #66AF33;
+$white: #fff;
+$grey: #555;
+$black: #333;
+//---------fonts-----------
+$font: Arial, sans-serif;
+//---------font-size-------
+$mobTitle: 1.5rem;
+$mobSubTitle: 1.125rem;
+$mobText: 0.8rem;
+//-------------functions---------
+@function rem($px) {
+  $result: $px / 16;
+  @return #{$result}rem;
+}
+@function prc($el, $container){
+  $result: $el / $container * 100%;
+  @return #{$result};
+}
+
+@mixin bg-img {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
