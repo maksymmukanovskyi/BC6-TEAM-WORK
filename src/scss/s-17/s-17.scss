@@ -1,19 +1,19 @@
 .wrapper-faq {
   background-color: #fff;
+  margin-top: rem(55);
 }
 
-.wrapper-faq__faq-box-title {
+.title__faq-box-title {
   position: relative;
-  font-family: $fontTitle;
   font-size: $mobTitle;
-  font-weight: 900;
   line-height: rem(50);
-  color: $textGrey;
-  text-transform: uppercase;
+}
+
+.title--faq{
   margin-bottom: rem(35);
 }
 
-.wrapper-faq__faq-box-title:before {
+.title__faq-box-title:before {
   content: '';
   display: inline-block;
   width: rem(16);
@@ -21,7 +21,7 @@
   background-color: $textBlue;
 }
 
-.wrapper-faq__faq-box-title:after {
+.title__faq-box-title:after {
   position: absolute;
   left: rem(60);
   top: rem(40);
@@ -29,6 +29,10 @@
   height: rem(2);
   width: rem(150);
   background-color: #000;
+}
+
+.title--faq:after {
+  content: '';
   margin-top: rem(12);
 }
 
@@ -56,22 +60,49 @@
 }
 
 .wrapper-faq__answer-boxes {
+  font-family: $fontOpenSans;
+  font-weight: 900;
+  font-size: rem(12);
+  text-transform: uppercase;
   padding: rem(25) rem(32);
   background-color: #ededed;
-  box-shadow: 2px 3px 3px 3px rgba(0,0,0,0.16);
+  box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.16);
   border-radius: rem(4);
   margin-bottom: rem(10);
 }
 
+.wrapper-faq__answer-boxes-open{
+  box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.16);
+}
 .wrapper-faq__answer-boxes--second{
   margin-bottom: 0;
   border-bottom-left-radius: 0;
-  border-bottom-right-radius:0;
+  border-bottom-right-radius: 0;
+  box-shadow: none;
+
 }
 
 .wrapper-faq__answer-boxes--third{
   background-color: #fff;
   border-top-left-radius: 0;
-  border-top-right-radius:0;
+  border-top-right-radius: 0;
+  box-shadow: none;
+  text-transform: initial;
+  font-weight: initial;
+}
+
+.title--bottom {
+  font-size: $mobTitle;
+  line-height: rem(50);
+  margin-bottom: rem(35);
+  text-align: center;
+}
+
+.title--bottom:before {
+  content: '';
+  display: inline-block;
+  width: rem(16);
+  height: rem(5);
+  background-color: $textBlue;
 }
 

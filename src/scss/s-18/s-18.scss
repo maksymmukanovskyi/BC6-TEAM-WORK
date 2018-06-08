@@ -1,34 +1,74 @@
 .wrapper-yes-no{
   background-color: #2c2b2f;
   padding-top: rem(35);
-}
-
-.wrapper-faq__title-bottom {
-  font-family: $fontTitle;
-  font-size: $mobTitle;
-  font-weight: 900;
-  line-height: rem(30);
-  color: $textGrey;
-  text-transform: uppercase;
-  margin-bottom: rem(35);
-  text-align: center;
-}
-
-.wrapper-faq__title-bottom:before {
-  content: '';
-  display: inline-block;
-  width: rem(16);
-  height: rem(5);
-  background-color: $textBlue;
+  padding-bottom: rem(65);
 }
 
 .for-you-box {
-  width: 90.625%;
+  width: 99%;
   margin: auto;
   background-color: #fff;
+  padding-bottom: rem(45);
+}
+
+.for-you-box--left{
   margin-bottom: rem(15);
 }
 
 .for-you-box__text {
   padding-top: rem(35);
+  padding-left: rem(18);
+  margin-bottom: rem(35);
+}
+
+.blueword--faq{
+  font-size: rem(24);
+  text-transform: initial;
+}
+
+.for-you-box__text-bottom{
+  font-family: $fontUbuntuMono;
+  font-size: rem(24);
+}
+
+.for-you-box__items{
+  position: relative;
+  font-family: $fontOpenSans;
+  font-weight: 600;
+  font-size: $mobPar;
+  padding-left: rem(50);
+  padding-right: rem(25);
+  vertical-align: super;
+  margin-bottom: rem(30);
+}
+
+.for-you-box__items:last-child {
+  margin-bottom: 0;
+}
+
+.circle:before {
+  content: '';
+  position: absolute;
+  top: rem(2);
+  left: rem(20);
+  width: rem(12);
+  height: rem(12);
+  margin-right: rem(15);
+}
+
+.wrapper-yes-no__bottom-box-yes{
+  font-family: $fontMuseoCyrl;
+  font-size: rem(14);
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.wrapper-yes-no__bottom-box-yes--mob{
+  padding: rem(35) 0;
+}
+
+.btn--faq{
+  font-size: rem(14);
+  padding: rem(20) rem(40);
 }
