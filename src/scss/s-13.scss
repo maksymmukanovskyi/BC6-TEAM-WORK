@@ -1,7 +1,26 @@
+.wrapper__s-thirteen {
+  background-image: url(../img/s13/whitenoise-1440x2000.png);
+}
+
+.s-thirteen__container {
+  padding-top: rem(54);
+}
+
+.title:before {
+  width: rem(16);
+  height: rem(4);
+}
+
+
+
 .s-thirteen__title {
   text-align: center;
+  font-size: $mobTitle;
+  font-weight: 900;
+  line-height: rem(30);
   width: prc(715, 1140);
   margin: auto;
+  margin-bottom: rem(72);
 }
 
 .s-thirteen__blueword {
@@ -12,8 +31,57 @@
   padding-bottom: 0;
 }
 
-.s-thirteen__list {
-
+.s-thirteen__prof {
+  display: none;
 }
 
+.s-thirteen__list {
+  text-align: center;
+}
 
+.s-thirteen__list-item {
+  background-color: #fff;
+  margin-bottom: rem(72);
+  position: relative;
+  padding: rem(60) rem(17) rem(17);
+}
+
+.s-thirteen__list-item:last-child {
+  margin-bottom: 0;
+}
+
+.s-thirteen__pic {
+  position: absolute;
+  top: -15%;
+  left: 50%;
+  transform: translate(-50%) scale(0.8);
+}
+
+.s-thirteen__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.text--mobisth {
+   text-align: left;
+   font-size: rem(14);
+   line-height: rem(24);
+   font-weight: 400;
+   margin: rem(32) 0 rem(50);
+}
+
+ .s-thirteen__link {
+   font-family: $fontOpenSans;
+   font-size: rem(14);
+   font-weight: 900;
+   text-transform: uppercase;
+   display: block;
+   color: #000;
+   align-self: flex-end;
+ }
+
+ .sucsess__btn {
+   font-size: rem(14);
+ }
