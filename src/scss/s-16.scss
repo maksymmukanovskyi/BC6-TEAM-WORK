@@ -1,0 +1,91 @@
+.wrapper-s-16 {
+  padding: rem(52) 0 rem(58);
+  background-image: url(../img/s-16/pics/noise.png);
+  @include bg-img;
+}
+
+.resume{
+  background-color: #fff;
+  box-shadow: 0 3px 7px 4px rgba(0,0,0,0.20);
+
+  &__pic{
+    margin-bottom: rem(50);
+    width: 100%;
+  }
+
+  &__details{
+    margin: 0 rem(16);
+    border-top: 2px solid $bgBlue;
+    padding: rem(14) 0 rem(35);
+  }
+
+  &__title{
+    font-family: $fontOpenSans;
+    font-weight: 600;
+    font-size: rem(16);
+    text-align: center;
+    margin-bottom: rem(24);
+
+    &--bold{
+      font-weight: 900;
+    }
+  }
+
+  &__points::before {
+    content: '';
+    display: inline-block;
+    width: rem(18);
+    height: rem(18);
+    border-radius: 50%;
+    background-color: $bgBlue;
+    position: absolute;
+    left: rem(-29);
+    transform: translateY(rem(5));
+  }
+
+  &__points{
+    display: block;
+    position: relative;
+    margin-left: rem(29);
+    margin-bottom: rem(12);
+    font-family: $fontOpenSans;
+    font-size: $mobPar;
+    font-weight: 400;
+
+  }
+
+  &__list{
+    border-bottom: 2px solid $bgBlue;
+    padding-bottom: rem(35);
+    margin-bottom: rem(16);
+  }
+
+  &__text{
+    font-family: $fontOpenSans;
+    font-size: $mobPar;
+    font-weight: 400;
+    line-height: rem(24);
+
+    &--centered{
+      text-align: center;
+    }
+
+    &--mBot34{
+      margin-bottom: rem(30);
+    }
+  }
+
+  &__plate{
+    border: rem(2) solid $bgDarkgrey;
+    padding: rem(10) rem(30);
+    margin-bottom: rem(32);
+  }
+}
+
+
+.btn--mob{
+  padding: rem(18);
+  font-size: $mobPar;
+  width: 100%;
+  box-shadow: 0 5px 20px 7px rgba(0,0,0,0.15);
+}

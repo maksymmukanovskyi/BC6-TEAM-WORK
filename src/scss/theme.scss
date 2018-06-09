@@ -25,7 +25,7 @@
 .text {
   font-family: $fontText;
   font-size: rem(18);
-  font-weight: 700;
+  font-weight: 600;
   line-height: rem(26);
   color: $textBlack;
 }
@@ -99,7 +99,7 @@
   font-weight: 700;
 }
 
-.circle:before {
+.circle::before {
   content: '';
   display: inline-block;
   width: rem(24);
