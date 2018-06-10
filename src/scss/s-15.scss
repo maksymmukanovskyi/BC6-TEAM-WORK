@@ -166,28 +166,36 @@
   //-----------BORDERED BOX
   .bordered-plate{
     border: rem(3) solid $textGrey;
-    position: relative;
+    //position: relative;
+    border-image-source: url("../img/s-15/pics/bordera.png");
+    border-image-slice: 3 3 3 3;
+    border-image-width: 3px 3px 3px 3px;
+    border-image-repeat: stretch stretch;
 
-    &__before::before{
-      content: '';
-      display: inline-block;
-      width: 44%;
-      height: rem(8);
-      background-color: #fafafa;
-      position: absolute;
-      top: rem(-4);
-      left: 6.5%;
-    }
+    //&__before::before{
+    //  content: '';
+    //  display: inline-block;
+    //  width: 44%;
+    //  height: rem(8);
+    //  background-color: #fafafa;
+    //  position: absolute;
+    //  top: rem(-4);
+    //  left: 6.5%;
+    //}
+    //
+    //&__after::after{
+    //  content: '';
+    //  display: inline-block;
+    //  width: 23%;
+    //  height: rem(8);
+    //  background-color: #fafafa;
+    //  position: absolute;
+    //  bottom: rem(-5);
+    //  left: 66%;
+    //}
+  }
 
-    &__after::after{
-      content: '';
-      display: inline-block;
-      width: 23%;
-      height: rem(8);
-      background-color: #fafafa;
-      position: absolute;
-      bottom: rem(-5);
-      left: 66%;
-    }
+  .sub-title-s-15--tborder{
+    border-top: none;
   }
 }

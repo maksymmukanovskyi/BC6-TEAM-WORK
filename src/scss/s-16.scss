@@ -4,13 +4,18 @@
   @include bg-img;
 }
 
+.img--width{
+  width: 100%;
+}
+
 .resume{
   background-color: #fff;
   box-shadow: 0 3px 7px 4px rgba(0,0,0,0.20);
 
   &__pic{
-    margin-bottom: rem(50);
+    margin: 0 auto rem(50);
     width: 100%;
+    display: block;
   }
 
   &__details{
@@ -90,6 +95,17 @@
   box-shadow: 0 5px 20px 7px rgba(0,0,0,0.15);
 }
 
-@media(min-width: 768px){
+@media(min-width: 768px) {
+  .resume {
+    width: 94%;
+    margin: auto;
 
+    &__plate {
+      border-image-source: url("../img/s-16/pics/borderb.png");
+      border-image-slice: 2 2 2 2;
+      border-image-width: 2px 2px 2px 2px;
+      border-image-repeat: stretch stretch;
+    }
+  }
 }
+
