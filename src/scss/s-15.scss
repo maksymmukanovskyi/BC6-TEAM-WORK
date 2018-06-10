@@ -4,9 +4,6 @@
   padding: rem(58) 0;
   background-color: #fafafa;
 }
-//  background-image: linear-gradient(-15deg, $bgLightgrey 60% , #fff 60%);
-//  @include bg-img;
-//}
 
 //----------------------TITLE
 
@@ -104,4 +101,93 @@
   margin-left: rem(39);
   margin-bottom: rem(16);
 
+}
+
+//---------------MEDIA RULES
+
+@media(min-width: 768px){
+  .wrapper-s-15{
+    background-image: linear-gradient(-15deg, transparent 19%, #fff 19%), url(../img/s-16/pics/noise.png);
+    @include bg-img;
+  }
+
+  .section-15{
+    width: prc(690, 730);
+    margin: auto;
+    position: relative;
+    background-color: #fafafa;
+    box-shadow: 0 5px 20px 7px rgba(0,0,0,0.15);
+    z-index: 1;
+
+
+    &__before::before{
+      content: '';
+      display: inline-block;
+      width: rem(17);
+      height: 56%;
+      background-color: rgba(0, 188, 212, 0.5);
+      position: absolute;
+      left: rem(-17);
+      top: 44%;
+    }
+
+    &__after::after{
+      content: '';
+      display: inline-block;
+      width: 82%;
+      height: rem(17);
+      background-color: rgba(0, 188, 212, 0.5);
+      position: absolute;
+      bottom: rem(-17);
+      right: calc(18% + 1.0625rem);
+
+    }
+  }
+
+  .specific{
+    width: prc(614, 690);
+    margin: auto;
+    padding-bottom: rem(56);
+    position: relative;
+    z-index: 1;
+
+    &__after::after{
+      content: '';
+      display: inline-block;
+      width: rem(1);
+      height: 100%;
+      background-color: #dadadb;
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      z-index: -1;
+    }
+  }
+  //-----------BORDERED BOX
+  .bordered-plate{
+    border: rem(3) solid $textGrey;
+    position: relative;
+
+    &__before::before{
+      content: '';
+      display: inline-block;
+      width: 44%;
+      height: rem(8);
+      background-color: #fafafa;
+      position: absolute;
+      top: rem(-4);
+      left: 6.5%;
+    }
+
+    &__after::after{
+      content: '';
+      display: inline-block;
+      width: 23%;
+      height: rem(8);
+      background-color: #fafafa;
+      position: absolute;
+      bottom: rem(-5);
+      left: 66%;
+    }
+  }
 }
