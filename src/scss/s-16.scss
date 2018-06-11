@@ -88,12 +88,14 @@
 }
 
 
-.btn--mob{
+.btn--s16{
   padding: rem(18);
   font-size: $mobPar;
   width: 100%;
   box-shadow: 0 5px 20px 7px rgba(0,0,0,0.15);
 }
+
+//-----------------------------MEDIA 768-----------------------------------
 
 @media(min-width: 768px) {
   .resume {
@@ -106,6 +108,53 @@
       border-image-width: 2px 2px 2px 2px;
       border-image-repeat: stretch stretch;
     }
+
+    &__details{
+      width: 80%;
+      margin: auto;
+      padding-bottom: rem(62);
+
+    }
+
+    &__text--mBot34{
+      margin-bottom: rem(62);
+    }
+
+    &__text{
+      font-size: rem(16);
+    }
+
   }
+
+  .title--tabMargin-56{
+    margin-bottom: rem(58);
+  }
+
+  .resume__title{
+    text-align: left;
+    font-size: rem(18);
+  }
+
+  .resume__points{
+    margin-left: 0;
+  }
+
+  .underline-blue{
+    border-bottom: rem(1) solid $textBlue;
+    padding-left: rem(3);
+  }
+
+  .resume__plate{
+    width: 75%;
+    margin: 0 auto rem(44);
+    padding: rem(14) rem(54);
+  }
+
+  .btn--s16{
+    display: block;
+    width: 44%;
+    margin: auto;
+  }
+
 }
 

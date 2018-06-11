@@ -182,6 +182,10 @@ img {
   border-top: 0.125rem solid #242427;
 }
 
+.sub-title-s-15--tpadding {
+  padding-top: 0.75rem;
+}
+
 .sub-title-s-15--fontMod {
   font-family: "Open Sans", sans-serif;
   font-weight: 900;
@@ -321,7 +325,7 @@ img {
   margin-bottom: 2rem;
 }
 
-.btn--mob {
+.btn--s16 {
   padding: 1.125rem;
   font-size: 0.875rem;
   width: 100%;
@@ -393,19 +397,29 @@ img {
 
 @media (min-width: 768px) {
   .wrapper-s-15 {
-    background-image: linear-gradient(-15deg, transparent 19%, #fff 19%), url(../img/s-16/pics/noise.png);
+    background-image: linear-gradient(-15deg, transparent 22%, #fff 22%), url(../img/s-16/pics/noise.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    padding: 0rem 0 3rem;
+  }
+
+  .title--tabmartop {
+    padding-top: 4.375rem;
+    width: 77%;
+    margin: 0 auto 3.5rem;
+  }
+
+  .title {
+    font-size: 1.875rem;
   }
 
   .section-15 {
-    width: 94.52055%;
+    width: 94%;
     margin: auto;
     position: relative;
     background-color: #fafafa;
     box-shadow: 0 5px 20px 7px rgba(0, 0, 0, 0.15);
-    z-index: 1;
   }
 
   .section-15__before::before {
@@ -456,6 +470,16 @@ img {
     border-image-slice: 3 3 3 3;
     border-image-width: 3px 3px 3px 3px;
     border-image-repeat: stretch stretch;
+    padding: 2.25rem 1.5rem;
+  }
+
+  .sub-title-s-15 {
+    font-size: 1.5rem;
+    margin-bottom: 1.875rem;
+  }
+
+  .sub-title-s-15--tpadding {
+    padding-top: 0;
   }
 
   .sub-title-s-15--tborder {
@@ -472,5 +496,49 @@ img {
     border-image-slice: 2 2 2 2;
     border-image-width: 2px 2px 2px 2px;
     border-image-repeat: stretch stretch;
+  }
+
+  .resume__details {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 3.875rem;
+  }
+
+  .resume__text--mBot34 {
+    margin-bottom: 3.875rem;
+  }
+
+  .resume__text {
+    font-size: 1rem;
+  }
+
+  .title--tabMargin-56 {
+    margin-bottom: 3.625rem;
+  }
+
+  .resume__title {
+    text-align: left;
+    font-size: 1.125rem;
+  }
+
+  .resume__points {
+    margin-left: 0;
+  }
+
+  .underline-blue {
+    border-bottom: 0.0625rem solid #00bcd4;
+    padding-left: 0.1875rem;
+  }
+
+  .resume__plate {
+    width: 75%;
+    margin: 0 auto 2.75rem;
+    padding: 0.875rem 3.375rem;
+  }
+
+  .btn--s16 {
+    display: block;
+    width: 44%;
+    margin: auto;
   }
 }

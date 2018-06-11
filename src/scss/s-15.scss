@@ -44,6 +44,10 @@
     border-top: rem(2) solid $bgDarkgrey;
   }
 
+  &--tpadding{
+    padding-top: rem(12);
+  }
+
   &--fontMod{
     font-family: $fontOpenSans;
     font-weight: 900;
@@ -103,21 +107,33 @@
 
 }
 
-//---------------MEDIA RULES
+//---------------MEDIA RULES---------------------------------------------------------
 
 @media(min-width: 768px){
   .wrapper-s-15{
-    background-image: linear-gradient(-15deg, transparent 19%, #fff 19%), url(../img/s-16/pics/noise.png);
+    background-image: linear-gradient(-15deg, transparent 22%, #fff 22%), url(../img/s-16/pics/noise.png);
     @include bg-img;
+    //background-position: left;
+    padding: rem(0) 0 rem(48);
   }
 
+  .title--tabmartop{
+    padding-top: rem(70);
+    width: 77%;
+    margin: 0 auto rem(56);
+  }
+
+  .title{
+    font-size: rem(30);
+  }
+
+
   .section-15{
-    width: prc(690, 730);
+    width: 94%;
     margin: auto;
     position: relative;
     background-color: #fafafa;
     box-shadow: 0 5px 20px 7px rgba(0,0,0,0.15);
-    z-index: 1;
 
 
     &__before::before{
@@ -171,28 +187,16 @@
     border-image-slice: 3 3 3 3;
     border-image-width: 3px 3px 3px 3px;
     border-image-repeat: stretch stretch;
+    padding: rem(36) rem(24);
+  }
 
-    //&__before::before{
-    //  content: '';
-    //  display: inline-block;
-    //  width: 44%;
-    //  height: rem(8);
-    //  background-color: #fafafa;
-    //  position: absolute;
-    //  top: rem(-4);
-    //  left: 6.5%;
-    //}
-    //
-    //&__after::after{
-    //  content: '';
-    //  display: inline-block;
-    //  width: 23%;
-    //  height: rem(8);
-    //  background-color: #fafafa;
-    //  position: absolute;
-    //  bottom: rem(-5);
-    //  left: 66%;
-    //}
+  .sub-title-s-15{
+    font-size: rem(24);
+    margin-bottom: rem(30);
+
+    &--tpadding{
+      padding-top: 0;
+    }
   }
 
   .sub-title-s-15--tborder{
