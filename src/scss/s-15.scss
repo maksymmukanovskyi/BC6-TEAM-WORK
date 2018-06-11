@@ -7,25 +7,25 @@
 
 //----------------------TITLE
 
-.title{
-  &--mobFont{
+.title {
+  &--mobFont {
     font-size: $mobTitle;
     text-align: center;
     line-height: rem(30);
   }
 
-  &--mobMargin-56{
+  &--mobMargin-56 {
     margin-bottom: rem(56);
   }
 
-  &--mobMargin-38{
+  &--mobMargin-38 {
     margin-bottom: rem(38);
   }
 }
 
 //----------------------SUBTITLE
 
-.sub-title-s-15{
+.sub-title-s-15 {
   font-family: $fontUbuntuMono;
   font-weight: 700;
   font-size: rem(20);
@@ -40,15 +40,15 @@
     margin-top: rem(10);
   }
 
-  &--tborder{
+  &--tborder {
     border-top: rem(2) solid $bgDarkgrey;
   }
 
-  &--tpadding{
+  &--tpadding {
     padding-top: rem(12);
   }
 
-  &--fontMod{
+  &--fontMod {
     font-family: $fontOpenSans;
     font-weight: 900;
     color: $textGrey;
@@ -67,22 +67,22 @@
   line-height: rem(24);
   color: $textBlack;
 
-  &--mbot30{
+  &--mbot30 {
     margin-bottom: rem(30);
   }
 
-  &--mbot50{
+  &--mbot50 {
     margin-bottom: rem(50);
   }
 
-  &--bold{
+  &--bold {
     font-weight: 900;
   }
 }
 
 //----------------------BOOLETS
 
-.comp-menu{
+.comp-menu {
 
 }
 
@@ -98,7 +98,7 @@
   transform: translateY(rem(5));
 }
 
-.learn-item{
+.learn-item {
   display: block;
   //text-indent: -2rem;
   position: relative;
@@ -107,36 +107,49 @@
 
 }
 
-//---------------MEDIA RULES---------------------------------------------------------
+//---------------MEDIA-768---------------------------------------------------
 
-@media(min-width: 768px){
-  .wrapper-s-15{
-    background-image: linear-gradient(-15deg, transparent 22%, #fff 22%), url(../img/s-16/pics/noise.png);
-    @include bg-img;
-    //background-position: left;
+@media(min-width: 768px) {
+  .wrapper-s-15 {
+    background-image: url("../img/s-15/pics/triangle.png");
+    background-color: #fafafa;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
     padding: rem(0) 0 rem(48);
   }
 
-  .title--tabmartop{
-    padding-top: rem(70);
-    width: 77%;
-    margin: 0 auto rem(56);
-  }
-
-  .title{
+  .title {
     font-size: rem(30);
+
+    &--tabmartop {
+      padding-top: rem(70);
+      width: 77%;
+      margin: 0 auto rem(56);
+    }
   }
 
+  .sub-title-s-15 {
+    font-size: rem(24);
+    margin-bottom: rem(30);
 
-  .section-15{
+    &--tpadding {
+      padding-top: 0;
+    }
+
+    &--tborder {
+      border-top: none;
+    }
+  }
+
+  .section-15 {
     width: 94%;
     margin: auto;
     position: relative;
     background-color: #fafafa;
-    box-shadow: 0 5px 20px 7px rgba(0,0,0,0.15);
+    box-shadow: 0 5px 20px 7px rgba(0, 0, 0, 0.15);
 
-
-    &__before::before{
+    &__before::before {
       content: '';
       display: inline-block;
       width: rem(17);
@@ -147,7 +160,7 @@
       top: 44%;
     }
 
-    &__after::after{
+    &__after::after {
       content: '';
       display: inline-block;
       width: 82%;
@@ -160,14 +173,14 @@
     }
   }
 
-  .specific{
+  .specific {
     width: prc(614, 690);
     margin: auto;
     padding-bottom: rem(56);
     position: relative;
     z-index: 1;
 
-    &__after::after{
+    &__after::after {
       content: '';
       display: inline-block;
       width: rem(1);
@@ -180,7 +193,7 @@
     }
   }
   //-----------BORDERED BOX
-  .bordered-plate{
+  .bordered-plate {
     border: rem(3) solid $textGrey;
     //position: relative;
     border-image-source: url("../img/s-15/pics/bordera.png");
@@ -190,16 +203,19 @@
     padding: rem(36) rem(24);
   }
 
-  .sub-title-s-15{
-    font-size: rem(24);
-    margin-bottom: rem(30);
-
-    &--tpadding{
-      padding-top: 0;
-    }
-  }
-
-  .sub-title-s-15--tborder{
-    border-top: none;
-  }
 }
+
+//-----------------------------------MEDIA-1024---------------
+
+@media(min-width: 1024px) {
+  .wrapper-s-15 {
+
+
+  }
+
+  //.container{
+  //  transform: rotate(15deg);
+  //}
+}
+
+

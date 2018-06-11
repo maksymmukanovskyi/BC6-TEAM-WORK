@@ -315,7 +315,7 @@ img {
   text-align: center;
 }
 
-.resume__text--mBot34 {
+.resume__text--mBot {
   margin-bottom: 1.875rem;
 }
 
@@ -397,11 +397,16 @@ img {
 
 @media (min-width: 768px) {
   .wrapper-s-15 {
-    background-image: linear-gradient(-15deg, transparent 22%, #fff 22%), url(../img/s-16/pics/noise.png);
-    background-size: cover;
+    background-image: url("../img/s-15/pics/triangle.png");
+    background-color: #fafafa;
     background-repeat: no-repeat;
-    background-position: center;
+    background-size: contain;
+    background-position: center bottom;
     padding: 0rem 0 3rem;
+  }
+
+  .title {
+    font-size: 1.875rem;
   }
 
   .title--tabmartop {
@@ -410,8 +415,17 @@ img {
     margin: 0 auto 3.5rem;
   }
 
-  .title {
-    font-size: 1.875rem;
+  .sub-title-s-15 {
+    font-size: 1.5rem;
+    margin-bottom: 1.875rem;
+  }
+
+  .sub-title-s-15--tpadding {
+    padding-top: 0;
+  }
+
+  .sub-title-s-15--tborder {
+    border-top: none;
   }
 
   .section-15 {
@@ -473,19 +487,6 @@ img {
     padding: 2.25rem 1.5rem;
   }
 
-  .sub-title-s-15 {
-    font-size: 1.5rem;
-    margin-bottom: 1.875rem;
-  }
-
-  .sub-title-s-15--tpadding {
-    padding-top: 0;
-  }
-
-  .sub-title-s-15--tborder {
-    border-top: none;
-  }
-
   .resume {
     width: 94%;
     margin: auto;
@@ -504,16 +505,12 @@ img {
     padding-bottom: 3.875rem;
   }
 
-  .resume__text--mBot34 {
+  .resume__text--mBot {
     margin-bottom: 3.875rem;
   }
 
   .resume__text {
     font-size: 1rem;
-  }
-
-  .title--tabMargin-56 {
-    margin-bottom: 3.625rem;
   }
 
   .resume__title {
@@ -525,20 +522,30 @@ img {
     margin-left: 0;
   }
 
-  .underline-blue {
-    border-bottom: 0.0625rem solid #00bcd4;
-    padding-left: 0.1875rem;
-  }
-
   .resume__plate {
     width: 75%;
     margin: 0 auto 2.75rem;
     padding: 0.875rem 3.375rem;
   }
 
+  .title--tabMargin-56 {
+    margin-bottom: 3.625rem;
+  }
+
+  .underline-blue {
+    border-bottom: 0.0625rem solid #00bcd4;
+    padding-left: 0.1875rem;
+  }
+
   .btn--s16 {
     display: block;
     width: 44%;
     margin: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .resume {
+    display: flex;
   }
 }
