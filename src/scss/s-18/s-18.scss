@@ -4,11 +4,11 @@
   padding-bottom: rem(65);
 }
 
-.section-container__img-left {
+.container__img-left {
   display: none;
 }
 
-.section-container__img-right {
+.container__img-right {
   display: none;
 }
 
@@ -17,41 +17,41 @@
   margin: auto;
   background-color: #fff;
   padding-bottom: rem(45);
-}
 
-.for-you-box--left{
-  margin-bottom: rem(15);
-}
+  &--left{
+    margin-bottom: rem(15);
+  }
 
-.for-you-box__text {
-  padding-top: rem(35);
-  padding-left: rem(18);
-  margin-bottom: rem(35);
+  &__text {
+    padding-top: rem(35);
+    padding-left: rem(18);
+    margin-bottom: rem(35);
+  }
+
+  &__text-bottom {
+    font-family: $fontUbuntuMono;
+    font-size: rem(24);
+  }
+
+  &__items {
+    position: relative;
+    font-family: $fontOpenSans;
+    font-weight: 600;
+    font-size: $mobPar;
+    padding-left: rem(50);
+    padding-right: rem(25);
+    vertical-align: super;
+    margin-bottom: rem(30);
+  }
+
+  &__items:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .blueword--faq {
   font-size: rem(24);
   text-transform: initial;
-}
-
-.for-you-box__text-bottom {
-  font-family: $fontUbuntuMono;
-  font-size: rem(24);
-}
-
-.for-you-box__items {
-  position: relative;
-  font-family: $fontOpenSans;
-  font-weight: 600;
-  font-size: $mobPar;
-  padding-left: rem(50);
-  padding-right: rem(25);
-  vertical-align: super;
-  margin-bottom: rem(30);
-}
-
-.for-you-box__items:last-child {
-  margin-bottom: 0;
 }
 
 .circle:before {
@@ -70,10 +70,10 @@
   color: #fff;
   text-transform: uppercase;
   font-weight: 900;
-}
 
-.wrapper-yes-no__bottom-box-yes--mob {
-  padding: rem(35) 0;
+  &--mob {
+    padding: rem(35) 0;
+  }
 }
 
 .btn--faq {
@@ -89,7 +89,7 @@
     padding-bottom: rem(45);
   }
 
-  .section-container {
+  .container__section {
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
@@ -97,7 +97,7 @@
     position: relative;
   }
 
-  .section-container__img-left {
+  .container__img-left {
     display: block;
     position: absolute;
     left: rem(-50);
@@ -105,29 +105,29 @@
     z-index: 1;
   }
 
-  .section-container__img-right {
+  .container__img-right {
     display: block;
     position: absolute;
     left: rem(470);
-    top: rem(210);
+    top: rem(200);
     z-index: 1;
   }
 
   .for-you-box {
-    width: 47.1%;
+    flex-basis: 47.1%;
     margin: initial;
-  }
 
-  .for-you-box--left {
-    margin-bottom: initial;
-    position: relative;
-    z-index: 2;
-  }
+    &--left {
+      margin-bottom: initial;
+      position: relative;
+      z-index: 2;
+    }
 
-  .for-you-box--right {
-    position: relative;
-    background-color: #f5f5f5;
-    z-index: 2;
+    &--right {
+      position: relative;
+      background-color: #f5f5f5;
+      z-index: 2;
+    }
   }
 
   .wrapper-yes-no__bottom-box-yes {
@@ -136,26 +136,26 @@
     line-height: rem(24);
     color: #2c2b2f;
     padding-bottom: 0;
-  }
 
-  .wrapper-yes-no__bottom-box-yes--mob {
-    width: 47.1%;
-    position: relative;
-  }
+    &--mob {
+      flex-basis: 47.1%;
+      position: relative;
+    }
 
-  .wrapper-yes-no__bottom-box-yes::before {
-    content: '';
-    position: absolute;
-    top: rem(55);
-    width: rem(210);
-    height: rem(2);
-    background-color: #00bcd4;
+    &::before {
+      content: '';
+      position: absolute;
+      top: rem(55);
+      width: rem(210);
+      height: rem(2);
+      background-color: #00bcd4;
+    }
   }
 
   .wrapper-yes-no__button-box-yes {
-    width: 47.1%;
-    margin: initial;
     display: flex;
+    flex-basis: 47.1%;
+    margin: initial;
     align-items: center;
   }
 
@@ -166,7 +166,11 @@
 }
 
 @media (min-width: 1140px) {
-  .section-container {
+  .wrapper-yes-no{
+    padding-bottom: rem(70);
+  }
+
+  .container__section {
     padding-top: rem(90);
     padding-left: rem(60);
   }
@@ -174,17 +178,22 @@
   .for-you-box {
     padding-top: rem(135);
     padding-left: rem(55);
+    padding-bottom: rem(150);
+
+    &__items{
+      padding-left: rem(55);
+    }
   }
 
-  .for-you-box__items{
-    padding-left: rem(55);
-  }
-
-  .section-container__img-right {
+  .container__img-right {
     position: absolute;
     left: rem(900);
-    top: rem(310);
+    top: rem(410);
     z-index: 1;
+  }
+
+  .container__img {
+    max-width: none;
   }
 
   .wrapper-yes-no__bottom-box-yes::before {
@@ -197,4 +206,3 @@
     background-color: #00bcd4;
   }
 }
-
