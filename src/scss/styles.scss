@@ -1,11 +1,3 @@
-/*
-   Import partials below
-*/
-//@import 'normalize';
-@import 'reset';
-@import 'var';
-@import 'theme';
-
 //************FONTS******************
 @font-face {
   font-family: 'Museo Sans Cyrl';
@@ -61,3 +53,13 @@
   font-weight: 700;
   font-style: normal;
 }
+
+/*
+   Import partials below
+*/
+//@import 'normalize';
+@import 'reset';
+@import 'var';
+@import 'theme';
+@import 's-11';
+@import 's-12';

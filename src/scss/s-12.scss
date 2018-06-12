@@ -1,0 +1,220 @@
+.wrapper-s12 {
+  background-color: #fff;
+  padding: rem(52) 0 rem(62);
+}
+
+.s12__section-title {
+  font-size: $mobTitle;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: rem(16);
+
+  &:before {
+    content: '';
+    display: inline-block;
+    width: rem(16);
+    height: rem(4);
+    background-color: $textBlue;
+  }
+
+  &:after {
+    content: '';
+    display: block;
+    background-color: $textGrey;
+    width: rem(150);
+    height: rem(2);
+    margin: rem(8) auto 0;
+  }
+}
+
+.s12__section-sub-title {
+  font-family: $fontMuseoCyrl;
+  font-weight: 900;
+  font-size: rem(14);
+  line-height: rem(20);
+  color: $textGrey;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: rem(0.5);
+  margin-bottom: rem(32);
+}
+
+.s12__about-course-list {
+  text-align: left;
+  list-style-position: outside;
+  margin-bottom: rem(32);
+}
+
+.s12__about-course-list-item {
+  font-family: $fontOpenSans;
+  font-weight: 400;
+  font-size: rem(14);
+  line-height: 1.429;
+  color: $textGrey;
+  padding: 0 rem(7) 0;
+  position: relative;
+  margin-left: rem(39);
+  margin-bottom: rem(19);
+}
+
+.circle--bottom-shadow:before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  left: rem(-39);
+  width: rem(25);
+  height: rem(25);
+  padding-right: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: rem(3) solid $textWhite;
+  box-shadow: 0 rem(2) rem(4) rgba(0,0,0,0.3);  }
+
+.s12__quote {
+  background-image: url('../img/s-12/s12-quote.png');
+  background-repeat: no-repeat;
+  background-position: right rem(50) bottom;
+  font-family: $fontUbuntuMono;
+  font-size: rem(18);
+  color: $textGrey;
+  font-weight: 700;
+  line-height: 1.444;
+  min-height: rem(51);
+  margin-bottom: rem(70);
+}
+
+.s12__video-list {
+  max-width: rem(290);
+  margin: auto;
+}
+
+.s12__overlay {
+  display: none;
+}
+
+.s12__video-list-item {
+  position: relative;
+  margin: 0 auto rem(15);
+  box-shadow: 0 15px 30px 0 rgba(0,0,0,.25);
+}
+
+.s12__video-list-item:last-child {
+  margin-bottom: 0;
+}
+
+.s12__circle-play-btn {
+  position: absolute;
+  width: rem(51);
+  height: rem(51);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.s12__video-list-item:hover > .s12__circle-play-btn {
+  z-index: 1;
+}
+
+@media (min-width: 768px) {
+  .wrapper-s12 {
+    padding-top: rem(200);
+  }
+
+  .container--s12 {
+    margin: 0 1.5rem;
+  }
+
+  .s12 {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    position: relative;
+  }
+
+  .s12-description {
+    max-width: 47%;
+  }
+
+  .s12__section-title {
+    font-size: rem(32);
+    text-align: left;
+    margin-bottom: rem(28);
+
+    &:after {
+      display: none;
+    }
+  }
+
+  .s12__section-sub-title {
+    display: inline-block;
+    width: auto;
+    font-size: rem(15);
+    text-align: right;
+    margin-bottom: rem(48);
+  }
+
+  .s12__section-sub-title-top {
+    display: block;
+    border-bottom: solid 2px black;
+  }
+
+  .s12__section-sub-title-bot {
+    display: block;
+  }
+
+  .s12__section-title--part {
+    display: block;
+  }
+
+  .s12__video-list {
+    max-width: 47%;
+    padding: rem(120) 0 rem(60);
+    position: relative;
+    //border: 1px solid blue;
+  }
+
+  .s12__overlay {
+    position: absolute;
+    top: 0;
+    left: rem(18);
+    width: 100%;
+    height: 100%;
+  }
+
+  .s12__overlay--bg1 {
+    background: #f4a559 url('../img/s-12/noisy-bg-100x100.png') repeat;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    //left: rem(16);
+    display: block;
+  }
+
+  .s12__overlay--bg2 {
+    background: transparent url('../img/s-12/s12-bg-videos.png') no-repeat bottom left;
+    //left: rem(16);
+    display: block;
+    //z-index: 1;
+  }
+
+  .s12__video-list-item {
+    width: rem(316);
+    margin-bottom: rem(30);
+  }
+
+  .s12__quote {
+    padding: rem(24) rem(29);
+    border-top: rem(2) solid $textGrey;
+    border-left: rem(2) solid $textGrey;
+
+//TODO: fix borders with border-image-slice | see https://developer.mozilla.org/en-US/docs/Web/CSS/border-image-slice
+  }
+
+  .s12__quote-border-left {
+    background-color: $bgDarkgrey;
+    width: rem(2);
+    height: 75%;
+  }
+}
