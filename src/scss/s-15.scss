@@ -119,10 +119,21 @@
     padding: rem(0) 0 rem(48);
   }
 
+  @media(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .wrapper-s-15 {
+      background-image: url("../img/s-15/pics/triangle@2x.png");
+      background-color: #fafafa;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center bottom;
+      padding: rem(0) 0 rem(48);
+    }
+  }
+
   .title {
     font-size: rem(30);
 
-    &--tabmartop {
+    &--padtop {
       padding-top: rem(70);
       width: 77%;
       margin: 0 auto rem(56);
@@ -130,7 +141,7 @@
   }
 
   .sub-title-s-15 {
-    font-size: rem(24);
+    font-size: rem(16);
     margin-bottom: rem(30);
 
     &--tpadding {
@@ -148,6 +159,7 @@
     position: relative;
     background-color: #fafafa;
     box-shadow: 0 5px 20px 7px rgba(0, 0, 0, 0.15);
+    z-index: 1;
 
     &__before::before {
       content: '';
@@ -180,9 +192,9 @@
     position: relative;
     z-index: 1;
 
-    &__after::after {
+    &__before::before {
       content: '';
-      display: inline-block;
+      display: block;
       width: rem(1);
       height: 100%;
       background-color: #dadadb;
@@ -208,14 +220,78 @@
 //-----------------------------------MEDIA-1024---------------
 
 @media(min-width: 1024px) {
-  .wrapper-s-15 {
+  .container {
+    &--position {
+      position: relative;
 
+    }
+
+    &__before::before {
+      content: '';
+      background-image: url('../img/s-15/pics/abstract-bg.png');
+      background-size: contain;
+      display: block;
+      width: rem(475);
+      height: rem(953);
+      position: absolute;
+      right: 95%;
+      bottom: 50%;
+      transform: translate(50%, 50%);
+    }
+
+    &__after::after {
+      content: '';
+      display: block;
+      width: rem(58);
+      height: 43%;
+      background-color: rgba(0, 188, 212, 0.5);
+      position: absolute;
+      left: 95%;
+      bottom: 52%;
+      //z-index: -1;
+      box-shadow: 0 48px 35px 3px rgba(0,0,0,0.1);
+    }
+  }
+
+  @media(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .container--before::before {
+      background-image: url('../img/s-15/pics/abstract-bg@2x.png');
+    }
+  }
+
+  .section-15__before::before {
+    width: rem(36);
+    left: rem(-36);
+  }
+
+  .section-15__after::after {
+    height: rem(36);
+    bottom: rem(-36);
+    right: calc(18% + 2.25rem);
 
   }
 
-  //.container{
-  //  transform: rotate(15deg);
-  //}
+
+
+  .text-container{
+    width: 70%;
+    margin-right: auto;
+  }
+
+  .bordered-plate {
+    width: 78%;
+    margin-left: auto;
+    padding: rem(36) rem(60);
+  }
+
+  .title--padtop {
+    padding-top: rem(134);
+    width: 77%;
+    margin: 0 auto rem(56);
+  }
+
+  .specific{
+    padding-bottom: rem(90);
+    width: 82%;
+  }
 }
-
-
