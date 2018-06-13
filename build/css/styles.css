@@ -144,7 +144,10 @@ img {
 }
 
 .wrapper__s-thirteen {
-  background-image: url(../img/s13/whitenoise-1440x2000.png);
+  background-image: url(../img/s13/img-noise.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .s-thirteen__container {
@@ -201,7 +204,7 @@ img {
   text-align: center;
 }
 
-.sucsess_text {
+.sucsess__text {
   font-family: "Open Sans", sans-serif;
   font-size: 0.75rem;
   font-weight: 900;
@@ -242,6 +245,14 @@ img {
   display: inline-block;
   line-height: 1.5625rem;
   padding-right: 0.3125rem;
+}
+
+.wrapper__s-ftn {
+  position: relative;
+  background-color: #000;
+  padding-top: 18.75rem;
+  top: -865px;
+  z-index: 0;
 }
 
 @font-face {
@@ -307,7 +318,187 @@ img {
   font-style: normal;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
+  .s-thirteen__title {
+    max-width: 41.875rem;
+    margin: auto;
+    text-align: center;
+  }
+
+  .sucsess__md {
+    display: inline-block;
+    margin: 0 0.3125rem;
+  }
+
+  .sucsess__up {
+    border-top: 0.1875rem solid #000;
+    line-height: 2.1875rem;
+  }
+
+  .sucsess__down {
+    border-bottom: 0.1875rem solid #000;
+    line-height: 2.1875rem;
+  }
+
+  .s-thirteen__noise {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    box-shadow: 0 0 0.1875rem 0.01875rem #e0e0e0;
+  }
+
+  .s-thirteen__blueword {
+    font-size: 1.875rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .s-thirteen__list-item {
+    display: flex;
+    flex-basis: 43.1875rem;
+    margin-bottom: 0.6875rem;
+    box-shadow: 0 0 0.1875rem 0.01875rem #808080;
+  }
+
+  .s-thirteen__list-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .s-thirteen__pic {
+    display: inline-block;
+    height: 100%;
+  }
+
+  .s-thirteen__text {
+    height: inherit;
+    padding: 0.75rem 1.5625rem 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    background-color: #fff;
+    flex-basis: 82.8%;
+  }
+
+  .s-thirteen__link {
+    margin-left: auto;
+  }
+
+  .text--mobisth {
+    font-size: 0.875rem;
+  }
+
+  .s-thirteen__link {
+    font-size: 0.875rem;
+  }
+
+  .wrapper__s-thirteen {
+    -webkit-transform: skewY(27deg);
+    transform: skewY(27deg);
+    position: relative;
+    top: 13.8125rem;
+    -webkit-clip-path: polygon(0 0, 100% -30%, 100% 43%, 0 66%);
+    clip-path: polygon(0 0, 100% -30%, 100% 43%, 0 66%);
+  }
+
+  .s-thirteen__container {
+    padding-top: 6.0625rem;
+    -webkit-transform-origin: 0 0 0;
+    transform-origin: 0 0 0;
+    -webkit-transform: skewY(-27deg);
+    transform: skewY(-27deg);
+    position: relative;
+    top: -6.875rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .wrapper__s-thirteen::before {
+    content: '';
+    display: block;
+    margin: auto;
+    width: 85%;
+    height: 18.75rem;
+    background-color: #00bcd4;
+    -webkit-transform: skewY(-23deg);
+    transform: skewY(-23deg);
+    position: relative;
+    top: 10.25rem;
+    right: -2.8125rem;
+    z-index: -2;
+    box-shadow: 0 0 0.1875rem 0.01875rem #808080;
+  }
+
+  .s-thirteen__title {
+    max-width: 50.625rem;
+    margin-bottom: 7.5rem;
+  }
+
+  .wrapper__s-thirteen {
+    -webkit-transform: skewY(23deg);
+    transform: skewY(23deg);
+    top: 13.8125rem;
+  }
+
+  .s-thirteen__container {
+    -webkit-transform-origin: 0 0 0;
+    transform-origin: 0 0 0;
+    -webkit-transform: skewY(-23deg);
+    transform: skewY(-23deg);
+    position: relative;
+    top: -15rem;
+  }
+
+  .s-thirteen__list-box {
+    width: 85%;
+    margin: auto;
+  }
+
+  .s-thirteen__list-box::before {
+    content: '';
+    display: inline-block;
+    height: 59.375rem;
+    width: 23%;
+    background-image: url(../img/s13/hud.png);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 21.875rem;
+    left: -3.75rem;
+    z-index: -1;
+  }
+
+  .sucsess {
+    background-color: #dfdfdf;
+    position: relative;
+    height: 46.875rem;
+    width: 93.75rem;
+    top: -530px;
+    left: -21.875rem;
+    z-index: -2;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    padding: 4.375rem 8.125rem;
+  }
+
+  .sucsess__text {
+    font-size: 0.875rem;
+    margin-bottom: 0.3125rem;
+  }
+
+  .sucsess__btn {
+    padding: 1.125rem 2.1875rem;
+    margin-right: 2.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .s-thirteen__noise {
+    width: 0;
+    height: 0;
+  }
+
   .s-thirteen__title {
     text-align: center;
     font-size: 1.5625rem;
@@ -337,9 +528,10 @@ img {
 
   .s-thirteen__list-item {
     background-color: #fff;
-    margin-bottom: 4.5rem;
+    margin-bottom: 5.125rem;
     position: relative;
     padding: 3.75rem 1.0625rem 1.0625rem;
+    box-shadow: 0 0 0.1875rem 0.01875rem #808080;
   }
 
   .s-thirteen__list-item:last-child {
@@ -363,22 +555,9 @@ img {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1440px) {
-  .wrapper__s-thirteen {
-    background-image: url(../img/s13/whitenoise-1440x2000.png);
-  }
-
-  .s-thirteen__container {
-    padding-top: 6.0625rem;
-  }
-
-  .s-thirteen__blueword {
-    font-size: 1.875rem;
-  }
-
+@media (min-width: 768px) and (max-width: 1199px) {
   .s-thirteen__title {
     font-size: 1.875rem;
-    text-align: center;
     margin-bottom: 4.75rem;
   }
 
@@ -387,41 +566,7 @@ img {
     height: 0.3125rem;
   }
 
-  .s-thirteen__list-item {
-    display: flex;
-    flex-basis: 43.1875rem;
-    margin-bottom: 0.6875rem;
-  }
-
-  .s-thirteen__list-item:last-child {
-    margin-bottom: 0;
-  }
-
-  .s-thirteen__pic {
-    display: inline-block;
-    height: 100%;
-  }
-
-  .s-thirteen__text {
-    height: inherit;
-    padding: 1.5625rem 1.5625rem 0;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: flex-start;
-    background-color: #fff;
-    flex-basis: 82.8%;
-  }
-
-  .s-thirteen__link {
-    margin-left: auto;
-  }
-
-  .text--mobisth {
-    margin-bottom: 0.625rem;
-  }
-
-  .sucsess_text {
+  .sucsess__text {
     font-size: 1rem;
   }
 
@@ -430,5 +575,18 @@ img {
     font-size: 0.875rem;
     border-radius: 0.3125rem;
     padding: 1.125rem 1.875rem;
+  }
+
+  .wrapper__s-thirteen::before {
+    content: '';
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 6.25rem;
+    background-color: #00bcd4;
+    -webkit-transform: skewY(-27deg);
+    transform: skewY(-27deg);
+    position: relative;
+    z-index: -2;
   }
 }
