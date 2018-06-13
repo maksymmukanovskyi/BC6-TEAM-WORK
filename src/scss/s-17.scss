@@ -131,6 +131,11 @@
     background-image: url(../img/s-17/faq720.jpg);
     @include bg-img;
 
+    &__faq-box {
+      padding-left: rem(22);
+      padding-right: rem(22);
+    }
+
     &--tab {
       margin-top: 0;
 
@@ -159,7 +164,7 @@
       &::after {
         content: url(../img/s-17/cross.png);
         position: absolute;
-        left: rem(680);
+        left: rem(640);
         top: rem(15);
       }
     }
@@ -202,7 +207,7 @@
       height: rem(1);
       width: rem(40);
       background-color: #000;
-      left: rem(680);
+      left: rem(640);
       top: rem(30);
     }
 
@@ -250,7 +255,7 @@
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .wrapper-faq {
     padding-top: rem(225);
     padding-bottom: rem(60);
@@ -263,7 +268,7 @@
     &__answer-boxes::after{
       content: url(../img/s-17/cross.png);
       position: absolute;
-      left: rem(580);
+      left: rem(540);
       top: rem(15);
     }
 
@@ -272,7 +277,7 @@
       height: rem(1);
       width: rem(40);
       background-color: #000;
-      left: rem(580);
+      left: rem(540);
       top: rem(30);
     }
   }

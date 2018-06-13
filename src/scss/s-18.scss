@@ -93,7 +93,8 @@
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
-    padding-left: rem(40);
+    padding-left: rem(22);
+    padding-right: rem(22);
     position: relative;
   }
 
@@ -118,7 +119,7 @@
   }
 
   .for-you-box {
-    flex-basis: 47.1%;
+    flex-basis: 50%;
     margin: initial;
 
     &--left {
@@ -142,7 +143,7 @@
     padding-bottom: 0;
 
     &--mob {
-      flex-basis: 47.1%;
+      flex-basis: 50%;
       position: relative;
     }
 
@@ -158,25 +159,25 @@
 
   .wrapper-yes-no__button-box-yes {
     display: flex;
-    flex-basis: 47.1%;
+    flex-basis: 50%;
     margin: initial;
     align-items: center;
   }
 
   .btn--faq {
-    display: inline-block;
+    display: block;
     margin: auto;
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .wrapper-yes-no{
     padding-bottom: rem(70);
   }
 
   .container__section {
     padding-top: rem(90);
-    padding-left: rem(60);
+    //padding-left: rem(60);
   }
 
   .for-you-box {
