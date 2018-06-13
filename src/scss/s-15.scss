@@ -239,7 +239,7 @@
       width: 76%;
       height: 76%;
       position: absolute;
-      right: 77%;
+      right: 80%;
       bottom: 50%;
       -webkit-transform: translate(50%, 50%);
       -ms-transform: translate(50%, 50%);
@@ -253,7 +253,7 @@
       height: 43%;
       background-color: rgba(0, 188, 212, 0.5);
       position: absolute;
-      left: 95%;
+      left: 98%;
       bottom: 52%;
       //z-index: -1;
       -webkit-box-shadow: 0 48px 35px 3px rgba(0,0,0,0.1);
@@ -265,6 +265,14 @@
     .container__before::before {
       background-image: url('../img/s-15/pics/abstract-bg@2x.png');
     }
+  }
+
+  .resume{
+    width: 100%;
+  }
+
+  .section-15{
+    width: 100%;
   }
 
   .section-15__before::before {
