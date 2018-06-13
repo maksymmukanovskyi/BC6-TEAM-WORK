@@ -637,6 +637,11 @@ img {
     background-position: center;
   }
 
+  .wrapper-faq__faq-box {
+    padding-left: 1.375rem;
+    padding-right: 1.375rem;
+  }
+
   .wrapper-faq--tab {
     margin-top: 0;
   }
@@ -665,7 +670,7 @@ img {
   .wrapper-faq__answer-boxes::after {
     content: url(../img/s-17/cross.png);
     position: absolute;
-    left: 42.5rem;
+    left: 40rem;
     top: 0.9375rem;
   }
 
@@ -707,7 +712,7 @@ img {
     height: 0.0625rem;
     width: 2.5rem;
     background-color: #000;
-    left: 42.5rem;
+    left: 40rem;
     top: 1.875rem;
   }
 
@@ -756,7 +761,8 @@ img {
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
-    padding-left: 2.5rem;
+    padding-left: 1.375rem;
+    padding-right: 1.375rem;
     position: relative;
   }
 
@@ -781,7 +787,7 @@ img {
   }
 
   .for-you-box {
-    flex-basis: 47.1%;
+    flex-basis: 50%;
     margin: initial;
   }
 
@@ -806,7 +812,7 @@ img {
   }
 
   .wrapper-yes-no__bottom-box-yes--mob {
-    flex-basis: 47.1%;
+    flex-basis: 50%;
     position: relative;
   }
 
@@ -821,13 +827,13 @@ img {
 
   .wrapper-yes-no__button-box-yes {
     display: flex;
-    flex-basis: 47.1%;
+    flex-basis: 50%;
     margin: initial;
     align-items: center;
   }
 
   .btn--faq {
-    display: inline-block;
+    display: block;
     margin: auto;
   }
 }
@@ -863,7 +869,7 @@ img {
   .wrapper-faq__answer-boxes::after {
     content: url(../img/s-17/cross.png);
     position: absolute;
-    left: 36.25rem;
+    left: 33.75rem;
     top: 0.9375rem;
   }
 
@@ -872,7 +878,7 @@ img {
     height: 0.0625rem;
     width: 2.5rem;
     background-color: #000;
-    left: 36.25rem;
+    left: 33.75rem;
     top: 1.875rem;
   }
 
