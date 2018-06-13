@@ -170,14 +170,14 @@
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .wrapper-yes-no{
     padding-bottom: rem(70);
   }
 
   .container__section {
     padding-top: rem(90);
-    padding-left: rem(60);
+    //padding-left: rem(60);
   }
 
   .for-you-box {
