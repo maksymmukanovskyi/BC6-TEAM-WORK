@@ -22,6 +22,69 @@ img {
   height: auto;
 }
 
+@font-face {
+  font-family: 'Museo Sans Cyrl';
+  src: url("../fonts/Museo Sans Cyrl W03 300/Museo Sans Cyrl W03 300.woff") format("woff"), url("../fonts/Museo Sans Cyrl W03 300/Museo Sans Cyrl W03 300.woff2") format("woff2"), url("../fonts/Museo Sans Cyrl W03 300/Museo Sans Cyrl W03 300.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Museo Sans Cyrl';
+  src: url("../fonts/Museo Sans Cyrl W03 900/Museo Sans Cyrl W03 900.woff") format("woff"), url("../fonts/Museo Sans Cyrl W03 900/Museo Sans Cyrl W03 900.woff2") format("woff2"), url("../fonts/Museo Sans Cyrl W03 900/Museo Sans Cyrl W03 900.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/Open Sans/Open Sans.woff") format("woff"), url("../fonts/Open Sans/Open Sans.woff2") format("woff2"), url("../fonts/Open Sans/Open Sans.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/Open Sans Extrabold/Open Sans Extrabold.woff") format("woff"), url("../fonts/Open Sans Extrabold/Open Sans Extrabold.woff2") format("woff2"), url("../fonts/Open Sans Extrabold/Open Sans Extrabold.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/Open Sans Semibold/Open Sans Semibold.woff") format("woff"), url("../fonts/Open Sans Semibold/Open Sans Semibold.woff2") format("woff2"), url("../fonts/Open Sans Semibold/Open Sans Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url("../fonts/Proxima Nova/Proxima Nova.woff") format("woff"), url("../fonts/Proxima Nova/Proxima Nova.woff2") format("woff2"), url("../fonts/Proxima Nova/Proxima Nova.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url("../fonts/Proxima Nova Extrabold/Proxima Nova Extrabold.woff") format("woff"), url("../fonts/Proxima Nova Extrabold/Proxima Nova Extrabold.woff2") format("woff2"), url("../fonts/Proxima Nova Extrabold/Proxima Nova Extrabold.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ubuntu Mono';
+  src: url("../fonts/Ubuntu Mono/Ubuntu Mono.woff") format("woff"), url("../fonts/Ubuntu Mono/Ubuntu Mono.woff2") format("woff2"), url("../fonts/Ubuntu Mono/Ubuntu Mono.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ubuntu Mono';
+  src: url("../fonts/Ubuntu Mono Bold/Ubuntu Mono Bold.woff") format("woff"), url("../fonts/Ubuntu Mono Bold/Ubuntu Mono Bold.woff2") format("woff2"), url("../fonts/Ubuntu Mono Bold/Ubuntu Mono Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
 .container {
   min-width: 20rem;
   max-width: 71.25rem;
@@ -143,65 +206,520 @@ img {
   box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.18);
 }
 
-@font-face {
-  font-family: 'Museo Sans Cyrl';
-  src: url("../fonts/Museo Sans Cyrl W03 300/Museo Sans Cyrl W03 300.woff") format("woff"), url("../fonts/Museo Sans Cyrl W03 300/Museo Sans Cyrl W03 300.woff2") format("woff2"), url("../fonts/Museo Sans Cyrl W03 300/Museo Sans Cyrl W03 300.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal;
+.wrapper-yes-no {
+  background-color: #2c2b2f;
+  padding-top: 2.1875rem;
+  padding-bottom: 4.0625rem;
 }
 
-@font-face {
-  font-family: 'Museo Sans Cyrl';
-  src: url("../fonts/Museo Sans Cyrl W03 900/Museo Sans Cyrl W03 900.woff") format("woff"), url("../fonts/Museo Sans Cyrl W03 900/Museo Sans Cyrl W03 900.woff2") format("woff2"), url("../fonts/Museo Sans Cyrl W03 900/Museo Sans Cyrl W03 900.ttf") format("truetype");
-  font-weight: 900;
-  font-style: normal;
+.container__img-left {
+  display: none;
 }
 
-@font-face {
-  font-family: 'Open Sans';
-  src: url("../fonts/Open Sans/Open Sans.woff") format("woff"), url("../fonts/Open Sans/Open Sans.woff2") format("woff2"), url("../fonts/Open Sans/Open Sans.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
+.container__img-right {
+  display: none;
 }
 
-@font-face {
-  font-family: 'Open Sans';
-  src: url("../fonts/Open Sans Extrabold/Open Sans Extrabold.woff") format("woff"), url("../fonts/Open Sans Extrabold/Open Sans Extrabold.woff2") format("woff2"), url("../fonts/Open Sans Extrabold/Open Sans Extrabold.ttf") format("truetype");
-  font-weight: 900;
-  font-style: normal;
+.for-you-box {
+  width: 99%;
+  margin: auto;
+  background-color: #fff;
+  padding-bottom: 2.8125rem;
 }
 
-@font-face {
-  font-family: 'Open Sans';
-  src: url("../fonts/Open Sans Semibold/Open Sans Semibold.woff") format("woff"), url("../fonts/Open Sans Semibold/Open Sans Semibold.woff2") format("woff2"), url("../fonts/Open Sans Semibold/Open Sans Semibold.ttf") format("truetype");
+.for-you-box--left {
+  margin-bottom: 0.9375rem;
+}
+
+.for-you-box__text {
+  padding-top: 2.1875rem;
+  padding-left: 1.125rem;
+  margin-bottom: 2.1875rem;
+}
+
+.for-you-box__text-bottom {
+  font-family: "Ubuntu Mono", sans-serif;
+  font-size: 1.5rem;
+}
+
+.for-you-box__items {
+  position: relative;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
-  font-style: normal;
+  font-size: 0.875rem;
+  padding-left: 3.125rem;
+  padding-right: 1.5625rem;
+  vertical-align: super;
+  margin-bottom: 1.875rem;
 }
 
-@font-face {
-  font-family: 'Proxima Nova';
-  src: url("../fonts/Proxima Nova/Proxima Nova.woff") format("woff"), url("../fonts/Proxima Nova/Proxima Nova.woff2") format("woff2"), url("../fonts/Proxima Nova/Proxima Nova.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
+.for-you-box__items:last-child {
+  margin-bottom: 0;
 }
 
-@font-face {
-  font-family: 'Proxima Nova';
-  src: url("../fonts/Proxima Nova Extrabold/Proxima Nova Extrabold.woff") format("woff"), url("../fonts/Proxima Nova Extrabold/Proxima Nova Extrabold.woff2") format("woff2"), url("../fonts/Proxima Nova Extrabold/Proxima Nova Extrabold.ttf") format("truetype");
+.blueword--faq {
+  font-size: 1.5rem;
+  text-transform: initial;
+}
+
+.circle:before {
+  content: '';
+  position: absolute;
+  top: 0.125rem;
+  left: 1.25rem;
+  width: 0.75rem;
+  height: 0.75rem;
+  margin-right: 0.9375rem;
+}
+
+.wrapper-yes-no__bottom-box-yes {
+  font-family: "Museo Sans Cyrl", sans-serif;
+  font-size: 0.875rem;
+  color: #fff;
+  text-transform: uppercase;
   font-weight: 900;
-  font-style: normal;
 }
 
-@font-face {
-  font-family: 'Ubuntu Mono';
-  src: url("../fonts/Ubuntu Mono/Ubuntu Mono.woff") format("woff"), url("../fonts/Ubuntu Mono/Ubuntu Mono.woff2") format("woff2"), url("../fonts/Ubuntu Mono/Ubuntu Mono.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
+.wrapper-yes-no__bottom-box-yes--mob {
+  padding: 2.1875rem 0;
 }
 
-@font-face {
-  font-family: 'Ubuntu Mono';
-  src: url("../fonts/Ubuntu Mono Bold/Ubuntu Mono Bold.woff") format("woff"), url("../fonts/Ubuntu Mono Bold/Ubuntu Mono Bold.woff2") format("woff2"), url("../fonts/Ubuntu Mono Bold/Ubuntu Mono Bold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal;
+.btn--faq {
+  font-size: 0.875rem;
+  padding: 1.25rem 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .wrapper-faq {
+    padding-top: 8.125rem;
+    padding-bottom: 3.75rem;
+    background-image: url(../img/s-17/faq720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .wrapper-faq--tab {
+    margin-top: 0;
+  }
+
+  .wrapper-faq__faq-title-box {
+    width: 50%;
+  }
+
+  .wrapper-faq__faq-title-box--tab {
+    margin-bottom: 7.8125rem;
+  }
+
+  .wrapper-faq__answer-boxes {
+    position: relative;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 900;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    padding: 1.5625rem 2rem;
+    background-color: #ededed;
+    box-shadow: 0 0 0.1875rem 0.125rem rgba(0, 0, 0, 0.16);
+    border-radius: 0.25rem;
+    margin-bottom: 0.625rem;
+  }
+
+  .wrapper-faq__answer-boxes::after {
+    content: url(../img/s-17/cross.png);
+    position: absolute;
+    left: 42.5rem;
+    top: 0.9375rem;
+  }
+
+  .wrapper-faq__answer-boxes-special {
+    position: relative;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 900;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    padding: 1.5625rem 2rem;
+    background-color: #ededed;
+    box-shadow: 0 0 0.1875rem 0.125rem rgba(0, 0, 0, 0.16);
+    border-radius: 0.25rem;
+    margin-bottom: 0.625rem;
+  }
+
+  .wrapper-faq__answer-boxes-open {
+    box-shadow: 0 0 0.1875rem 0.125rem rgba(0, 0, 0, 0.16);
+  }
+
+  .wrapper-faq__questions-box > .wrapper-faq__answer-boxes:nth-last-child(1) {
+    margin-bottom: 5rem;
+  }
+
+  .wrapper-faq__answer-boxes-special--first {
+    margin-bottom: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: none;
+  }
+
+  .wrapper-faq__answer-boxes-special--second {
+    font-size: 0.875rem;
+  }
+
+  .wrapper-faq__answer-boxes-special--first::after {
+    content: '';
+    position: absolute;
+    height: 0.0625rem;
+    width: 2.5rem;
+    background-color: #000;
+    left: 42.5rem;
+    top: 1.875rem;
+  }
+
+  .wrapper-faq__answer-boxes-special--second {
+    background-color: #fff;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    box-shadow: none;
+    text-transform: initial;
+    font-weight: initial;
+  }
+
+  .title__faq-box-title {
+    font-size: 1.875rem;
+  }
+
+  .title--faq {
+    margin-bottom: 2.8125rem;
+  }
+
+  .paragraph {
+    font-size: 0.875rem;
+  }
+
+  .paragraph--faq {
+    width: 58%;
+  }
+
+  .paragraph__bot {
+    border-top: 2px solid #000;
+  }
+
+  .title--bottom-faq {
+    text-align: center;
+    font-size: 1.875rem;
+  }
+
+  .wrapper-yes-no {
+    background-image: linear-gradient(to right, #f5f5f5 50%, #2b2a2f 50%);
+    position: relative;
+    z-index: 0;
+    padding-bottom: 2.8125rem;
+  }
+
+  .container__section {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding-left: 2.5rem;
+    position: relative;
+  }
+
+  .container__img-left {
+    display: block;
+    position: absolute;
+    left: -3.125rem;
+    top: -4.375rem;
+    z-index: 1;
+  }
+
+  .container__img-right {
+    display: block;
+    position: absolute;
+    left: 29.375rem;
+    top: 12.5rem;
+    z-index: 1;
+  }
+
+  .container__img {
+    max-width: none;
+  }
+
+  .for-you-box {
+    flex-basis: 47.1%;
+    margin: initial;
+  }
+
+  .for-you-box--left {
+    margin-bottom: initial;
+    position: relative;
+    z-index: 2;
+  }
+
+  .for-you-box--right {
+    position: relative;
+    background-color: #f5f5f5;
+    z-index: 2;
+  }
+
+  .wrapper-yes-no__bottom-box-yes {
+    font-size: 0.875rem;
+    font-family: "Museo Sans Cyrl", sans-serif;
+    line-height: 1.5rem;
+    color: #2c2b2f;
+    padding-bottom: 0;
+  }
+
+  .wrapper-yes-no__bottom-box-yes--mob {
+    flex-basis: 47.1%;
+    position: relative;
+  }
+
+  .wrapper-yes-no__bottom-box-yes::before {
+    content: '';
+    position: absolute;
+    top: 3.4375rem;
+    width: 13.125rem;
+    height: 0.125rem;
+    background-color: #00bcd4;
+  }
+
+  .wrapper-yes-no__button-box-yes {
+    display: flex;
+    flex-basis: 47.1%;
+    margin: initial;
+    align-items: center;
+  }
+
+  .btn--faq {
+    display: inline-block;
+    margin: auto;
+  }
+}
+
+@media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 768px) and (min-resolution: 192dpi) {
+  .wrapper-faq {
+    background: url("../img/s-17/faq720@2x.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .wrapper-faq {
+    padding-top: 14.0625rem;
+    padding-bottom: 3.75rem;
+    background-image: url(../img/s-17/faqdesktop.jpg);
+  }
+
+  .wrapper-faq__questions-box {
+    width: 58%;
+  }
+
+  .wrapper-faq__answer-boxes::after {
+    content: url(../img/s-17/cross.png);
+    position: absolute;
+    left: 36.25rem;
+    top: 0.9375rem;
+  }
+
+  .wrapper-faq__answer-boxes-special--first::after {
+    position: absolute;
+    height: 0.0625rem;
+    width: 2.5rem;
+    background-color: #000;
+    left: 36.25rem;
+    top: 1.875rem;
+  }
+
+  .title--faq {
+    width: 45%;
+    font-size: 2.625rem;
+  }
+
+  .paragraph--faq {
+    width: 29.0625rem;
+    margin-bottom: 4.375rem;
+  }
+
+  .paragraph__top {
+    font-size: 1.125rem;
+    padding-right: 0;
+  }
+
+  .paragraph__bot {
+    font-size: 1.125rem;
+    border-top: 0.25rem solid #242427;
+  }
+
+  .title--bottom-faq {
+    font-size: 2.625rem;
+  }
+
+  .wrapper-yes-no {
+    padding-bottom: 4.375rem;
+  }
+
+  .container__section {
+    padding-top: 5.625rem;
+    padding-left: 3.75rem;
+  }
+
+  .for-you-box {
+    padding-top: 8.4375rem;
+    padding-left: 3.4375rem;
+    padding-bottom: 9.375rem;
+  }
+
+  .for-you-box__items {
+    padding-left: 3.4375rem;
+  }
+
+  .container__img-right {
+    position: absolute;
+    left: 56.25rem;
+    top: 25.625rem;
+    z-index: 1;
+  }
+
+  .wrapper-yes-no__bottom-box-yes::before {
+    content: '';
+    position: absolute;
+    left: -1.25rem;
+    top: 3.4375rem;
+    width: 14.375rem;
+    height: 0.125rem;
+    background-color: #00bcd4;
+  }
+}
+
+@media (min-width: 1024px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1024px) and (min-resolution: 192dpi) {
+  .wrapper-faq {
+    background: url("../img/s-17/faqdesktop@2x.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .wrapper-faq {
+    background-color: #fff;
+  }
+
+  .wrapper-faq--mob {
+    margin-top: 3.4375rem;
+  }
+
+  .wrapper-faq__questions-box {
+    margin-bottom: 5.3125rem;
+  }
+
+  .wrapper-faq__answer-boxes {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 900;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    padding: 1.5625rem 2rem;
+    background-color: #ededed;
+    box-shadow: 0 0 0.1875rem 0.125rem rgba(0, 0, 0, 0.16);
+    border-radius: 0.25rem;
+    margin-bottom: 0.625rem;
+  }
+
+  .wrapper-faq__answer-boxes-open {
+    box-shadow: 0 0 0.1875rem 0.125rem rgba(0, 0, 0, 0.16);
+    border-radius: 0.25rem;
+  }
+
+  .wrapper-faq__answer-boxes-special {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 900;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    padding: 1.5625rem 2rem;
+    background-color: #ededed;
+    box-shadow: 0 0 0.1875rem 0.125rem rgba(0, 0, 0, 0.16);
+    border-radius: 0.25rem;
+    margin-bottom: 0.625rem;
+  }
+
+  .wrapper-faq__answer-boxes-special--first {
+    margin-bottom: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: none;
+  }
+
+  .wrapper-faq__answer-boxes-special--second {
+    background-color: #fff;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    box-shadow: none;
+    text-transform: initial;
+    font-weight: initial;
+  }
+
+  .title__faq-box-title {
+    position: relative;
+    font-size: 1.5625rem;
+    line-height: 3.125rem;
+  }
+
+  .title__faq-box-title::before {
+    content: '';
+    display: inline-block;
+    width: 1rem;
+    height: 0.3125rem;
+    background-color: #00bcd4;
+  }
+
+  .title__faq-box-title::after {
+    position: absolute;
+    left: 3.75rem;
+    top: 2.5rem;
+    content: '';
+    height: 0.125rem;
+    width: 9.375rem;
+    background-color: #000;
+  }
+
+  .title--faq {
+    margin-bottom: 2.1875rem;
+  }
+
+  .title--faq::after {
+    content: '';
+    margin-top: 0.75rem;
+  }
+
+  .paragraph {
+    font-size: 0.875rem;
+  }
+
+  .paragraph--faq {
+    margin-bottom: 2.5rem;
+  }
+
+  .paragraph__top {
+    line-height: 1.25rem;
+    text-align: center;
+  }
+
+  .paragraph__bot {
+    border: none;
+    line-height: 1.25rem;
+    text-align: center;
+  }
+
+  .title--bottom-faq {
+    font-size: 1.5625rem;
+    line-height: 3.125rem;
+    margin-bottom: 2.1875rem;
+    text-align: center;
+  }
+
+  .title--bottom-faq::before {
+    content: '';
+    display: inline-block;
+    width: 1rem;
+    height: 0.3125rem;
+    background-color: #00bcd4;
+  }
 }

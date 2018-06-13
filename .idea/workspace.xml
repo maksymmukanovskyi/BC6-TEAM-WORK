@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dcbea6d-4832-4620-b0d7-11493a13acff" name="Default" comment="">
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/styles.css" afterPath="$PROJECT_DIR$/build/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/styles.min.css" afterPath="$PROJECT_DIR$/build/css/styles.min.css" />
+=======
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/reset.scss" afterPath="$PROJECT_DIR$/src/scss/reset.scss" />
+>>>>>>> 917d2977b62c30ce7c305d7b261df3bdaa674b94
+>>>>>>> f3b48723f3851130b2162e3f70278d79acb071db
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,6 +25,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <splitter split-orientation="horizontal" split-proportion="0.4692533">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -26,20 +35,40 @@
                 <state relative-caret-position="16">
                   <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
                   <folding />
+=======
+<<<<<<< HEAD
+    <splitter split-orientation="horizontal" split-proportion="0.4941435">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="theme.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/scss/theme.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1241">
+                  <caret line="76" column="81" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="81" />
+>>>>>>> f3b48723f3851130b2162e3f70278d79acb071db
                 </state>
               </provider>
             </entry>
           </file>
+<<<<<<< HEAD
           <file leaf-file-name="s-16.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/html/s-16.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="16">
                   <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
                   <folding />
+=======
+          <file leaf-file-name="var.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/scss/var.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="170">
+                  <caret line="10" column="13" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="13" />
+>>>>>>> f3b48723f3851130b2162e3f70278d79acb071db
                 </state>
               </provider>
             </entry>
           </file>
+<<<<<<< HEAD
         </leaf>
       </split-first>
       <split-second>
@@ -50,26 +79,84 @@
                 <state relative-caret-position="336">
                   <caret line="80" column="21" lean-forward="false" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
                   <folding />
+=======
+          <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/scss/styles.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="782">
+                  <caret line="36" column="27" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="27" />
+>>>>>>> f3b48723f3851130b2162e3f70278d79acb071db
                 </state>
               </provider>
             </entry>
           </file>
+<<<<<<< HEAD
           <file leaf-file-name="var.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/scss/var.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="183">
                   <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
                   <folding />
+=======
+          <file leaf-file-name="reset.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/scss/reset.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="306">
+                  <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+>>>>>>> f3b48723f3851130b2162e3f70278d79acb071db
                 </state>
               </provider>
             </entry>
           </file>
+<<<<<<< HEAD
           <file leaf-file-name="styles.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/scss/styles.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="208">
                   <caret line="11" column="172" lean-forward="true" selection-start-line="11" selection-start-column="172" selection-end-line="11" selection-end-column="172" />
                   <folding />
+=======
+          <file leaf-file-name="s-17.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/html/s-17.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="57" selection-start-column="41" selection-end-column="57" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="s-18.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/html/s-18.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="187">
+                  <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+                  <folding>
+                    <element signature="n#ul#0;n#div#0;n#section#0;n#div#0;n#div#0;n#!!top" />
+                    <element signature="n#ul#0;n#div#1;n#section#0;n#div#0;n#div#0;n#!!top" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="s-17.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/scss/s-17/s-17.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-2598">
+                  <caret line="135" selection-start-line="135" selection-end-line="135" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="s-18.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/scss/s-18/s-18.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="102">
+                  <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+>>>>>>> f3b48723f3851130b2162e3f70278d79acb071db
                 </state>
               </provider>
             </entry>
@@ -77,6 +164,73 @@
         </leaf>
       </split-second>
     </splitter>
+<<<<<<< HEAD
+=======
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="453">
+              <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="s-1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/html/s-1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="theme.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/theme.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1643">
+              <caret line="110" column="21" lean-forward="false" selection-start-line="110" selection-start-column="21" selection-end-line="110" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="var.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/var.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1196">
+              <caret line="46" column="16" lean-forward="false" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/styles.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reset.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/scss/reset.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+>>>>>>> 917d2977b62c30ce7c305d7b261df3bdaa674b94
+>>>>>>> f3b48723f3851130b2162e3f70278d79acb071db
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -88,6 +242,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>par</find>
+      <find>cross</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -97,9 +252,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/scss/normalize.scss" />
+<<<<<<< HEAD
+=======
         <option value="$PROJECT_DIR$/src/scss/styles.scss" />
         <option value="$PROJECT_DIR$/src/scss/theme.scss" />
         <option value="$PROJECT_DIR$/src/scss/var.scss" />
+>>>>>>> 917d2977b62c30ce7c305d7b261df3bdaa674b94
         <option value="$PROJECT_DIR$/src/html/test.html" />
         <option value="$PROJECT_DIR$/src/html/footer.html" />
         <option value="$PROJECT_DIR$/src/html/header.html" />
@@ -119,13 +277,22 @@
         <option value="$PROJECT_DIR$/src/html/s-14.html" />
         <option value="$PROJECT_DIR$/src/html/s-15.html" />
         <option value="$PROJECT_DIR$/src/html/s-16.html" />
-        <option value="$PROJECT_DIR$/src/html/s-17.html" />
-        <option value="$PROJECT_DIR$/src/html/s-18.html" />
         <option value="$PROJECT_DIR$/src/html/s-19.html" />
         <option value="$PROJECT_DIR$/src/html/s-20.html" />
         <option value="$PROJECT_DIR$/src/html/s-21.html" />
         <option value="$PROJECT_DIR$/src/html/s-1.html" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/src/scss/styles.scss" />
+        <option value="$PROJECT_DIR$/src/scss/theme.scss" />
+        <option value="$PROJECT_DIR$/src/scss/var.scss" />
         <option value="$PROJECT_DIR$/src/scss/reset.scss" />
+        <option value="$PROJECT_DIR$/src/html/s-18.html" />
+        <option value="$PROJECT_DIR$/src/html/s-17.html" />
+        <option value="$PROJECT_DIR$/src/scss/s-17/s-17.scss" />
+        <option value="$PROJECT_DIR$/src/scss/s-18/s-18.scss" />
+=======
+        <option value="$PROJECT_DIR$/src/scss/reset.scss" />
+>>>>>>> 917d2977b62c30ce7c305d7b261df3bdaa674b94
       </list>
     </option>
   </component>
@@ -145,6 +312,11 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-91" />
     <option name="y" value="114" />
@@ -153,17 +325,7 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -189,6 +351,7 @@
               <item name="BC6-TEAM-WORK" type="b2602c69:ProjectViewProjectNode" />
               <item name="BC6-TEAM-WORK" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -208,25 +371,30 @@
               <item name="BC6-TEAM-WORK" type="b2602c69:ProjectViewProjectNode" />
               <item name="BC6-TEAM-WORK" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> f3b48723f3851130b2162e3f70278d79acb071db
               <item name="scss" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scratches" />
+=======
+>>>>>>> f3b48723f3851130b2162e3f70278d79acb071db
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.selected.package.stylelint" value="$PROJECT_DIR$/node_modules/stylelint" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
-    <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="node.js.path.for.package.stylelint" value="project" />
-    <property name="node.js.detected.package.stylelint" value="true" />
-    <property name="node.js.selected.package.stylelint" value="C:\Users\Maksym\Desktop\GOIT School Folder\BC6-TEAM-WORK\node_modules\stylelint" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -240,8 +408,8 @@
       </list>
     </option>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -252,17 +420,34 @@
       <updated>1528275656899</updated>
       <workItem from="1528275662796" duration="15036000" />
       <workItem from="1528308800618" duration="211000" />
+<<<<<<< HEAD
+      <workItem from="1528357327128" duration="11241000" />
+      <workItem from="1528371289494" duration="11894000" />
+      <workItem from="1528439208642" duration="25392000" />
+      <workItem from="1528698275411" duration="12499000" />
+      <workItem from="1528785350352" duration="17422000" />
+      <workItem from="1528871800724" duration="3090000" />
+=======
       <workItem from="1528357327128" duration="12566000" />
+>>>>>>> 917d2977b62c30ce7c305d7b261df3bdaa674b94
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="28012000" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="96785000" />
+=======
+    <option name="totallyTimeSpent" value="27813000" />
+>>>>>>> 917d2977b62c30ce7c305d7b261df3bdaa674b94
+>>>>>>> f3b48723f3851130b2162e3f70278d79acb071db
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
+<<<<<<< HEAD
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21083455" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -292,26 +477,47 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+=======
+      <window_info id="Gulp" order="3" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.21083455" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" weight="0.32911393" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Run" order="5" />
+      <window_info id="npm" order="3" side_tool="true" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="4" />
+>>>>>>> f3b48723f3851130b2162e3f70278d79acb071db
     </layout>
     <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24524158" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" order="1" side_tool="true" />
+      <window_info id="npm" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.24524158" />
+      <window_info id="Structure" order="4" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Run" order="5" />
+      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" weight="0.32911393" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,11 +526,8 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/html/s-16.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
@@ -347,6 +550,19 @@
         <state relative-caret-position="48">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
+=======
+    <entry file="file://$PROJECT_DIR$/src/scss/s-17/s-17.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/s-18/s-18.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+>>>>>>> f3b48723f3851130b2162e3f70278d79acb071db
         </state>
       </provider>
     </entry>
@@ -370,39 +586,99 @@
     <entry file="file://$PROJECT_DIR$/src/html/test.html" />
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="336">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+=======
+        <state relative-caret-position="884">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+>>>>>>> f3b48723f3851130b2162e3f70278d79acb071db
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/theme.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1870">
+          <caret line="110" column="21" selection-start-line="110" selection-start-column="21" selection-end-line="110" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/var.scss">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="80">
+          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+=======
+        <state relative-caret-position="782">
+          <caret line="46" column="16" selection-start-line="46" selection-start-column="16" selection-end-line="46" selection-end-column="16" />
+>>>>>>> f3b48723f3851130b2162e3f70278d79acb071db
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/src/html/s-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> f3b48723f3851130b2162e3f70278d79acb071db
+    <entry file="file://$PROJECT_DIR$/src/html/test.html" />
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+<<<<<<< HEAD
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+=======
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+>>>>>>> f3b48723f3851130b2162e3f70278d79acb071db
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/var.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
-          <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="11" />
-          <folding />
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
+<<<<<<< HEAD
           <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+=======
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+>>>>>>> f3b48723f3851130b2162e3f70278d79acb071db
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/theme.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="688">
-          <caret line="43" column="19" lean-forward="false" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
-          <folding />
+          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/html/test.html" />
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="-43">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+=======
         <state relative-caret-position="336">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+>>>>>>> f3b48723f3851130b2162e3f70278d79acb071db
         </state>
       </provider>
     </entry>
@@ -410,14 +686,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="112">
+          <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+=======
         <state relative-caret-position="80">
-          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -425,185 +707,352 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="688">
           <caret line="43" column="19" lean-forward="true" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-43">
-          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
+<<<<<<< HEAD
+          <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+=======
           <caret line="46" column="25" lean-forward="false" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+>>>>>>> 917d2977b62c30ce7c305d7b261df3bdaa674b94
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/normalize.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
-          <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+>>>>>>> f3b48723f3851130b2162e3f70278d79acb071db
     <entry file="file://$PROJECT_DIR$/src/html/footer.html" />
     <entry file="file://$PROJECT_DIR$/src/html/header.html" />
     <entry file="file://$PROJECT_DIR$/src/html/test.html" />
     <entry file="file://$PROJECT_DIR$/src/html/s-2.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+=======
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+>>>>>>> f3b48723f3851130b2162e3f70278d79acb071db
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/html/s-3.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+=======
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+>>>>>>> f3b48723f3851130b2162e3f70278d79acb071db
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/html/s-4.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+=======
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+>>>>>>> f3b48723f3851130b2162e3f70278d79acb071db
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/html/s-5.html">
+=======
+    <entry file="file://$PROJECT_DIR$/src/html/footer.html">
+>>>>>>> 917d2977b62c30ce7c305d7b261df3bdaa674b94
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+=======
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+>>>>>>> f3b48723f3851130b2162e3f70278d79acb071db
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/html/s-6.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+=======
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+>>>>>>> f3b48723f3851130b2162e3f70278d79acb071db
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/html/s-7.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+=======
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+>>>>>>> f3b48723f3851130b2162e3f70278d79acb071db
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/html/s-8.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+=======
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+>>>>>>> f3b48723f3851130b2162e3f70278d79acb071db
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/html/s-9.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+=======
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+>>>>>>> f3b48723f3851130b2162e3f70278d79acb071db
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/html/s-12.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+=======
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+>>>>>>> f3b48723f3851130b2162e3f70278d79acb071db
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/html/s-10.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+=======
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+>>>>>>> f3b48723f3851130b2162e3f70278d79acb071db
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/html/s-11.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+=======
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+>>>>>>> f3b48723f3851130b2162e3f70278d79acb071db
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/html/s-13.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+=======
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+>>>>>>> f3b48723f3851130b2162e3f70278d79acb071db
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/html/s-14.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+=======
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+>>>>>>> f3b48723f3851130b2162e3f70278d79acb071db
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/html/s-15.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="16">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
+=======
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+>>>>>>> f3b48723f3851130b2162e3f70278d79acb071db
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/html/s-16.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="16">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/s-18.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+=======
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+>>>>>>> f3b48723f3851130b2162e3f70278d79acb071db
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/html/s-19.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+=======
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+>>>>>>> f3b48723f3851130b2162e3f70278d79acb071db
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/html/s-20.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+=======
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+>>>>>>> f3b48723f3851130b2162e3f70278d79acb071db
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/html/s-21.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/s-17.html">
-      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+=======
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+>>>>>>> f3b48723f3851130b2162e3f70278d79acb071db
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="0">
+          <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
+=======
         <state relative-caret-position="453">
-          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/html/s-1.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/var.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/s-17/s-17.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2598">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/reset.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/theme.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="76" column="81" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="36" column="27" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="27" />
+>>>>>>> f3b48723f3851130b2162e3f70278d79acb071db
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/s-17.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="0">
+          <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+=======
+        <state>
+          <caret column="57" selection-start-column="41" selection-end-column="57" />
+>>>>>>> f3b48723f3851130b2162e3f70278d79acb071db
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/s-18/s-18.scss">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="102">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+=======
+        <state relative-caret-position="453">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+<<<<<<< HEAD
+=======
+          <folding />
+>>>>>>> 917d2977b62c30ce7c305d7b261df3bdaa674b94
+>>>>>>> f3b48723f3851130b2162e3f70278d79acb071db
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/s-18.html">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="187">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <element signature="n#ul#0;n#div#0;n#section#0;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#ul#0;n#div#1;n#section#0;n#div#0;n#div#0;n#!!top" />
+          </folding>
+=======
         <state relative-caret-position="16">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
@@ -637,6 +1086,7 @@
         <state relative-caret-position="208">
           <caret line="11" column="172" lean-forward="true" selection-start-line="11" selection-start-column="172" selection-end-line="11" selection-end-column="172" />
           <folding />
+>>>>>>> 917d2977b62c30ce7c305d7b261df3bdaa674b94
         </state>
       </provider>
     </entry>
