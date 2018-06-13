@@ -261,6 +261,11 @@
     padding-bottom: rem(60);
     background-image: url(../img/s-17/faqdesktop.jpg);
 
+    &__faq-box {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
     &__questions-box {
       width: 58%;
     }
