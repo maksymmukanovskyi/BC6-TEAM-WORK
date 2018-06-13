@@ -113,6 +113,10 @@
     z-index: 1;
   }
 
+  .container__img {
+    max-width: none;
+  }
+
   .for-you-box {
     flex-basis: 47.1%;
     margin: initial;
@@ -190,10 +194,6 @@
     left: rem(900);
     top: rem(410);
     z-index: 1;
-  }
-
-  .container__img {
-    max-width: none;
   }
 
   .wrapper-yes-no__bottom-box-yes::before {

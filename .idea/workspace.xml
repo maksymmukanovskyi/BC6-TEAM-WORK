@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dcbea6d-4832-4620-b0d7-11493a13acff" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/html/s-17.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/s-17.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/s-17/s-17.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/s-17/s-17.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/styles.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/styles.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/s-18/s-18.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/s-18/s-18.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,7 +58,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="s-17.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="s-17.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/html/s-17.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state>
@@ -64,10 +67,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="s-18.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="s-18.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/html/s-18.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
+                <state relative-caret-position="156">
                   <caret line="22" column="34" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="34" />
                   <folding>
                     <element signature="n#ul#0;n#div#0;n#section#0;n#div#0;n#div#0;n#!!top" />
@@ -93,8 +96,8 @@
           <file leaf-file-name="s-18.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/scss/s-18/s-18.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-218">
-                  <caret line="167" column="23" selection-start-line="167" selection-start-column="23" selection-end-line="167" selection-end-column="23" />
+                <state relative-caret-position="360">
+                  <caret line="194" column="14" selection-start-line="194" selection-start-column="14" selection-end-line="194" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
@@ -151,9 +154,9 @@
         <option value="$PROJECT_DIR$/src/scss/var.scss" />
         <option value="$PROJECT_DIR$/src/scss/reset.scss" />
         <option value="$PROJECT_DIR$/src/html/s-18.html" />
-        <option value="$PROJECT_DIR$/src/scss/s-18/s-18.scss" />
         <option value="$PROJECT_DIR$/src/html/s-17.html" />
         <option value="$PROJECT_DIR$/src/scss/s-17/s-17.scss" />
+        <option value="$PROJECT_DIR$/src/scss/s-18/s-18.scss" />
       </list>
     </option>
   </component>
@@ -231,12 +234,12 @@
       <workItem from="1528439208642" duration="25392000" />
       <workItem from="1528698275411" duration="12499000" />
       <workItem from="1528785350352" duration="17422000" />
-      <workItem from="1528871800724" duration="1087000" />
+      <workItem from="1528871800724" duration="1652000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94782000" />
+    <option name="totallyTimeSpent" value="95347000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -568,17 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/s-18.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="34" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="34" />
-          <folding>
-            <element signature="n#ul#0;n#div#0;n#section#0;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#ul#0;n#div#1;n#section#0;n#div#0;n#div#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/var.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -614,10 +606,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/s-18.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="34" />
+          <folding>
+            <element signature="n#ul#0;n#div#0;n#section#0;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#ul#0;n#div#1;n#section#0;n#div#0;n#div#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/s-18/s-18.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-218">
-          <caret line="167" column="23" selection-start-line="167" selection-start-column="23" selection-end-line="167" selection-end-column="23" />
+        <state relative-caret-position="360">
+          <caret line="194" column="14" selection-start-line="194" selection-start-column="14" selection-end-line="194" selection-end-column="14" />
         </state>
       </provider>
     </entry>

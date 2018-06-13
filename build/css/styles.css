@@ -292,12 +292,15 @@ img {
 @media (min-width: 768px) {
   .wrapper-faq {
     padding-top: 8.125rem;
-    margin-top: 0;
     padding-bottom: 3.75rem;
     background-image: url(../img/s-17/faq720.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+  }
+
+  .wrapper-faq--tab {
+    margin-top: 0;
   }
 
   .wrapper-faq__faq-title-box {
@@ -433,6 +436,10 @@ img {
     left: 29.375rem;
     top: 12.5rem;
     z-index: 1;
+  }
+
+  .container__img {
+    max-width: none;
   }
 
   .for-you-box {
@@ -572,10 +579,6 @@ img {
     z-index: 1;
   }
 
-  .container__img {
-    max-width: none;
-  }
-
   .wrapper-yes-no__bottom-box-yes::before {
     content: '';
     position: absolute;
@@ -598,6 +601,9 @@ img {
 @media (max-width: 767px) {
   .wrapper-faq {
     background-color: #fff;
+  }
+
+  .wrapper-faq--mob {
     margin-top: 3.4375rem;
   }
 
