@@ -495,7 +495,7 @@ img {
   }
 }
 
-@media (min-width: 1140px) {
+@media (min-width: 1024px) {
   .wrapper-faq {
     padding-top: 14.0625rem;
     padding-bottom: 3.75rem;
@@ -587,7 +587,7 @@ img {
   }
 }
 
-@media (min-width: 1140px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1140px) and (min-resolution: 192dpi) {
+@media (min-width: 1024px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1024px) and (min-resolution: 192dpi) {
   .wrapper-faq {
     background: url("../img/s-17/faqdesktop@2x.jpg") no-repeat;
     background-size: cover;
