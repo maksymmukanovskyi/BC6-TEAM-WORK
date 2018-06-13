@@ -1,38 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c26dec53-f2c8-462c-8ac6-79561a499023" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-17/cross.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-17/faq720.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-17/faq720@2x.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-17/faqdesktop.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-17/faqdesktop@2x.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-18/xmark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-18/xmark@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-18/yes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-18/yes@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-17/cross.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-17/faq720.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-17/faq720@2x.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-17/faqdesktop.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-17/faqdesktop@2x.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-18/xmark.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-18/xmark@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-18/yes.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-18/yes@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/html/s-17.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/html/s-18.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/fonts.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/s-17.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/s-18.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/styles.css" afterPath="$PROJECT_DIR$/build/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/styles.min.css" afterPath="$PROJECT_DIR$/build/css/styles.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/styles.scss" afterPath="$PROJECT_DIR$/src/scss/styles.scss" />
-    </list>
+    <list default="true" id="c26dec53-f2c8-462c-8ac6-79561a499023" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -93,6 +62,23 @@
               <item name="BC6-TEAM-WORK" type="b2602c69:ProjectViewProjectNode" />
               <item name="BC6-TEAM-WORK" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="BC6-TEAM-WORK" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BC6-TEAM-WORK" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BC6-TEAM-WORK" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BC6-TEAM-WORK" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BC6-TEAM-WORK" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BC6-TEAM-WORK" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -126,12 +112,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528879965769</updated>
-      <workItem from="1528879972993" duration="577000" />
+      <workItem from="1528879972993" duration="826000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="577000" />
+    <option name="totallyTimeSpent" value="826000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
