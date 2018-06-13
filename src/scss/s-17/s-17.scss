@@ -1,7 +1,10 @@
 @media (max-width:767px) {
   .wrapper-faq {
     background-color: #fff;
-    margin-top: rem(55);
+
+    &--mob {
+      margin-top: rem(55);
+    }
 
     &__questions-box {
       margin-bottom: rem(85) ;
@@ -124,10 +127,14 @@
 @media (min-width: 768px) {
   .wrapper-faq {
     padding-top: rem(130);
-    margin-top: 0;
     padding-bottom: rem(60);
     background-image: url(../img/s-17/faq720.jpg);
     @include bg-img;
+
+    &--tab {
+      margin-top: 0;
+
+    }
 
     &__faq-title-box {
       width: 50%;

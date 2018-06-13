@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dcbea6d-4832-4620-b0d7-11493a13acff" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/s-17.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/s-17.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/s-17/s-17.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/s-17/s-17.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/s-18/s-18.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/s-18/s-18.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,7 +46,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="reset.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="reset.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/scss/reset.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="306">
@@ -56,11 +55,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="s-17.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="s-17.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/html/s-17.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+                <state>
+                  <caret column="57" selection-start-column="41" selection-end-column="57" />
                 </state>
               </provider>
             </entry>
@@ -82,19 +81,19 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="s-17.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="s-17.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/scss/s-17/s-17.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="615">
-                  <caret line="245" column="23" selection-start-line="245" selection-start-column="23" selection-end-line="245" selection-end-column="23" />
+                <state relative-caret-position="-2598">
+                  <caret line="135" selection-start-line="135" selection-end-line="135" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="s-18.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="s-18.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/scss/s-18/s-18.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="258">
+                <state relative-caret-position="-218">
                   <caret line="167" column="23" selection-start-line="167" selection-start-column="23" selection-end-line="167" selection-end-column="23" />
                 </state>
               </provider>
@@ -150,10 +149,10 @@
         <option value="$PROJECT_DIR$/src/scss/styles.scss" />
         <option value="$PROJECT_DIR$/src/scss/theme.scss" />
         <option value="$PROJECT_DIR$/src/scss/var.scss" />
-        <option value="$PROJECT_DIR$/src/html/s-17.html" />
         <option value="$PROJECT_DIR$/src/scss/reset.scss" />
         <option value="$PROJECT_DIR$/src/html/s-18.html" />
         <option value="$PROJECT_DIR$/src/scss/s-18/s-18.scss" />
+        <option value="$PROJECT_DIR$/src/html/s-17.html" />
         <option value="$PROJECT_DIR$/src/scss/s-17/s-17.scss" />
       </list>
     </option>
@@ -179,7 +178,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -232,15 +231,15 @@
       <workItem from="1528439208642" duration="25392000" />
       <workItem from="1528698275411" duration="12499000" />
       <workItem from="1528785350352" duration="17422000" />
-      <workItem from="1528871800724" duration="631000" />
+      <workItem from="1528871800724" duration="1087000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94326000" />
+    <option name="totallyTimeSpent" value="94782000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" order="3" side_tool="true" />
@@ -562,13 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/s-17.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/styles.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -608,17 +600,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/s-18/s-18.scss">
+    <entry file="file://$PROJECT_DIR$/src/html/s-17.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="167" column="23" selection-start-line="167" selection-start-column="23" selection-end-line="167" selection-end-column="23" />
+        <state>
+          <caret column="57" selection-start-column="41" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/s-17/s-17.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="245" column="23" selection-start-line="245" selection-start-column="23" selection-end-line="245" selection-end-column="23" />
+        <state relative-caret-position="-2598">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/s-18/s-18.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-218">
+          <caret line="167" column="23" selection-start-line="167" selection-start-column="23" selection-end-line="167" selection-end-column="23" />
         </state>
       </provider>
     </entry>
