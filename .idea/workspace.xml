@@ -6,7 +6,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/styles.css" afterPath="$PROJECT_DIR$/build/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/styles.min.css" afterPath="$PROJECT_DIR$/build/css/styles.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/s-15.html" afterPath="$PROJECT_DIR$/src/html/s-15.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/s-16.html" afterPath="$PROJECT_DIR$/src/html/s-16.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/s-15.scss" afterPath="$PROJECT_DIR$/src/scss/s-15.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/s-16.scss" afterPath="$PROJECT_DIR$/src/scss/s-16.scss" />
@@ -22,24 +21,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.4692533">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="s-15.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="s-15.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/html/s-15.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="39">
-                  <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+                <state relative-caret-position="272">
+                  <caret line="15" column="42" lean-forward="false" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="s-16.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="s-16.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/html/s-16.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="336">
-                  <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+                <state relative-caret-position="32">
+                  <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
                   <folding />
                 </state>
               </provider>
@@ -62,7 +61,7 @@
           <file leaf-file-name="var.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/scss/var.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="279">
+                <state relative-caret-position="304">
                   <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="9" />
                   <folding />
                 </state>
@@ -82,8 +81,8 @@
           <file leaf-file-name="s-15.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/scss/s-15.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="308" column="18" lean-forward="true" selection-start-line="308" selection-start-column="18" selection-end-line="308" selection-end-column="18" />
+                <state relative-caret-position="184">
+                  <caret line="303" column="22" lean-forward="false" selection-start-line="303" selection-start-column="21" selection-end-line="303" selection-end-column="22" />
                   <folding />
                 </state>
               </provider>
@@ -92,8 +91,8 @@
           <file leaf-file-name="s-16.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/scss/s-16.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="471">
-                  <caret line="293" column="1" lean-forward="false" selection-start-line="293" selection-start-column="1" selection-end-line="293" selection-end-column="1" />
+                <state relative-caret-position="325">
+                  <caret line="198" column="31" lean-forward="true" selection-start-line="198" selection-start-column="31" selection-end-line="198" selection-end-column="31" />
                   <folding />
                 </state>
               </provider>
@@ -115,6 +114,8 @@
       <find>par</find>
       <find>MBOT</find>
       <find>mBot</find>
+      <find>1024</find>
+      <find>1200</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -334,12 +335,13 @@
       <workItem from="1528531672470" duration="13213000" />
       <workItem from="1528622326967" duration="31149000" />
       <workItem from="1528703048644" duration="27538000" />
-      <workItem from="1528793458152" duration="34658000" />
+      <workItem from="1528793458152" duration="35209000" />
+      <workItem from="1528872849272" duration="2193000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175022000" />
+    <option name="totallyTimeSpent" value="177766000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -546,40 +548,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/var.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
+        <state relative-caret-position="304">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/s-15.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/s-16.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/s-15.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="308" column="18" lean-forward="true" selection-start-line="308" selection-start-column="18" selection-end-line="308" selection-end-column="18" />
+        <state relative-caret-position="184">
+          <caret line="303" column="22" lean-forward="false" selection-start-line="303" selection-start-column="21" selection-end-line="303" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/s-16.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/s-15.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="15" column="42" lean-forward="false" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/s-16.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="293" column="1" lean-forward="false" selection-start-line="293" selection-start-column="1" selection-end-line="293" selection-end-column="1" />
+        <state relative-caret-position="325">
+          <caret line="198" column="31" lean-forward="true" selection-start-line="198" selection-start-column="31" selection-end-line="198" selection-end-column="31" />
           <folding />
         </state>
       </provider>

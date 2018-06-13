@@ -180,9 +180,9 @@
   }
 }
 
-//----------------------------MEDIA-1024--------------------------------------
+//----------------------------MEDIA-1200--------------------------------------
 
-@media(min-width: 1024px) {
+@media(min-width: 1200px) {
   .wrapper-s-16{
     padding-top: rem(62);
   }
@@ -198,10 +198,10 @@
       background-size: contain;
       background-repeat: no-repeat;
       display: block;
-      width: 95%;
+      width: rem(451);
       height: 95%;
       position: absolute;
-      left: 30%;
+      left: 57.5%;
       bottom: 52%;
       -webkit-transform: translate(50%, 50%);
       -ms-transform: translate(50%, 50%);

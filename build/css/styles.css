@@ -557,7 +557,7 @@ img {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
   .wrapper-s-15 {
     padding-bottom: 3.625rem;
   }
@@ -666,10 +666,10 @@ img {
     background-size: contain;
     background-repeat: no-repeat;
     display: block;
-    width: 95%;
+    width: 28.1875rem;
     height: 95%;
     position: absolute;
-    left: 30%;
+    left: 57.5%;
     bottom: 52%;
     -webkit-transform: translate(50%, 50%);
     transform: translate(50%, 50%);
@@ -745,7 +745,7 @@ img {
   }
 }
 
-@media (min-width: 1024px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1024px) and (min-resolution: 192dpi) {
+@media (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1200px) and (min-resolution: 192dpi) {
   .container__before::before {
     background-image: url("../img/s-15/pics/abstract-bg@2x.png");
   }
