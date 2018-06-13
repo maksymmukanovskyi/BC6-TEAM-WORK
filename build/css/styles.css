@@ -1048,10 +1048,13 @@ img {
     background-image: url(../img/s-17/faqdesktop.jpg);
   }
 
-  .wrapper-faq__questions-box {
-    width: 58%;
+  .wrapper-faq__faq-box {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .wrapper-faq__questions-box {
+    width: 58%;
   }
 
   .wrapper-faq__answer-boxes::after {
