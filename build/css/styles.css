@@ -777,7 +777,7 @@ img {
   .container__img-right {
     display: block;
     position: absolute;
-    left: 29.375rem;
+    left: 28.125rem;
     top: 12.5rem;
     z-index: 1;
   }
@@ -1050,6 +1050,8 @@ img {
 
   .wrapper-faq__questions-box {
     width: 58%;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .wrapper-faq__answer-boxes::after {
@@ -1112,8 +1114,8 @@ img {
 
   .container__img-right {
     position: absolute;
-    left: 56.25rem;
-    top: 25.625rem;
+    left: 51.875rem;
+    top: 26.25rem;
     z-index: 1;
   }
 
@@ -1141,6 +1143,15 @@ img {
     background: url("../img/s-17/faqdesktop@2x.jpg") no-repeat;
     background-size: cover;
     background-position: center;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container__img-right {
+    position: absolute;
+    left: 56.25rem;
+    top: 25.9375rem;
+    z-index: 1;
   }
 }
 

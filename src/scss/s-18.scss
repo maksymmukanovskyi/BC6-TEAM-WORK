@@ -109,7 +109,7 @@
   .container__img-right {
     display: block;
     position: absolute;
-    left: rem(470);
+    left: rem(450);
     top: rem(200);
     z-index: 1;
   }
@@ -177,7 +177,6 @@
 
   .container__section {
     padding-top: rem(90);
-    //padding-left: rem(60);
   }
 
   .for-you-box {
@@ -192,8 +191,8 @@
 
   .container__img-right {
     position: absolute;
-    left: rem(900);
-    top: rem(410);
+    left: rem(830);
+    top: rem(420);
     z-index: 1;
   }
 
@@ -205,5 +204,14 @@
     width: rem(230);
     height: rem(2);
     background-color: #00bcd4;
+  }
+}
+
+@media (min-width: 1400px){
+  .container__img-right {
+    position: absolute;
+    left: rem(900);
+    top: rem(415);
+    z-index: 1;
   }
 }
