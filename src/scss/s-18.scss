@@ -161,7 +161,8 @@
     display: flex;
     flex-basis: 50%;
     margin: initial;
-    align-items: center;
+    align-content: center;
+    justify-content: center;
   }
 
   .btn--faq {
@@ -173,6 +174,19 @@
 @media (min-width: 1200px) {
   .wrapper-yes-no{
     padding-bottom: rem(70);
+
+    &__bottom-text {
+      padding-top: rem(70);
+    }
+
+    &__bottom-box-yes--mob{
+      padding-top: 0;
+    }
+
+    &__button-box-yes{
+      padding-top: rem(70);
+
+    }
   }
 
   .container__section {
@@ -202,7 +216,7 @@
     content: '';
     position: absolute;
     left: rem(-20);
-    top: rem(55);
+    top: rem(90);
     width: rem(230);
     height: rem(2);
     background-color: #00bcd4;

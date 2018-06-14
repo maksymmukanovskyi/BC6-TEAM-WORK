@@ -829,7 +829,8 @@ img {
     display: flex;
     flex-basis: 50%;
     margin: initial;
-    align-items: center;
+    align-content: center;
+    justify-content: center;
   }
 
   .btn--faq {
@@ -1062,6 +1063,11 @@ img {
     background-image: url(../img/s-17/faqdesktop.jpg);
   }
 
+  .wrapper-faq__faq-box {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .wrapper-faq__questions-box {
     width: 58%;
   }
@@ -1110,6 +1116,18 @@ img {
     padding-bottom: 4.375rem;
   }
 
+  .wrapper-yes-no__bottom-text {
+    padding-top: 4.375rem;
+  }
+
+  .wrapper-yes-no__bottom-box-yes--mob {
+    padding-top: 0;
+  }
+
+  .wrapper-yes-no__button-box-yes {
+    padding-top: 4.375rem;
+  }
+
   .container__section {
     padding-top: 5.625rem;
     padding-left: 0;
@@ -1137,7 +1155,7 @@ img {
     content: '';
     position: absolute;
     left: -1.25rem;
-    top: 3.4375rem;
+    top: 5.625rem;
     width: 14.375rem;
     height: 0.125rem;
     background-color: #00bcd4;
