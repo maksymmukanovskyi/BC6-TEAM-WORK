@@ -1,9 +1,11 @@
 .wrapper-study {
-  background-image: linear-gradient( to bottom left, red 50%, green 50%)
+  background-image: url(../img/fon-study.png);
+  @include bg-img;
 }
 
 .study {
   padding: rem(40) 0 0;
+  width: 100%;
 }
 
 .study__title {
@@ -113,7 +115,7 @@
 .six-firm__text::before {
   content: '';
   display: block;
-  width: rem(340);
+  width: 100%;
   height: rem(2);
   margin-bottom: rem(10);
   background: $textBlack;
@@ -582,16 +584,6 @@
     box-shadow: 0 rem(5) rem(5) $bgMidLightgrey;
   }
 
-  .six-firm {
-    order: 1;
-    height: rem(180);
-    width: rem(370);
-    transform: rotate(90deg);
-    position: absolute;
-    right: rem(-100);
-    bottom: rem(100);
-    padding: rem(40) 0;
-  }
   .six-firm__text {
     padding: 0 rem(30);
   }
@@ -604,7 +596,6 @@
     order: 1;
     box-shadow: 0 rem(15) rem(15) $bgMidLightgrey;
   }
-
 
   .about__about-us:before {
     left: rem(-42);
