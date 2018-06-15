@@ -1,0 +1,125 @@
+.wrapper-footer {
+  background-image: url(../img/Bckgrnd-ftr.jpg);
+  min-width: 20rem;
+  background-size: cover;
+  padding: rem(40) 0;
+}
+
+.contacts {
+  font-family: $fontMuseoCyrl;
+  color: $textWhite;
+  //font-size: rem(16);
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.media {
+  font-family: $fontMuseoCyrl;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.course {
+  font-size: rem(16);
+  line-height: rem(18);
+}
+
+.course::after {
+  content: '';
+  display: block;
+  height: rem(2);
+  background-color: $textBlue;
+  margin: rem(16) 0 rem(20);
+}
+
+.number {
+  font-size: rem(16);
+  line-height: rem(24);
+}
+
+.btn-blue {
+  background-image: none;
+  background-color: $textBlue;
+  padding: rem(12) rem(20);
+  margin: rem(16) 0 rem(26);
+  color: #242427;
+}
+
+.signs {
+  display: flex;
+  padding: rem(20) 0 rem(32);
+}
+
+.media::before {
+  content: '';
+  display: block;
+  background-color: $textWhite;
+  height: rem(2);
+  width: rem(150);
+}
+
+.bg-fcbk {
+  width: 38px;
+  height: 38px;
+  background: url('/img/css_sprites.png') -70px -10px;
+}
+
+.bg-twttr {
+  width: 40px;
+  height: 40px;
+  background: url('/img/css_sprites.png') -10px -10px;
+}
+
+.string {
+  width: 74.89%;
+  font-family: 'Ubuntu Mono';
+  font-size: rem(14);
+  color: $textWhite;
+  text-aling: center;
+}
+
+@media (min-width: 768px) {
+  .wrapper-footer {
+    padding: rem(30) rem(40);
+  }
+  .conteiner-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .contacts {
+    align-items: flex-start;
+  }
+  .course {
+    font-size: rem(19);
+    line-height: rem(18);
+  }
+  .course::after {
+
+    margin: rem(10) 0 rem(15);
+  }
+
+  .number {
+    font-size: rem(20);
+  }
+  .btn-blue {
+    margin-bottom: 0;
+  }
+  .media {
+    align-items: flex-end;
+    justify-content:space-between;
+  }
+  .media::before {
+    width: 100%;
+  }
+  .signs{
+    padding:0;
+  }
+  .string {
+    width: 100%;
+  }
+}
