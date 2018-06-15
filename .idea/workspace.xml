@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="152c5b6a-6a0a-4fda-acda-13dc00f21cb0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-3-4/bubles.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-3-4/code.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-3-4/code@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-3-4/laptop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-3-4/laptop@2X.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-3-4/bubles.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-3-4/code.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-3-4/code@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-3-4/laptop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-3-4/laptop@2X.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/html/s-3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/html/s-4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/s-3.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/s-4.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/styles.css" afterPath="$PROJECT_DIR$/build/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/s-18.scss" afterPath="$PROJECT_DIR$/src/scss/s-18.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/styles.scss" afterPath="$PROJECT_DIR$/src/scss/styles.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/theme.scss" afterPath="$PROJECT_DIR$/src/scss/theme.scss" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/before-s19.png" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -110,7 +89,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -196,15 +175,15 @@
       <updated>1528964238260</updated>
       <workItem from="1528964248264" duration="3331000" />
       <workItem from="1529047983844" duration="237000" />
-      <workItem from="1529052038378" duration="150000" />
+      <workItem from="1529052038378" duration="493000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3718000" />
+    <option name="totallyTimeSpent" value="4061000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
