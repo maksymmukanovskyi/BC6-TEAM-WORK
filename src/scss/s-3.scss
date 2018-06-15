@@ -553,6 +553,7 @@
     .position-container {
         position: relative;
         top: rem(-97);
+        z-index: 1;
     }
 
     .empty-container-top {

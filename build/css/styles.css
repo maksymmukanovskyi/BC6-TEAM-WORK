@@ -2601,6 +2601,7 @@ img {
   .position-container {
     position: relative;
     top: -6.0625rem;
+    z-index: 1;
   }
 
   .empty-container-top {
