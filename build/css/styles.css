@@ -261,6 +261,124 @@ img {
   padding: 1.125rem 1.875rem;
 }
 
+.wrapper__s-fourteen {
+  background-color: #2b2b30;
+}
+
+.s-fourteen__container {
+  padding-top: 3.625rem;
+  padding-bottom: 3.8125rem;
+}
+
+.s-fourteen {
+  font-family: "Museo Sans Cyrl", sans-serif;
+  color: #fff;
+}
+
+.s-fourteen__sub-title {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.s-fourteen__sub-title::before {
+  content: '';
+  display: block;
+  margin: auto;
+  width: 8.125rem;
+  height: 0.125rem;
+  background-color: #fff;
+  margin-bottom: 1.0625rem;
+}
+
+.s-fourteen__par {
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+}
+
+.s-fourteen__par--UpcBold {
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.s-fourteen--bluerize {
+  color: #00bcd4;
+}
+
+.s-fourteen__months {
+  margin-top: 1.875rem;
+  margin-bottom: 1.125rem;
+  font-weight: 900;
+  text-align: center;
+  background-color: #3c3c3c;
+  padding: 1.125rem 1.5rem;
+  box-shadow: 0 0 0.1875rem 0.0625rem #0d0d0d;
+}
+
+.s-fourteen__col {
+  box-shadow: 0 0 0.1875rem 0.0625rem #0d0d0d;
+}
+
+.s-fourteen__colTitle {
+  background-color: #3c3c3c;
+  padding: 1.125rem 1.5rem;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.s-fourteen__colBody {
+  background-color: #313133;
+  padding: 2.5rem 0.75rem;
+  text-align: center;
+}
+
+.s-fourteen__colBody .s-fourteen--bluerize {
+  font-weight: 900;
+}
+
+.s-fourteen__colText {
+  margin: auto;
+  max-width: 15rem;
+}
+
+.s-fourteen__par--finPro {
+  margin: 1.875rem auto;
+}
+
+.s-fourteen__carier {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  padding-top: 8px;
+  letter-spacing: 0.125rem;
+  margin: auto;
+  width: 10.4375rem;
+  height: 2.3125rem;
+  border: 1px solid #fff;
+  margin-bottom: 2.375rem;
+}
+
+.s-fourteen__list-item {
+  background-color: #2b2b2b;
+  width: 16.875rem;
+  height: 4.0625rem;
+  margin-bottom: 0.6875rem;
+  padding: 0.75rem;
+  margin: auto;
+}
+
+.s-fourteen__list-item:nth-child(1),
+.s-fourteen__list-item:nth-child(4) {
+  padding-top: 1.6875rem;
+}
+
+.s-fourteen__list-item:last-child {
+  margin-bottom: 0;
+}
+
 @font-face {
   font-family: 'Museo Sans Cyrl';
   src: url("../fonts/Museo Sans Cyrl W03 300/Museo Sans Cyrl W03 300.woff") format("woff"), url("../fonts/Museo Sans Cyrl W03 300/Museo Sans Cyrl W03 300.woff2") format("woff2"), url("../fonts/Museo Sans Cyrl W03 300/Museo Sans Cyrl W03 300.ttf") format("truetype");
@@ -425,7 +543,7 @@ img {
 
   .s-thirteen__list-box::before {
     position: absolute;
-    height: 31.25rem;
+    height: 37.5rem;
     top: 1.5625rem;
     right: -6.25rem;
   }
@@ -525,6 +643,22 @@ img {
     left: 50%;
     -webkit-transform: translate(-50%) scale(0.527);
     transform: translate(-50%) scale(0.527);
+  }
+
+  .s-fourteen__title {
+    color: #fff;
+    text-align: center;
+    font-size: 1.5625rem;
+    font-weight: 900;
+    line-height: 1.875rem;
+    margin: auto;
+    max-width: 295px;
+    margin-bottom: 0.9375rem;
+  }
+
+  .s-fourteen__title:before {
+    width: 0.875rem;
+    height: 0.25rem;
   }
 }
 

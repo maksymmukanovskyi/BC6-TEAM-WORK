@@ -1,1 +1,157 @@
+.wrapper__s-fourteen {
+  background-color: #2b2b30;
+}
 
+.s-fourteen__container {
+  padding-top: rem(58);
+  padding-bottom: rem(61);
+}
+
+.s-fourteen {
+  font-family: $fontMuseoCyrl;
+  color: #fff;
+}
+
+.s-fourteen__sub-title {
+  font-size: rem(14);
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: rem(56);
+}
+
+.s-fourteen__sub-title::before {
+  content: '';
+  display: block;
+  margin: auto;
+  width: rem(130);
+  height: rem(2);
+  background-color: #fff;
+  margin-bottom: rem(17);
+}
+
+.s-fourteen__par {
+  font-size: rem(14);
+  line-height: rem(22);
+}
+
+.s-fourteen__par--UpcBold {
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.s-fourteen--bluerize {
+  color: $textBlue;
+}
+
+.s-fourteen__months {
+  margin-top: rem(30);
+  margin-bottom: rem(18);
+  font-weight: 900;
+  text-align: center;
+  background-color: #3c3c3c;
+  padding: rem(18) rem(24);
+  box-shadow: 0 0 rem(3) rem(1) #0d0d0d;
+}
+
+.s-fourteen__col {
+  box-shadow: 0 0 rem(3) rem(1) #0d0d0d;
+}
+
+.s-fourteen__colTitle {
+  background-color: #3c3c3c;
+  padding: rem(18) rem(24);
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.s-fourteen__colBody {
+  background-color: #313133;
+  padding: rem(40) rem(12);
+  text-align: center;
+}
+
+.s-fourteen__colBody .s-fourteen--bluerize {
+  font-weight: 900;
+}
+
+.s-fourteen__colText {
+  margin: auto;
+  max-width: rem(240);
+}
+
+.s-fourteen__par--finPro {
+  margin: rem(30) auto;
+}
+
+.s-fourteen__carier {
+  font-family: $fontOpenSans;
+  font-weight: 900;
+  font-size: rem(14);
+  text-transform: uppercase;
+  padding-top: 8px;
+  letter-spacing: rem(2);
+  margin: auto;
+  width: rem(167);
+  height: rem(37);
+  border: 1px solid #fff;
+  margin-bottom: rem(38);
+}
+
+.s-fourteen__list-item {
+  background-color: #2b2b2b;
+  width: rem(270);
+  height: rem(65);
+  margin-bottom: rem(11);
+  padding: rem(12);
+  margin: auto;
+}
+
+.s-fourteen__list-item:nth-child(1), .s-fourteen__list-item:nth-child(4) {
+  padding-top: rem(27);
+}
+
+.s-fourteen__list-item:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .s-fourteen__title {
+    color: #fff;
+    text-align: center;
+    font-size: $mobTitle;
+    font-weight: 900;
+    line-height: rem(30);
+    margin: auto;
+    max-width: 295px;
+    margin-bottom: rem(15);
+  }
+  .s-fourteen__title:before {
+    width: rem(14);
+    height: rem(4);
+  }
+}
+
+
+//.bg-wallet {
+//  width: 60px; height: 60px;
+//  background: url('css_sprites.png') -10px -91px;
+//}
+//
+//
+//.bg-credit_card {
+//  width: 74px; height: 61px;
+//  background: url('css_sprites.png') -10px -10px;
+//}
+//
+//
+//.bg-rich {
+//  width: 60px; height: 61px;
+//  background: url('css_sprites.png') -104px -10px;
+//}
+//
+//
+//.bg-stopwatch {
+//  width: 33px; height: 35px;
+//  background: url('css_sprites.png') -90px -91px;
+//}
