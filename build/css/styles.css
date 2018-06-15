@@ -262,7 +262,10 @@ img {
 }
 
 .wrapper__s-fourteen {
-  background-color: #2b2b30;
+  background-image: url(../img/s14/bg-black-noise.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .s-fourteen__container {
@@ -280,16 +283,6 @@ img {
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 3.5rem;
-}
-
-.s-fourteen__sub-title::before {
-  content: '';
-  display: block;
-  margin: auto;
-  width: 8.125rem;
-  height: 0.125rem;
-  background-color: #fff;
-  margin-bottom: 1.0625rem;
 }
 
 .s-fourteen__par {
@@ -321,6 +314,7 @@ img {
 }
 
 .s-fourteen__col {
+  background-color: #313133;
   box-shadow: 0 0 0.1875rem 0.0625rem #0d0d0d;
   margin-bottom: 1.25rem;
 }
@@ -334,18 +328,12 @@ img {
 }
 
 .s-fourteen__colBody {
-  background-color: #313133;
   padding: 2.5rem 0.75rem;
   text-align: center;
 }
 
 .s-fourteen__colBody .s-fourteen--bluerize {
   font-weight: 900;
-}
-
-.s-fourteen__colText {
-  margin: auto;
-  max-width: 15rem;
 }
 
 .s-fourteen__par--finPro {
@@ -357,7 +345,7 @@ img {
   font-weight: 900;
   font-size: 0.875rem;
   text-transform: uppercase;
-  padding-top: 9px;
+  padding-top: 0.4375rem;
   letter-spacing: 0.0625rem;
   margin: auto;
   width: 10.4375rem;
@@ -470,6 +458,11 @@ img {
   left: -18px;
 }
 
+.s-fourteen__title {
+  color: #fff;
+  text-align: center;
+}
+
 @font-face {
   font-family: 'Museo Sans Cyrl';
   src: url("../fonts/Museo Sans Cyrl W03 300/Museo Sans Cyrl W03 300.woff") format("woff"), url("../fonts/Museo Sans Cyrl W03 300/Museo Sans Cyrl W03 300.woff2") format("woff2"), url("../fonts/Museo Sans Cyrl W03 300/Museo Sans Cyrl W03 300.ttf") format("truetype");
@@ -557,6 +550,10 @@ img {
     box-shadow: 0 0 0.1875rem 0.01875rem #808080;
   }
 
+  .text--ilikegoit {
+    margin-bottom: 0;
+  }
+
   .s-thirteen__blueword {
     font-size: 1.875rem;
     margin-bottom: 0.75rem;
@@ -606,6 +603,61 @@ img {
   .sucsess__btn {
     font-size: 0.875rem;
     padding: 1.25rem 2.8125rem;
+  }
+
+  .s-fourteen__sub-title {
+    text-align: right;
+    max-width: 19.9375rem;
+    margin: 0 auto 4.6875rem;
+  }
+
+  .s-fourteen__sub-title::after {
+    content: '';
+    display: block;
+    margin: 0.3125rem auto;
+    width: 20rem;
+    height: 0.125rem;
+    background-color: #fff;
+  }
+
+  .s-fourteen__box {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .s-fourteen__col {
+    flex-basis: 49%;
+  }
+
+  .s-fourteen__par--finPro {
+    max-width: 15rem;
+  }
+
+  .s-fourteen__btn {
+    font-size: 0.875rem;
+    padding: 1rem 5rem;
+  }
+
+  .s-fourteen__par--pay {
+    max-width: none;
+  }
+
+  .payBox {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .payBox__item {
+    flex-basis: 33.3333333%;
+  }
+
+  .payBox--cc {
+    border-left: 2px solid #3c3c3c;
+    border-right: 2px solid #3c3c3c;
+  }
+
+  .payBox__stopwatch {
+    top: 0;
   }
 }
 
@@ -693,11 +745,110 @@ img {
     font-size: 0.875rem;
     margin-bottom: 0.3125rem;
   }
+
+  .s-fourteen__container {
+    padding-top: 18.75rem;
+  }
+
+  .s-fourteen__title {
+    width: 43.75rem;
+    margin: 0 auto 3.75rem;
+  }
+
+  .s-fourteen__sub-title {
+    font-size: 1.125rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .s-fourteen__sub-title::after {
+    height: 0.1875rem;
+  }
+
+  .s-fourteen__box {
+    position: relative;
+    z-index: 1;
+  }
+
+  .s-fourteen__box::before {
+    content: '';
+    display: inline-block;
+    width: 31.25rem;
+    height: 31.25rem;
+    background-image: url(../img/s14/bg-left-pic.png);
+    background-size: 85%;
+    position: absolute;
+    top: 0.9375rem;
+    left: -21.875rem;
+    z-index: -1;
+  }
+
+  .s-fourteen__box::after {
+    content: '';
+    display: inline-block;
+    width: 31.25rem;
+    height: 31.25rem;
+    background-image: url(../img/s14/bg-right-pic.png);
+    background-size: 85%;
+    position: absolute;
+    top: 23.75rem;
+    right: -23.125rem;
+    z-index: -1;
+  }
+
+  .s-fourteen__par {
+    font-size: 1.125rem;
+    line-height: 30px;
+  }
+
+  .s-fourteen__list-item {
+    font-size: 1.125rem;
+    position: relative;
+    padding: 1.5625rem 3.75rem;
+  }
+
+  .s-fourteen__list-item::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    width: 3.75rem;
+    height: 0.125rem;
+    background-color: #00bcd4;
+  }
+
+  .s-fourteen__par--finPro {
+    max-width: 20.625rem;
+  }
+
+  .s-fourteen__btn {
+    font-size: 1rem;
+    padding: 1.125rem 4.0625rem;
+  }
+
+  .s-fourteen__par--pay {
+    font-size: 1.125rem;
+  }
+
+  .payBox__wallet,
+  .payBox__credit-card,
+  .payBox__rich {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 1.875rem;
+  }
+
+  .payBox__note {
+    font-size: 1.625rem;
+    display: inline-block;
+    -webkit-transform: translate(0 -60%);
+    transform: translate(0 -60%);
+  }
 }
 
 @media (max-width: 767px) {
   .wrapper__s-thirteen {
-    background-image: url(../img/s13/whitenoise-1440x2000.png);
+    background-image: url(../img/s13/whitenoise.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -737,19 +888,25 @@ img {
   }
 
   .s-fourteen__title {
-    color: #fff;
-    text-align: center;
     font-size: 1.5625rem;
     font-weight: 900;
     line-height: 1.875rem;
-    margin: auto;
-    max-width: 295px;
     margin-bottom: 0.9375rem;
   }
 
   .s-fourteen__title:before {
     width: 0.875rem;
     height: 0.25rem;
+  }
+
+  .s-fourteen__sub-title::before {
+    content: '';
+    display: block;
+    margin: auto;
+    width: 8.125rem;
+    height: 0.125rem;
+    background-color: #fff;
+    margin-bottom: 1.0625rem;
   }
 
   .payBox--cc {
@@ -761,13 +918,22 @@ img {
 @media (min-width: 768px) and (max-width: 1199px) {
   .s-thirteen__title {
     font-size: 1.875rem;
-    margin-bottom: 4.75rem;
-    max-width: 41.875rem;
-    margin: 0 auto 3.125rem;
+    margin-bottom: 3.125rem;
     text-align: center;
   }
 
   .s-thirteen__title:before {
+    width: 1.1875rem;
+    height: 0.3125rem;
+  }
+
+  .s-fourteen__title {
+    font-size: 1.875rem;
+    max-width: 75%;
+    margin: 0 auto 3.125rem;
+  }
+
+  .s-fourteen__title:before {
     width: 1.1875rem;
     height: 0.3125rem;
   }
