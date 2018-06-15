@@ -661,7 +661,7 @@ img {
 }
 
 .wrapper-s11 {
-  background: #fff url("../img/s-11/noisy-bg-100x100.png") repeat;
+  background: #fff url("../img/s-11/noisy-bg.png") repeat;
   padding: 11.125rem 0 4rem;
   position: static;
 }
@@ -2281,10 +2281,6 @@ img {
 }
 
 @media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 768px) and (min-resolution: 192dpi) {
-  .wrapper-s11 {
-    background-image: linear-gradient(90deg, #fff 22%, transparent 22%), url("../img/s-11/noisy-bg.png");
-  }
-
   .s12__video-list:before {
     background: #fff url("../img/s-12/s12-bg-videos-tabl@2x.png") no-repeat;
     background-size: 19.75rem 57.25rem;
@@ -3265,6 +3261,10 @@ img {
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .wrapper-s11 {
+    background-image: linear-gradient(90deg, #fff 22%, transparent 22%), url("../img/s-11/noisy-bg@2x.png");
+  }
+
   .s12__quote {
     background-image: url("../img/s-12/s12-quote@2x.png");
     background-size: 3.8125rem 3.1875rem;
