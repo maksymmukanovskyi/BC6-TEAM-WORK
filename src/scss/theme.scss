@@ -25,7 +25,7 @@
 .text {
   font-family: $fontText;
   font-size: rem(18);
-  font-weight: 700;
+  font-weight: 600;
   line-height: rem(26);
   color: $textBlack;
 }
@@ -40,15 +40,16 @@
   text-transform: uppercase;
   letter-spacing: rem(1);
 
-  &__top{
+  &__top {
     font-size: rem(18);
     line-height: rem(30);
     text-align: right;
     padding-right: rem(9);
-
+    display: block;
+    width: 100%;
   }
 
-  &__bot{
+  &__bot {
     font-size: rem(18);
     line-height: rem(30);
     text-align: right;
@@ -68,7 +69,8 @@
   text-transform: uppercase;
   padding: rem(7) rem(9);
 
-  &--lmar{
+
+  &--lmar {
     margin-left: rem(9);
   }
 }
@@ -99,11 +101,11 @@
   font-weight: 700;
 }
 
-.circle:before {
+.circle::before {
   content: '';
   display: inline-block;
-  width: rem(24);
-  height: rem(24);
+  width: rem(16);
+  height: rem(16);
   border-radius: 50%;
   background-color: $bgBlue;
 }
@@ -118,5 +120,5 @@
 
 .circle--bordered:before {
   border: rem(3) solid $textWhite;
-  box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.18);
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.18);
 }

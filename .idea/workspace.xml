@@ -2,12 +2,151 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dcbea6d-4832-4620-b0d7-11493a13acff" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/img/jorax.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/img/jorax.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/ED.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/UA.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/UN.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/before-s19.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/fon-ed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/fon-guarantee.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/fon-study.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/fon-ua.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/fon-un.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/jorax.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/man.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/pic-after.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/pic-before-b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/pic-before-w.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/pp1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/pp2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/pp3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/pp4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/pp5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/pp6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-15/pics/abstract-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-15/pics/abstract-bg@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-15/pics/bordera.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-15/pics/triangle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-15/pics/triangle@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-16/pics/bgpic-@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-16/pics/bgpic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-16/pics/borderb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-16/pics/noise.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-16/pics/noise@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-16/pics/screen-@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-16/pics/screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-16/pics/small-@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-16/pics/small.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-16/pics/tablet-pic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-16/pics/tablet-pic@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-17/cross.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-17/faq720.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-17/faq720@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-17/faqdesktop.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-17/faqdesktop@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-18/xmark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-18/xmark@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-18/yes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-18/yes@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-3-4/bubles.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-3-4/code.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-3-4/code@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-3-4/laptop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/s-3-4/laptop@2X.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/BC6-TEAM-WORK.lnk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/ED.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/UA.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/UN.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/fon-ed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/fon-guarantee.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/fon-study.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/fon-ua.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/fon-un.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/jorax.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/man.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/pic-after.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/pic-before-b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/pic-before-w.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/pp1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/pp2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/pp3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/pp4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/pp5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/pp6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-15/pics/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-15/pics/abstract-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-15/pics/abstract-bg@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-15/pics/bordera.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-15/pics/triangle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-15/pics/triangle@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-16/pics/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-16/pics/bgpic-@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-16/pics/bgpic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-16/pics/borderb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-16/pics/noise.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-16/pics/noise@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-16/pics/screen-@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-16/pics/screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-16/pics/small-@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-16/pics/small.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-16/pics/tablet-pic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-16/pics/tablet-pic@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-17/cross.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-17/faq720.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-17/faq720@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-17/faqdesktop.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-17/faqdesktop@2x.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-18/xmark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-18/xmark@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-18/yes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-18/yes@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-3-4/bubles.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-3-4/code.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-3-4/code@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-3-4/laptop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/s-3-4/laptop@2X.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/fonts.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/s-15.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/s-16.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/s-17.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/s-18.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/s-3.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/s-4.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/s10.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/s9.scss" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/BC6-TEAM-WORK.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/html/s-1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/html/s-11.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/html/s-12.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/html/s-13.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/html/s-14.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/html/s-2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/html/s-20.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/html/s-21.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/html/s-5.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/html/s-6.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/html/s-7.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/html/s-8.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/styles.css" afterPath="$PROJECT_DIR$/build/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/styles.min.css" afterPath="$PROJECT_DIR$/build/css/styles.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/bear.scss" afterPath="$PROJECT_DIR$/src/scss/bear.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/s-10.html" afterPath="$PROJECT_DIR$/src/html/s-10.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/s-15.html" afterPath="$PROJECT_DIR$/src/html/s-15.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/s-16.html" afterPath="$PROJECT_DIR$/src/html/s-16.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/s-17.html" afterPath="$PROJECT_DIR$/src/html/s-17.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/s-18.html" afterPath="$PROJECT_DIR$/src/html/s-18.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/s-19.html" afterPath="$PROJECT_DIR$/src/html/s-19.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/s-3.html" afterPath="$PROJECT_DIR$/src/html/s-3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/s-4.html" afterPath="$PROJECT_DIR$/src/html/s-4.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/s-9.html" afterPath="$PROJECT_DIR$/src/html/s-9.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/styles.scss" afterPath="$PROJECT_DIR$/src/scss/styles.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/theme.scss" afterPath="$PROJECT_DIR$/src/scss/theme.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -74,7 +213,7 @@
       <file leaf-file-name="s-19.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/html/s-19.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="214">
               <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
               <folding />
             </state>
@@ -174,6 +313,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,8 +343,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -268,14 +407,16 @@
       <workItem from="1529006619610" duration="2375000" />
       <workItem from="1529012006974" duration="14368000" />
       <workItem from="1529046778924" duration="3346000" />
+      <workItem from="1529054193710" duration="35000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104492000" />
+    <option name="totallyTimeSpent" value="104527000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18667372" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -285,7 +426,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11877828" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11877828" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -357,13 +498,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/s-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/s-1.html" />
     <entry file="file://$PROJECT_DIR$/src/html/test.html" />
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -439,13 +574,7 @@
     <entry file="file://$PROJECT_DIR$/src/html/footer.html" />
     <entry file="file://$PROJECT_DIR$/src/html/header.html" />
     <entry file="file://$PROJECT_DIR$/src/html/test.html" />
-    <entry file="file://$PROJECT_DIR$/src/html/s-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/s-2.html" />
     <entry file="file://$PROJECT_DIR$/src/html/s-3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -460,34 +589,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/s-5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/s-6.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/s-7.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/s-8.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/s-5.html" />
+    <entry file="file://$PROJECT_DIR$/src/html/s-6.html" />
+    <entry file="file://$PROJECT_DIR$/src/html/s-7.html" />
+    <entry file="file://$PROJECT_DIR$/src/html/s-8.html" />
     <entry file="file://$PROJECT_DIR$/src/html/s-9.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -495,13 +600,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/s-12.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/s-12.html" />
     <entry file="file://$PROJECT_DIR$/src/html/s-10.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -509,27 +608,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/s-11.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/s-13.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/s-14.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/s-11.html" />
+    <entry file="file://$PROJECT_DIR$/src/html/s-13.html" />
+    <entry file="file://$PROJECT_DIR$/src/html/s-14.html" />
     <entry file="file://$PROJECT_DIR$/src/html/s-15.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -551,20 +632,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/s-20.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/s-21.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/s-20.html" />
+    <entry file="file://$PROJECT_DIR$/src/html/s-21.html" />
     <entry file="file://$PROJECT_DIR$/src/html/s-17.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -594,13 +663,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/html/s-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/html/s-1.html" />
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -627,7 +690,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/html/s-19.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="214">
           <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
           <folding />
         </state>
