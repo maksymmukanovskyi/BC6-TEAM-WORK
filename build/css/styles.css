@@ -316,8 +316,13 @@ img {
   box-shadow: 0 0 0.1875rem 0.0625rem #0d0d0d;
 }
 
+.s-fourteen__box {
+  margin-bottom: 2.5rem;
+}
+
 .s-fourteen__col {
   box-shadow: 0 0 0.1875rem 0.0625rem #0d0d0d;
+  margin-bottom: 1.25rem;
 }
 
 .s-fourteen__colTitle {
@@ -352,31 +357,117 @@ img {
   font-weight: 900;
   font-size: 0.875rem;
   text-transform: uppercase;
-  padding-top: 8px;
-  letter-spacing: 0.125rem;
+  padding-top: 9px;
+  letter-spacing: 0.0625rem;
   margin: auto;
   width: 10.4375rem;
   height: 2.3125rem;
   border: 1px solid #fff;
   margin-bottom: 2.375rem;
+  position: relative;
+}
+
+.s-fourteen__carierPar::before {
+  content: '';
+  display: block;
+  width: 2.9375rem;
+  height: 0.625rem;
+  position: absolute;
+  top: -5px;
+  left: 1.1875rem;
+  background-color: #313133;
+}
+
+.s-fourteen__carierPar::after {
+  content: '';
+  display: block;
+  width: 4.5625rem;
+  height: 0.625rem;
+  background-color: #313133;
+  position: absolute;
+  bottom: -5px;
+  right: 0.9375rem;
+}
+
+.s-fourteen__list {
+  margin-bottom: 2.1875rem;
 }
 
 .s-fourteen__list-item {
+  font-family: "Ubuntu Mono", sans-serif;
+  font-size: 0.875rem;
   background-color: #2b2b2b;
-  width: 16.875rem;
-  height: 4.0625rem;
-  margin-bottom: 0.6875rem;
-  padding: 0.75rem;
-  margin: auto;
-}
-
-.s-fourteen__list-item:nth-child(1),
-.s-fourteen__list-item:nth-child(4) {
-  padding-top: 1.6875rem;
+  text-align: left;
+  margin: 0 auto 0.6875rem;
+  padding: 1.25rem 0.75rem;
+  line-height: 1.125rem;
 }
 
 .s-fourteen__list-item:last-child {
   margin-bottom: 0;
+}
+
+.s-fourteen__price {
+  font-weight: 900;
+  font-size: 2.25rem;
+  color: #ffc600;
+  margin-bottom: 1.25rem;
+}
+
+.s-fourteen__price--green {
+  color: #5cc497;
+}
+
+.s-fourteen__btn {
+  padding: 0.875rem 3.25rem;
+}
+
+.s-fourteen__par--pay {
+  max-width: 10.9375rem;
+  margin: auto;
+  text-align: center;
+  line-height: 1rem;
+  margin-bottom: 1.5625rem;
+}
+
+.payBox {
+  box-shadow: 0 0 0.1875rem 0.0625rem #0d0d0d;
+}
+
+.payBox__item {
+  background-color: #2a292c;
+  text-align: center;
+  padding: 1.5625rem 0;
+}
+
+.payBox__wallet {
+  margin: 0 auto 1.25rem;
+  width: 60px;
+  height: 60px;
+  background: url("../img/s14/s-14-sprite.png") -10px -91px;
+}
+
+.payBox__credit-card {
+  margin: 0 auto 1.25rem;
+  width: 74px;
+  height: 61px;
+  background: url("../img/s14/s-14-sprite.png") -10px -10px;
+}
+
+.payBox__rich {
+  margin: 0 auto 1.25rem;
+  width: 60px;
+  height: 61px;
+  background: url("../img/s14/s-14-sprite.png") -104px -10px;
+}
+
+.payBox__stopwatch {
+  width: 33px;
+  height: 35px;
+  background: url("../img/s14/s-14-sprite.png") -90px -91px;
+  position: relative;
+  top: 12px;
+  left: -18px;
 }
 
 @font-face {
@@ -659,6 +750,11 @@ img {
   .s-fourteen__title:before {
     width: 0.875rem;
     height: 0.25rem;
+  }
+
+  .payBox--cc {
+    border-top: 2px solid #3c3c3c;
+    border-bottom: 2px solid #3c3c3c;
   }
 }
 
