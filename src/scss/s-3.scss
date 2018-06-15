@@ -1,4 +1,4 @@
-.full-developer {
+    .full-developer {
     padding-top: rem(80);
 }
 
@@ -64,7 +64,7 @@
     font-weight: 600;
 }
 
-.paragraph {
+.paragraph--mb {
     margin-bottom: rem(30);
 }
 
@@ -302,7 +302,7 @@
         left: 0;
     }
 
-    .paragraph {
+    .paragraph--mb {
         margin-bottom: rem(48);
     }
 
@@ -377,7 +377,7 @@
 
     .wrapper-s3 {
         z-index: 0;
-        background-image: linear-gradient(-15deg,  rgba(231, 231, 231, 0.9) 31% , rgba(220, 220, 220, 0.9) 31%);
+        background-image: linear-gradient(-15deg,  rgba(231, 231, 231, 0.9) 28% , rgba(220, 220, 220, 0.9) 28%);
         padding-bottom: 0;
     }
 
@@ -387,6 +387,7 @@
         position: relative;
         left: -95px;
         padding-top: rem(110);
+        background-color: rgb(235, 235, 235);
 
         &__dev-tasks {
             top: rem(-135);
@@ -406,6 +407,7 @@
         left:70px;
         top: -230px;
         z-index: 80;
+        background-color: rgb(235, 235, 235);
 
         &__blue {
             display: none;
@@ -548,5 +550,29 @@
         letter-spacing: rem(1);
     }
 
+    .position-container {
+        position: relative;
+        top: rem(-97);
+    }
+
+    .empty-container-top {
+        width: rem(320);
+        height: rem(820);
+        background-color: $bgBlue;
+        position: absolute;
+        top: rem(-25);
+        left: rem(-145);
+    }
+
+    .empty-container-bot {
+        width: rem(1070);
+        height: rem(290);
+        background-color: $bgBlue;
+        position: absolute;
+        bottom: 191px;
+        right: -100px;
+        background-image: linear-gradient(-15deg, 
+        $bgBlue 47% , #e0e0e0 47%);
+    }
 }
 
