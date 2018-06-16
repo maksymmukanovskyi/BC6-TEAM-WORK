@@ -3003,6 +3003,7 @@ img {
 
   .text--ilikegoit {
     font-size: 0.875rem;
+    margin-bottom: 1.25rem;
   }
 
   .s-thirteen__link {
@@ -4355,7 +4356,7 @@ img {
     clip-path: polygon(0 40%, 100% 0, 100% 100%, 0 100%);
     position: absolute;
     top: 38.125rem;
-    left: -25rem;
+    left: -21.75rem;
   }
 
   .text--ilikegoit {
