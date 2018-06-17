@@ -320,9 +320,8 @@
 // -------- DESKTOP VERSION 1200px --------
 @media (min-width: 1200px) {
   .wrapper-s11 {
-    background-image: url('../img/s-11/s11-bg-left.png'),
-      url('../img/s-11/s11-bg-left.png'),linear-gradient(90deg, #fff 30%, transparent 30%), url('../img/s-11/noisy-bg.png');
-    background-repeat: no-repeat, no-repeat, repeat, repeat;
+    background-image: url('../img/s-11/s11-bg-left.png'),linear-gradient(90deg, #fff 35%, transparent 35%), url('../img/s-11/noisy-bg.png');
+    background-repeat: no-repeat, repeat, repeat;
   }
 
   .container--s11 {
@@ -350,6 +349,10 @@
     padding-top: rem(4);
   }
 
+  .s11__text {
+    left: -3rem;
+  }
+
   .s11__section-content {
     max-width: rem(942);
     position: relative;
@@ -358,7 +361,22 @@
 
     &:before {
       content: '';
+      background-image: url('../img/s-11/s11-right-box-bg.png');
+      background-color: #8e8979;
+      background-blend-mode: screen;
+      width: rem(412);
+      height: rem(900);
+      position: absolute;
+      top: rem(80);
+      left: rem(1188);
+      box-shadow: 0 20px 35px 0 rgba(120, 120, 120, .15)
+    }
+
+    &:after {
+      content: '';
       background-image: url('../img/s-11/s11-bg-right.png');
+      -webkit-background-size: contain;
+      background-size: contain;
       width: rem(581);
       height: rem(1144);
       position: absolute;
@@ -420,8 +438,8 @@
     margin-left: rem(28);
   }
 
-  .s11__card__1 {
-    margin-bottom: rem(120);
+  .s11__card--2 {
+    z-index: 1;
   }
 
   .s11__card-shadow-box {
@@ -445,13 +463,20 @@
   //TODO: fix background images @ 2x
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .wrapper-s11 {
-      background-image: url('../img/s-11/s11-bg-left@2x.png'),
-      url('../img/s-11/s11-bg-left.png'),linear-gradient(90deg, #fff 30%, transparent 30%), url('../img/s-11/noisy-bg@2x.png');
-      background-size: rem(240) rem(780), cover, rem(100) rem(100);
+      background-image: url('../img/s-11/s11-bg-left@2x.png'), linear-gradient(90deg, #fff 35%, transparent 35%), url('../img/s-11/noisy-bg@2x.png');
+      background-repeat: no-repeat, repeat, repeat;
+      -webkit-background-size: contain, 35%, 35%, rem(100) rem(100);
+      background-size: contain, 35%, 35%, rem(100) rem(100);
     }
 
-    .s11__section-content:before {
-      background-image: url('../img/s-11/s11-bg-right.png');
+    .s11__section-content {
+      &:before {
+        background-image: url('../img/s-11/s11-right-box-bg@2x.png');
+      }
+
+      &:after {
+        background-image: url('../img/s-11/s11-bg-right@2x.png');
+      }
     }
   }
 }

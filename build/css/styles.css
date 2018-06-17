@@ -4106,8 +4106,8 @@ img {
   }
 
   .wrapper-s11 {
-    background-image: url("../img/s-11/s11-bg-left.png"), url("../img/s-11/s11-bg-left.png"), linear-gradient(90deg, #fff 30%, transparent 30%), url("../img/s-11/noisy-bg.png");
-    background-repeat: no-repeat, no-repeat, repeat, repeat;
+    background-image: url("../img/s-11/s11-bg-left.png"), linear-gradient(90deg, #fff 35%, transparent 35%), url("../img/s-11/noisy-bg.png");
+    background-repeat: no-repeat, repeat, repeat;
   }
 
   .container--s11 {
@@ -4133,6 +4133,10 @@ img {
     padding-top: 0.25rem;
   }
 
+  .s11__text {
+    left: -3rem;
+  }
+
   .s11__section-content {
     max-width: 58.875rem;
     position: relative;
@@ -4142,7 +4146,21 @@ img {
 
   .s11__section-content:before {
     content: '';
+    background-image: url("../img/s-11/s11-right-box-bg.png");
+    background-color: #8e8979;
+    background-blend-mode: screen;
+    width: 25.75rem;
+    height: 56.25rem;
+    position: absolute;
+    top: 5rem;
+    left: 74.25rem;
+    box-shadow: 0 20px 35px 0 rgba(120, 120, 120, 0.15);
+  }
+
+  .s11__section-content:after {
+    content: '';
     background-image: url("../img/s-11/s11-bg-right.png");
+    background-size: contain;
     width: 36.3125rem;
     height: 71.5rem;
     position: absolute;
@@ -4203,8 +4221,8 @@ img {
     margin-left: 1.75rem;
   }
 
-  .s11__card__1 {
-    margin-bottom: 7.5rem;
+  .s11__card--2 {
+    z-index: 1;
   }
 
   .s11__card-shadow-box {
@@ -4224,7 +4242,7 @@ img {
   }
 
   .wrapper-s12 {
-    padding: 1.625rem 0 0 0;
+    padding: 4.625rem 0 0 0;
   }
 
   .container--s12 {
@@ -4240,7 +4258,7 @@ img {
     display: block;
     position: absolute;
     top: 6.25rem;
-    left: -16rem;
+    left: -22.5rem;
     width: 15.8125rem;
     height: 28.5625rem;
     overflow: visible;
@@ -4828,12 +4846,17 @@ img {
 
 @media (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1200px) and (min-resolution: 192dpi) {
   .wrapper-s11 {
-    background-image: url("../img/s-11/s11-bg-left@2x.png"), url("../img/s-11/s11-bg-left.png"), linear-gradient(90deg, #fff 30%, transparent 30%), url("../img/s-11/noisy-bg@2x.png");
-    background-size: 15rem 48.75rem, cover, 6.25rem 6.25rem;
+    background-image: url("../img/s-11/s11-bg-left@2x.png"), linear-gradient(90deg, #fff 35%, transparent 35%), url("../img/s-11/noisy-bg@2x.png");
+    background-repeat: no-repeat, repeat, repeat;
+    background-size: contain, 35%, 35%, 6.25rem 6.25rem;
   }
 
   .s11__section-content:before {
-    background-image: url("../img/s-11/s11-bg-right.png");
+    background-image: url("../img/s-11/s11-right-box-bg@2x.png");
+  }
+
+  .s11__section-content:after {
+    background-image: url("../img/s-11/s11-bg-right@2x.png");
   }
 
   .container--s12:before {

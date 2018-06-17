@@ -246,8 +246,7 @@
 // -------- DESKTOP VERSION 1200px --------
 @media (min-width: 1200px) {
   .wrapper-s12 {
-    // padding: rem(230) 0 0;
-    padding: rem(26) 0 0 0;
+    padding: rem(74) 0 0 0;
   }
 
   .container--s12 {
@@ -263,7 +262,7 @@
       display: block;
       position: absolute;
       top: rem(100);
-      left: rem(-256);
+      left: rem(-360);
       width: rem(253);
       height: rem(457);
       overflow: visible;
