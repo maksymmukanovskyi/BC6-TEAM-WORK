@@ -1245,7 +1245,7 @@ img {
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 0.03125rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 
 .s12__about-course-list {
@@ -1257,7 +1257,7 @@ img {
 .s12__about-course-list-item {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  font-size: 0.875rem;
+  font-size: 0.90625rem;
   line-height: 1.429;
   color: #242427;
   padding: 0 0.4375rem 0;
@@ -1596,6 +1596,81 @@ img {
 .btn--faq {
   font-size: 0.875rem;
   padding: 1.25rem 2.5rem;
+}
+
+.wrapper-sec19 {
+  display: flex;
+  padding-bottom: 21.875rem;
+  min-height: 68.75rem;
+}
+
+.container__section19 {
+  display: block;
+  content: inherit;
+}
+
+.container {
+  max-width: 75rem;
+}
+
+.who {
+  line-height: 2.1875rem;
+  font-size: 1.375rem;
+  text-align: center;
+}
+
+.beard {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 2.5rem;
+}
+
+.text-beard {
+  display: block;
+  float: left;
+  margin-top: 4.0625rem;
+  margin-right: 3.125rem;
+  max-width: 21.875rem;
+  font-family: "Museo Sans Cyrl", sans-serif;
+}
+
+.content {
+  display: block;
+  width: 20rem;
+  margin-top: 1.5625rem;
+  margin-bottom: 1.5625rem;
+  padding-right: 9.375rem;
+  padding-top: 1.5625rem;
+  border-top: 2px solid #000;
+  text-align: left;
+}
+
+.granny {
+  margin-top: 0.9375rem;
+}
+
+.container__image {
+  display: block;
+  padding-left: 0rem;
+  max-width: 20rem;
+  max-height: 25rem;
+}
+
+.cube {
+  display: flex;
+  margin-top: 1.25rem;
+  margin-bottom: 0.625rem;
+  width: 17.5rem;
+  padding: 1.25rem 1.25rem 1.25rem 1.875rem;
+  height: 6.875rem;
+  background-image: url("../img/ramka.jpg");
+}
+
+@media (min-width: 75rem) {
+  .wrapper-sec19 {
+    margin-top: 0.3125rem;
+    background: url("../img/left.png") no-repeat;
+  }
 }
 
 @media (min-width: 768px) {
@@ -2353,7 +2428,6 @@ img {
     background-color: #fff;
     background-image: linear-gradient(90deg, #fff 22%, transparent 22%), url("../img/s-11/noisy-bg.png");
     padding: 0;
-    position: relative;
   }
 
   .container--s11 {
@@ -2392,7 +2466,7 @@ img {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
-    max-width: 45.25rem;
+    max-width: 44.25rem;
     margin: auto;
   }
 
@@ -2406,6 +2480,7 @@ img {
 
   .s11__card {
     order: -1;
+    min-width: 20.75rem;
     max-width: 20.75rem;
     margin: 0 0 0 0.5625rem;
   }
@@ -2918,6 +2993,29 @@ img {
   .btn--faq {
     display: block;
     margin: auto;
+  }
+
+  .container__image {
+    display: flex;
+    box-shadow: 8px 30px #00bcd4, -12px -360px #ffffff, -12px -5px #eeeeee, -25px 5px #ffffff, -70px 48px 70px #eeeeee;
+  }
+
+  .beard {
+    display: block;
+    flex-direction: row;
+  }
+
+  .cube {
+    margin-left: 5rem;
+  }
+
+  .content {
+    display: block;
+    width: 25rem;
+    margin-top: 1.5625rem;
+    padding-top: 1.5625rem;
+    border-top: 2px solid #000;
+    text-align: left;
   }
 }
 
@@ -3527,21 +3625,13 @@ img {
   }
 
   .wrapper-s11 {
-    background-color: #fff;
-    background-image: url("../img/s-11/s11-bg1200.png");
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-attachment: local;
-    background-size: cover;
-    max-width: 120rem;
-    padding-top: 8.125rem;
+    background-image: url("../img/s-11/s11-bg-left.png"), url("../img/s-11/s11-bg-left.png"), linear-gradient(90deg, #fff 30%, transparent 30%), url("../img/s-11/noisy-bg.png");
+    background-repeat: no-repeat, no-repeat, repeat, repeat;
   }
 
   .container--s11 {
-    max-width: 90rem;
     padding: 0;
-    margin: auto;
-    top: 7.625rem;
+    top: 15.75rem;
   }
 
   .s11__section-title {
@@ -3551,12 +3641,32 @@ img {
 
   .s11__section-sub-title {
     font-size: 1.1875rem;
-    margin-bottom: 5.75rem;
+  }
+
+  .s11__section-sub-title-top {
+    border-bottom: solid 3px black;
+    padding-bottom: 0.25rem;
+  }
+
+  .s11__section-sub-title-bot {
+    padding-top: 0.25rem;
   }
 
   .s11__section-content {
-    max-width: 58.625rem;
+    max-width: 58.875rem;
+    position: relative;
+    top: 2.5rem;
     margin: 0 auto 0 0;
+  }
+
+  .s11__section-content:before {
+    content: '';
+    background-image: url("../img/s-11/s11-bg-right.png");
+    width: 36.3125rem;
+    height: 71.5rem;
+    position: absolute;
+    top: -8rem;
+    left: 51.25rem;
   }
 
   .s11__text {
@@ -3566,8 +3676,7 @@ img {
   }
 
   .s11__card {
-    min-width: 27.125rem;
-    max-width: 27.125rem;
+    max-width: 26.875rem;
   }
 
   .s11__card-technology {
@@ -3613,6 +3722,10 @@ img {
     margin-left: 1.75rem;
   }
 
+  .s11__card__1 {
+    margin-bottom: 7.5rem;
+  }
+
   .s11__card-shadow-box {
     box-shadow: 0 35px 75px 0 rgba(0, 0, 0, 0.35), -1.75rem 1.25rem #00bcd4;
   }
@@ -3625,18 +3738,20 @@ img {
     font-size: 1rem;
     padding: 1.875rem 2rem;
     top: -15.9375rem;
-    left: 34.0625rem;
+    left: 35rem;
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
   }
 
   .wrapper-s12 {
-    padding: 6.25rem 0 0;
+    padding: 1.625rem 0 0 0;
   }
 
   .container--s12 {
-    max-width: 90rem;
     padding: 0 0 0 0.125rem;
     margin: auto;
     position: relative;
+    top: 12.75rem;
+    z-index: 2;
   }
 
   .container--s12:before {
@@ -3679,7 +3794,7 @@ img {
 
   .s12-description {
     max-width: 29.375rem;
-    margin-right: 5.875rem;
+    margin-right: 4rem;
   }
 
   .s12__about-course-list {
@@ -4028,11 +4143,33 @@ img {
     height: 0.125rem;
     background-color: #00bcd4;
   }
+
+  .container__image {
+    box-shadow: 30px 60px #00bcd4, 30px 90px 20px #eeeeee, -60px 35px #eeeeee, -60px 35px #eeeeee, 15px 35px #eeeeee, -65px 40px #ffffff, -70px 48px 40px #eeeeee;
+  }
+
+  .cube {
+    margin-left: 5rem;
+  }
+
+  .content {
+    display: block;
+    width: 25rem;
+    margin-top: 1.5625rem;
+    padding-top: 1.5625rem;
+    border-top: 2px solid #000;
+    text-align: left;
+  }
 }
 
 @media (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1200px) and (min-resolution: 192dpi) {
   .wrapper-s11 {
-    background-image: url("../img/s-11/s11-bg1200@2x.png");
+    background-image: url("../img/s-11/s11-bg-left@2x.png"), url("../img/s-11/s11-bg-left.png"), linear-gradient(90deg, #fff 30%, transparent 30%), url("../img/s-11/noisy-bg@2x.png");
+    background-size: 15rem 48.75rem, cover, 6.25rem 6.25rem;
+  }
+
+  .s11__section-content:before {
+    background-image: url("../img/s-11/s11-bg-right.png");
   }
 
   .container--s12:before {
