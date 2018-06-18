@@ -560,6 +560,10 @@ img {
     line-height: 1.375rem;
   }
 
+  .s-thirteen__pic {
+    flex-basis: 17.2%;
+  }
+
   .s-thirteen__text {
     display: flex;
     height: inherit;
@@ -574,6 +578,7 @@ img {
 
   .text--ilikegoit {
     font-size: 0.875rem;
+    margin-bottom: 1.25rem;
   }
 
   .s-thirteen__link {
@@ -713,7 +718,7 @@ img {
     -webkit-clip-path: polygon(0 40%, 100% 0, 100% 100%, 0 100%);
     clip-path: polygon(0 40%, 100% 0, 100% 100%, 0 100%);
     position: absolute;
-    top: 38.125rem;
+    top: 31.25rem;
     left: -25rem;
   }
 
@@ -843,6 +848,20 @@ img {
     display: inline-block;
     -webkit-transform: translate(0 -60%);
     transform: translate(0 -60%);
+  }
+}
+
+@media (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1200px) and (min-resolution: 192dpi) {
+  .s-thirteen__list::before {
+    background: url(../img/s13/hud@2x.png) no-repeat;
+  }
+
+  .s-fourteen__box::before {
+    background: url(../img/s14/bg-left-pic@2x.png) no-repeat;
+  }
+
+  .s-fourteen__box::after {
+    background: url(../img/s14/bg-right-pic@2x.png) no-repeat;
   }
 }
 

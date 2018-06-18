@@ -314,6 +314,11 @@
     left: rem(-350);
     z-index: -1;
   }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .s-fourteen__box::before {
+      background: url(../img/s14/bg-left-pic@2x.png) no-repeat;
+    }
+  }
   .s-fourteen__box::after {
     content: '';
     display: inline-block;
@@ -325,6 +330,11 @@
     top: rem(380);
     right: rem(-370);
     z-index: -1;
+  }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .s-fourteen__box::after {
+      background: url(../img/s14/bg-right-pic@2x.png) no-repeat;
+    }
   }
   .s-fourteen__par {
     font-size: $dtPar;

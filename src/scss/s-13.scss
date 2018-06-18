@@ -192,6 +192,9 @@
     margin-bottom: rem(12);
     line-height: rem(22);
   }
+  .s-thirteen__pic {
+    flex-basis: 17.2%;
+  }
   .s-thirteen__text {
     display: flex;
     height: inherit;
@@ -205,6 +208,7 @@
   }
   .text--ilikegoit {
     font-size: $tabPar;
+    margin-bottom: rem(20);
   }
   .s-thirteen__link {
     font-size: $tabPar;
@@ -268,6 +272,11 @@
     top: 0.875rem;
     left: -12.75rem;
   }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .s-thirteen__list::before {
+      background: url(../img/s13/hud@2x.png) no-repeat;
+    }
+  }
   .s-thirteen__list-box::after {
     content: '';
     display: block;
@@ -276,7 +285,7 @@
     background-color: #dfdfdf;
     clip-path: polygon(0 40%, 100% 0, 100% 100%, 0 100%);
     position: absolute;
-    top: rem(610);
+    top: rem(500);
     left: rem(-400);
   }
 
