@@ -285,7 +285,7 @@
 
 @media (min-width: 1200px) {
   .s-fourteen__container {
-    padding-top: rem(300);
+    padding-top: rem(200);
   }
   .s-fourteen__title {
     width: rem(700);
@@ -335,6 +335,9 @@
     .s-fourteen__box::after {
       background: url(../img/s14/bg-right-pic@2x.png) no-repeat;
     }
+  }
+  .s-fourteen__col {
+    margin-bottom: 0;
   }
   .s-fourteen__par {
     font-size: $dtPar;
