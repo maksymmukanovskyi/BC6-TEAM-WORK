@@ -192,6 +192,9 @@
     margin-bottom: rem(12);
     line-height: rem(22);
   }
+  .s-thirteen__pic {
+    flex-basis: 17.2%;
+  }
   .s-thirteen__text {
     display: flex;
     height: inherit;
@@ -268,6 +271,11 @@
     position: absolute;
     top: 0.875rem;
     left: -12.75rem;
+  }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .s-thirteen__list::before {
+      background: url(../img/s13/hud@2x.png) no-repeat;
+    }
   }
   .s-thirteen__list-box::after {
     content: '';

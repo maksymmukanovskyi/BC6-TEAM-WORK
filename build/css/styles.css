@@ -2989,6 +2989,10 @@ img {
     line-height: 1.375rem;
   }
 
+  .s-thirteen__pic {
+    flex-basis: 17.2%;
+  }
+
   .s-thirteen__text {
     display: flex;
     height: inherit;
@@ -4822,6 +4826,18 @@ img {
   .s12__video-list:before {
     background: #fff url("../img/s-12/s12-bg-videos-pc@2x.png") no-repeat;
     background-size: 45.5rem 62.8125rem;
+  }
+
+  .s-thirteen__list::before {
+    background: url(../img/s13/hud@2x.png) no-repeat;
+  }
+
+  .s-fourteen__box::before {
+    background: url(../img/s14/bg-left-pic@2x.png) no-repeat;
+  }
+
+  .s-fourteen__box::after {
+    background: url(../img/s14/bg-right-pic@2x.png) no-repeat;
   }
 
   .container__before::before {
