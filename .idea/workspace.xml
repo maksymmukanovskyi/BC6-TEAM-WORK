@@ -7,48 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8dcbea6d-4832-4620-b0d7-11493a13acff" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/Bckgrnd-ftr.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/chart_320.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/chart_768.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/chart_index.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/css_sprites.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/dots.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/dots_b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/img/fon-guarantee.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/Bckgrnd-ftr.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/chart_320.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/chart_768.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/chart_index.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/css_sprites.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/dots.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/dots_b.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/img/fon-guarantee.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/User.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/S21.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/S5.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/styles.css" afterPath="$PROJECT_DIR$/build/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/styles.min.css" afterPath="$PROJECT_DIR$/build/css/styles.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/s-1.html" afterPath="$PROJECT_DIR$/src/html/s-1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/s-10.html" afterPath="$PROJECT_DIR$/src/html/s-10.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/s-11.html" afterPath="$PROJECT_DIR$/src/html/s-11.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/s-12.html" afterPath="$PROJECT_DIR$/src/html/s-12.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/s-13.html" afterPath="$PROJECT_DIR$/src/html/s-13.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/s-14.html" afterPath="$PROJECT_DIR$/src/html/s-14.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/s-15.html" afterPath="$PROJECT_DIR$/src/html/s-15.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/s-16.html" afterPath="$PROJECT_DIR$/src/html/s-16.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/s-2.html" afterPath="$PROJECT_DIR$/src/html/s-2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/s-21.html" afterPath="$PROJECT_DIR$/src/html/s-21.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/s-3.html" afterPath="$PROJECT_DIR$/src/html/s-3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/s-4.html" afterPath="$PROJECT_DIR$/src/html/s-4.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/s-5.html" afterPath="$PROJECT_DIR$/src/html/s-5.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/s-6.html" afterPath="$PROJECT_DIR$/src/html/s-6.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/s-7.html" afterPath="$PROJECT_DIR$/src/html/s-7.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/s-8.html" afterPath="$PROJECT_DIR$/src/html/s-8.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/html/s-9.html" afterPath="$PROJECT_DIR$/src/html/s-9.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/reset.scss" afterPath="$PROJECT_DIR$/src/scss/reset.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/styles.scss" afterPath="$PROJECT_DIR$/src/scss/styles.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/S5.scss" afterPath="$PROJECT_DIR$/src/scss/S5.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -69,8 +33,8 @@
       <file leaf-file-name="s-5.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/html/s-5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+            <state relative-caret-position="60">
+              <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
               <folding>
                 <element signature="n#div#2;n#section#0;n#div#0;n#div#0;n#!!top" expanded="false" />
                 <element signature="n#div#3;n#section#0;n#div#0;n#div#0;n#!!top" expanded="false" />
@@ -122,11 +86,9 @@
       <file leaf-file-name="S5.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/scss/S5.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="2" column="48" lean-forward="false" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
-              <folding>
-                <marker date="1528968006837" expanded="true" signature="1367:2646" ph="{...}" />
-              </folding>
+            <state relative-caret-position="300">
+              <caret line="252" column="17" lean-forward="true" selection-start-line="252" selection-start-column="17" selection-end-line="252" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -250,7 +212,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -315,7 +277,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -433,11 +395,12 @@
       <workItem from="1528961372852" duration="7011000" />
       <workItem from="1528978446559" duration="2174000" />
       <workItem from="1529048146406" duration="5861000" />
+      <workItem from="1529347418511" duration="551000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112850000" />
+    <option name="totallyTimeSpent" value="113401000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -450,16 +413,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1474801" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09867374" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35367373" sideWeight="0.08912467" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35491905" sideWeight="0.0928382" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33872977" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35367373" sideWeight="0.9108753" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35491905" sideWeight="0.90716183" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -819,8 +783,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/html/s-5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        <state relative-caret-position="60">
+          <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
           <folding>
             <element signature="n#div#2;n#section#0;n#div#0;n#div#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#section#0;n#div#0;n#div#0;n#!!top" expanded="false" />
@@ -830,11 +794,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/S5.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="2" column="48" lean-forward="false" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
-          <folding>
-            <marker date="1528968006837" expanded="true" signature="1367:2646" ph="{...}" />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="252" column="17" lean-forward="true" selection-start-line="252" selection-start-column="17" selection-end-line="252" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>

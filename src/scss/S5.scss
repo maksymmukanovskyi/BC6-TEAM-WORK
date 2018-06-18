@@ -5,7 +5,7 @@
   padding: rem(54) 0 rem(62);
 }
 
-.title {
+.title_S5 {
   color: $textWhite;
   font-family: $fontMuseoCyrl;
   font-size: rem(25);
@@ -13,7 +13,7 @@
   margin-bottom: rem(40);
 }
 
-.title:after {
+.title_S5:after {
   content: '';
   display: block;
   width: rem(150);
@@ -103,12 +103,12 @@
     //padding-left: rem(40);
   }
 
-  .title {
+  .title_S5 {
     font-size: rem(30);
     margin-bottom: rem(63);
   }
 
-  .title::after {
+  .title_S5::after {
     content: '';
     display: block;
     width: rem(354);
@@ -228,7 +228,7 @@
     left: 28%;
   }
 
-  .title {
+  .title_S5 {
     width: 40.187%;
     font-size: rem(38);
     line-height: rem(50);
@@ -236,7 +236,7 @@
     margin-top: rem(90);
     margin-bottom: 0;
   }
-  .title:after {
+  .title_S5:after {
     width: 100%;
     height: rem(3);
     margin-left: 0;

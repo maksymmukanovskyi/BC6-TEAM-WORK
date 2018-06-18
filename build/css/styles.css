@@ -150,7 +150,7 @@ img {
   padding: 3.375rem 0 3.875rem;
 }
 
-.title {
+.title_S5 {
   color: #fff;
   font-family: "Museo Sans Cyrl", sans-serif;
   font-size: 1.5625rem;
@@ -158,7 +158,7 @@ img {
   margin-bottom: 2.5rem;
 }
 
-.title:after {
+.title_S5:after {
   content: '';
   display: block;
   width: 9.375rem;
@@ -389,12 +389,12 @@ img {
     padding: 7.5625rem 0 5.25rem;
   }
 
-  .title {
+  .title_S5 {
     font-size: 1.875rem;
     margin-bottom: 3.9375rem;
   }
 
-  .title::after {
+  .title_S5::after {
     content: '';
     display: block;
     width: 22.125rem;
@@ -561,7 +561,7 @@ img {
     left: 28%;
   }
 
-  .title {
+  .title_S5 {
     width: 40.187%;
     font-size: 2.375rem;
     line-height: 3.125rem;
@@ -570,7 +570,7 @@ img {
     margin-bottom: 0;
   }
 
-  .title:after {
+  .title_S5:after {
     width: 100%;
     height: 0.1875rem;
     margin-left: 0;
