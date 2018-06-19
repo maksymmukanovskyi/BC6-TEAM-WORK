@@ -1273,7 +1273,7 @@ img {
   left: -2.4375rem;
   width: 1.5625rem;
   height: 1.5625rem;
-  padding-right: 0.625rem;
+  padding-right: 10px;
   box-sizing: border-box;
   border: 0.1875rem solid #fff;
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.3);
@@ -1304,7 +1304,7 @@ img {
 .s12__video-list-item {
   position: relative;
   margin: 0 auto 0.9375rem;
-  box-shadow: 0 0.9375rem 1.875rem 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.25);
 }
 
 .s12__video-list-item:last-child {
@@ -1929,10 +1929,6 @@ img {
   content: inherit;
 }
 
-.container {
-  max-width: 75rem;
-}
-
 .who {
   line-height: 2.1875rem;
   font-size: 1.375rem;
@@ -1990,18 +1986,6 @@ img {
   .wrapper-sec19 {
     margin-top: 0.3125rem;
     background: url("../img/left.png") no-repeat;
-  }
-}
-
-@media (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px), (min-resolution: 192dpi) and (min-width: 320px) {
-  .wrapper-s11 {
-    background: #fff url("../img/s-11/noisy-bg@2x.png") repeat;
-    background-size: 6.25rem auto;
-  }
-
-  .s12__quote {
-    background-image: url("../img/s-12/s12-quote@2x.png");
-    background-size: 3.8125rem 3.1875rem;
   }
 }
 
@@ -2786,7 +2770,7 @@ img {
 
   .s11__section-sub-title-top {
     display: block;
-    border-bottom: solid 0.125rem black;
+    border-bottom: solid 2px black;
   }
 
   .s11__section-sub-title-bot {
@@ -2823,7 +2807,7 @@ img {
   }
 
   .s11__card-shadow-box {
-    box-shadow: 0 1.5625rem 1.875rem 0 rgba(0, 0, 0, 0.3), -0.8125rem 0.8125rem #00bcd4;
+    box-shadow: 0 25px 30px 0 rgba(0, 0, 0, 0.3), -0.8125rem 0.8125rem #00bcd4;
   }
 
   .s11__card--1 {
@@ -2838,7 +2822,7 @@ img {
   }
 
   .s11__card--2 > .s11__card-shadow-box {
-    box-shadow: 0 0.9375rem 1.875rem 0 rgba(0, 0, 0, 0.25), 0.8125rem -0.8125rem #00bcd4;
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.25), 0.8125rem -0.8125rem #00bcd4;
   }
 
   .s11__card--2 > .s11__card-technology {
@@ -2902,7 +2886,7 @@ img {
 
   .s12__section-sub-title-top {
     display: block;
-    border-bottom: solid 0.125rem black;
+    border-bottom: solid 2px black;
   }
 
   .s12__section-sub-title-bot {
@@ -2929,7 +2913,7 @@ img {
     height: 57.25rem;
     border-radius: 0.3125rem;
     display: block;
-    box-shadow: 0 0.3125rem 0.3125rem 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1);
   }
 
   .s12__video-list-item {
@@ -3001,6 +2985,10 @@ img {
     line-height: 1.375rem;
   }
 
+  .s-thirteen__pic {
+    flex-basis: 18.2%;
+  }
+
   .s-thirteen__text {
     display: flex;
     height: inherit;
@@ -3015,7 +3003,7 @@ img {
 
   .text--ilikegoit {
     font-size: 0.875rem;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1rem;
   }
 
   .s-thirteen__link {
@@ -3485,19 +3473,16 @@ img {
   }
 }
 
-@media (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px), (min-resolution: 192dpi) and (min-width: 768px) {
+@media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 768px) and (min-resolution: 192dpi) {
   .wrapper-s11 {
     background-image: linear-gradient(90deg, #fff 22%, transparent 22%), url("../img/s-11/noisy-bg@2x.png");
-    background-size: 100%, 6.25rem;
   }
 
   .s12__video-list:before {
     background: #fff url("../img/s-12/s12-bg-videos-tabl@2x.png") no-repeat;
     background-size: 19.75rem 57.25rem;
   }
-}
 
-@media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 768px) and (min-resolution: 192dpi) {
   .wrapper-s-15 {
     background-image: url("../img/s-15/pics/triangle@2x.png");
     background-color: #fafafa;
@@ -4140,7 +4125,7 @@ img {
   }
 
   .s11__section-sub-title-top {
-    border-bottom: solid 0.1875rem black;
+    border-bottom: solid 3px black;
     padding-bottom: 0.25rem;
   }
 
@@ -4169,7 +4154,7 @@ img {
     position: absolute;
     top: 5rem;
     left: 74.25rem;
-    box-shadow: 0 1.25rem 2.1875rem 0 rgba(120, 120, 120, 0.15);
+    box-shadow: 0 20px 35px 0 rgba(120, 120, 120, 0.15);
   }
 
   .s11__section-content:after {
@@ -4241,11 +4226,11 @@ img {
   }
 
   .s11__card-shadow-box {
-    box-shadow: 0 2.1875rem 4.6875rem 0 rgba(0, 0, 0, 0.35), -1.75rem 1.25rem #00bcd4;
+    box-shadow: 0 35px 75px 0 rgba(0, 0, 0, 0.35), -1.75rem 1.25rem #00bcd4;
   }
 
   .s11__card--2 > .s11__card-shadow-box {
-    box-shadow: 0 0.9375rem 3.75rem 0 rgba(0, 0, 0, 0.35), 1.75rem -1.25rem #00bcd4;
+    box-shadow: 0 15px 60px 0 rgba(0, 0, 0, 0.35), 1.75rem -1.25rem #00bcd4;
   }
 
   .btn--s11 {
@@ -4253,7 +4238,7 @@ img {
     padding: 1.875rem 2rem;
     top: -15.9375rem;
     left: 35rem;
-    box-shadow: 0 0.625rem 1.875rem 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
   }
 
   .wrapper-s12 {
@@ -4298,7 +4283,7 @@ img {
   }
 
   .s12__section-sub-title-top {
-    border-bottom: 0.1875rem solid #000;
+    border-bottom: 3px solid #000;
     padding-bottom: 0.25rem;
   }
 
@@ -4355,14 +4340,14 @@ img {
   }
 
   .s-thirteen__container {
-    padding-top: 12.5rem;
+    padding-top: 14.375rem;
     padding-bottom: 0;
   }
 
   .s-thirteen__title {
     max-width: 50.625rem;
     text-align: center;
-    margin: 0 auto 7.5rem;
+    margin: 0 auto 4.375rem;
   }
 
   .s-thirteen__list-box {
@@ -4389,7 +4374,7 @@ img {
     height: 59.375rem;
     width: 23%;
     background-image: url(../img/s13/hud.png);
-    background-size: 220%;
+    background-size: 180%;
     background-repeat: no-repeat;
     position: absolute;
     top: 0.875rem;
@@ -4405,8 +4390,8 @@ img {
     -webkit-clip-path: polygon(0 40%, 100% 0, 100% 100%, 0 100%);
     clip-path: polygon(0 40%, 100% 0, 100% 100%, 0 100%);
     position: absolute;
-    top: 38.125rem;
-    left: -21.75rem;
+    top: 29.375rem;
+    left: -25.4375rem;
   }
 
   .text--ilikegoit {
@@ -4424,7 +4409,6 @@ img {
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
-    position: relative;
     top: 70px;
   }
 
@@ -4439,7 +4423,7 @@ img {
   }
 
   .s-fourteen__container {
-    padding-top: 18.75rem;
+    padding-top: 12.5rem;
   }
 
   .s-fourteen__title {
@@ -4485,6 +4469,10 @@ img {
     top: 23.75rem;
     right: -23.125rem;
     z-index: -1;
+  }
+
+  .s-fourteen__col {
+    margin-bottom: 0;
   }
 
   .s-fourteen__par {
@@ -4859,11 +4847,11 @@ img {
   }
 }
 
-@media (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px), (min-resolution: 192dpi) and (min-width: 1200px) {
+@media (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1200px) and (min-resolution: 192dpi) {
   .wrapper-s11 {
-    background-image: url(../img/s-11/s11-bg-left@2x.png), linear-gradient(90deg, #fff 35%, transparent 0), url(../img/s-11/noisy-bg@2x.png);
-    background-repeat: no-repeat, no-repeat, repeat;
-    background-size: 12.75rem 48.75rem, 100%, 6.25rem, 36.3125rem 71.5rem;
+    background-image: url("../img/s-11/s11-bg-left@2x.png"), linear-gradient(90deg, #fff 35%, transparent 35%), url("../img/s-11/noisy-bg@2x.png");
+    background-repeat: no-repeat, repeat, repeat;
+    background-size: contain, 35%, 35%, 6.25rem 6.25rem;
   }
 
   .s11__section-content:before {
@@ -4883,9 +4871,19 @@ img {
     background: #fff url("../img/s-12/s12-bg-videos-pc@2x.png") no-repeat;
     background-size: 45.5rem 62.8125rem;
   }
-}
 
-@media (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1200px) and (min-resolution: 192dpi) {
+  .s-thirteen__list::before {
+    background: url(../img/s13/hud@2x.png) no-repeat;
+  }
+
+  .s-fourteen__box::before {
+    background: url(../img/s14/bg-left-pic@2x.png) no-repeat;
+  }
+
+  .s-fourteen__box::after {
+    background: url(../img/s14/bg-right-pic@2x.png) no-repeat;
+  }
+
   .container__before::before {
     background-image: url("../img/s-15/pics/abstract-bg@2x.png");
   }
@@ -5133,6 +5131,15 @@ img {
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .wrapper-s11 {
+    background: #fff url("../img/s-11/noisy-bg@2x.png") repeat;
+  }
+
+  .s12__quote {
+    background-image: url("../img/s-12/s12-quote@2x.png");
+    background-size: 3.8125rem 3.1875rem;
+  }
+
   .wrapper-s-16 {
     padding: 3.25rem 0 3.625rem;
     background-image: url(../img/s-16/pics/noise@2x.png);
