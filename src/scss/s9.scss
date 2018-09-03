@@ -388,16 +388,16 @@
     position: relative;
   }
 
-  .guarantee::after {
-    content: '';
-    background-image: url(../img/pic-after.png);
-    display: block;
-    width: rem(326);
-    height: rem(459);
-    position: absolute;
-    right: rem(-380);
-    bottom: rem(120);
-  }
+  // .guarantee::after {
+  //   content: '';
+  //   background-image: url(../img/pic-after.png);
+  //   display: block;
+  //   width: rem(326);
+  //   height: rem(459);
+  //   position: absolute;
+  //   right: rem(-380);
+  //   bottom: rem(120);
+  // }
 
   .guarantee__header {
     flex-basis: 50%;
@@ -505,7 +505,7 @@
   .about-item__sub-title {
     font-size: rem(22);
   }
-  .about-item__sub-title:before {;
+  .about-item__sub-title:before {
     left: rem(-70);
     top: rem(-12);
     width: rem(110);
