@@ -1,3 +1,4 @@
+// SP 2018-06-19
 // -------- MOBILE VERSION 320px --------
 .wrapper-s12 {
   background-color: #fff;
@@ -37,7 +38,7 @@
   text-transform: uppercase;
   text-align: center;
   letter-spacing: rem(0.5);
-  margin-bottom: rem(32);
+  margin-bottom: rem(40);
 }
 
 .s12__about-course-list {
@@ -49,7 +50,7 @@
 .s12__about-course-list-item {
   font-family: $fontOpenSans;
   font-weight: 400;
-  font-size: rem(14);
+  font-size: rem(14.5);
   line-height: 1.429;
   color: $textGrey;
   padding: 0 rem(7) 0;
@@ -65,7 +66,7 @@
   left: rem(-39);
   width: rem(25);
   height: rem(25);
-  padding-right: 10px;
+  padding-right: rem(10);
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -97,7 +98,7 @@
 .s12__video-list-item {
   position: relative;
   margin: 0 auto rem(15);
-  box-shadow: 0 15px 30px 0 rgba(0,0,0,.25);
+  box-shadow: 0 rem(15) rem(30) 0 rgba(0,0,0,.25);
 }
 
 .s12__video-list-item:last-child {
@@ -116,13 +117,6 @@
 
 .s12__video-list-item:hover > .s12__circle-play-btn {
   z-index: 1;
-}
-
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  .s12__quote {
-    background-image: url('../img/s-12/s12-quote@2x.png');
-    background-size: rem(61) rem(51);
-  }
 }
 
 // -------- TABLET VERSION 768px --------
@@ -167,7 +161,7 @@
 
   .s12__section-sub-title-top {
     display: block;
-    border-bottom: solid 2px black;
+    border-bottom: solid rem(2) black;
   }
 
   .s12__section-sub-title-bot {
@@ -195,7 +189,7 @@
       -moz-border-radius: rem(5);
       border-radius: rem(5);
       display: block;
-      box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+      box-shadow: 0 rem(5) rem(5) 0 rgba(0, 0, 0, 0.1);
     }
   }
 
@@ -234,33 +228,28 @@
       position: absolute;
     }
   }
-
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    .s12__video-list:before {
-      background: #fff url('../img/s-12/s12-bg-videos-tabl@2x.png') no-repeat;
-      background-size: rem(316) rem(916);
-    }
-  }
 }
 
 // -------- DESKTOP VERSION 1200px --------
 @media (min-width: 1200px) {
   .wrapper-s12 {
-    padding: rem(100) 0 0;
+    padding: rem(74) 0 0 0;
   }
 
   .container--s12 {
-    max-width: rem(1440);
     padding: 0 0 0 rem(2);
     margin: auto;
     position: relative;
+    // enable when merging:
+    top: rem(204);
+    z-index: 2;
 
     &:before {
       content: '';
       display: block;
       position: absolute;
       top: rem(100);
-      left: rem(-256);
+      left: rem(-360);
       width: rem(253);
       height: rem(457);
       overflow: visible;
@@ -286,7 +275,7 @@
   }
 
   .s12__section-sub-title-top {
-    border-bottom: 3px solid #000;
+    border-bottom: rem(3) solid #000;
     padding-bottom: rem(4);
   }
 
@@ -296,7 +285,7 @@
 
   .s12-description {
     max-width: rem(470);
-    margin-right: rem(94);
+    margin-right: rem(64);
   }
 
   .s12__about-course-list {
@@ -343,16 +332,33 @@
       box-shadow: unset;
     }
   }
+}
 
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    .container--s12:before {
-      background-image: url('../img/s-12/s12-bg-left@2x.png');
-      background-size: rem(253) rem(457);
-    }
+// backgrounds for retina displays
+// the order of the rules from higher display width to lower is important!
 
-    .s12__video-list:before {
-      background: #fff url('../img/s-12/s12-bg-videos-pc@2x.png') no-repeat;
-      background-size: rem(728) rem(1005);
-    }
+@media (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px), (min-resolution: 192dpi) and (min-width: 1200px) {
+  .container--s12:before {
+    background-image: url('../img/s-12/s12-bg-left@2x.png');
+    background-size: rem(253) rem(457);
+  }
+
+  .s12__video-list:before {
+    background: #fff url('../img/s-12/s12-bg-videos-pc@2x.png') no-repeat;
+    background-size: rem(728) rem(1005);
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px), (min-resolution: 192dpi) and (min-width: 768px) {
+  .s12__video-list:before {
+    background: #fff url('../img/s-12/s12-bg-videos-tabl@2x.png') no-repeat;
+    background-size: rem(316) rem(916);
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px), (min-resolution: 192dpi) and (min-width: 320px) {
+  .s12__quote {
+    background-image: url('../img/s-12/s12-quote@2x.png');
+    background-size: rem(61) rem(51);
   }
 }
