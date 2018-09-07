@@ -92,6 +92,7 @@ img {
   max-width: 71.25rem;
   margin: auto;
   padding: 0 1rem;
+  overflow: hidden;
 }
 
 .title {
