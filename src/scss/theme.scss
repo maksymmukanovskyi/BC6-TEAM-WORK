@@ -45,7 +45,8 @@
     line-height: rem(30);
     text-align: right;
     padding-right: rem(9);
-
+    display: block;
+    width: 100%;
   }
 
   &__bot{
@@ -97,6 +98,10 @@
 
 .span--bold {
   font-weight: 700;
+}
+
+.span--extrabold {
+  font-weight: 900;
 }
 
 .circle:before {

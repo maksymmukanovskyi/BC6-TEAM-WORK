@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /*
    Import partials below
 */
@@ -18,7 +20,7 @@ a {
 
 img {
   display: block;
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -70,6 +72,8 @@ img {
   line-height: 1.875rem;
   text-align: right;
   padding-right: 0.5625rem;
+  display: block;
+  width: 100%;
 }
 
 .paragraph__bot {
@@ -121,6 +125,10 @@ img {
   font-weight: 700;
 }
 
+.span--extrabold {
+  font-weight: 900;
+}
+
 .circle:before {
   content: '';
   display: inline-block;
@@ -141,6 +149,374 @@ img {
 .circle--bordered:before {
   border: 0.1875rem solid #fff;
   box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.18);
+}
+
+.wrapper-s-one {
+  background-color: #2a2a2f;
+}
+
+.landing {
+  padding: 1.8125rem 0 4.25rem;
+  text-align: center;
+}
+
+.landing__overlay {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 52.6875rem 0 2.5rem;
+  width: 35rem;
+  background-color: #242427;
+  z-index: 1;
+}
+
+.landing__wallpaper {
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  left: 0;
+  top: 0;
+  overflow-x: hidden;
+  background-color: red;
+}
+
+.btn--blue-strict {
+  display: block;
+  background-image: none;
+  background-color: #00bcd4;
+  border: none;
+  border-radius: 0;
+}
+
+.landing__headline {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 5.75rem;
+  margin-bottom: 3.625rem;
+}
+
+.landing__logo-block {
+  position: relative;
+}
+
+.landing__slogan {
+  display: none;
+  color: #fff;
+  font-size: 0.6875rem;
+  position: absolute;
+  width: 9.375rem;
+  top: 0;
+  left: 7.5rem;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.landing__slogan--bot {
+  display: none;
+  width: 17.1875rem;
+  font-family: "Ubuntu Mono", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  text-transform: none;
+}
+
+.landing__content--border {
+  border: 0.0625rem solid #00bcd4;
+  padding: 0.625rem;
+  line-height: 0.5;
+  order: 2;
+}
+
+.paragraph--small-white {
+  color: #fff;
+  font-size: 0.875rem;
+}
+
+.span--blue {
+  color: #00bcd4;
+}
+
+.span--white {
+  color: #fff;
+}
+
+.landing__phone {
+  display: block;
+  width: 8.75rem;
+  order: 1;
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 400;
+  font-size: 0.8125rem;
+  color: #c7c7c7;
+  line-height: 1.5;
+  z-index: 10;
+}
+
+.landing__phone--ubuntu-blue {
+  font-family: "Ubuntu Mono", sans-serif;
+  font-weight: 700;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  color: #00bcd4;
+}
+
+.landing__phone--ubuntu-blue:after {
+  content: '';
+  display: block;
+  width: 8.4375rem;
+  height: 0.0625rem;
+  background-color: #00bcd4;
+  margin: auto;
+}
+
+.landing__text--font-style-mod {
+  font-family: "Ubuntu Mono", sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 1;
+  margin: 0 auto 2.75rem;
+  position: relative;
+  width: 15.9375rem;
+}
+
+.landing__text--font-style-mod::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 9.375rem;
+  height: 0.1875rem;
+  background-color: #00bcd4;
+  top: 170%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.span--regular-sixteen-lowcase {
+  font-weight: 400;
+  font-size: 1rem;
+  text-transform: lowercase;
+  color: #c7c7c7;
+}
+
+.landing__title--mobile {
+  font-size: 1.875rem;
+  color: #fff;
+  margin: 0 auto 2.8125rem;
+  width: 16.25rem;
+  position: relative;
+}
+
+.landing__title--mobile:after {
+  display: none;
+  content: '';
+  width: 7.5rem;
+  height: 0.0625rem;
+  background-color: #00bcd4;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.span--thin-not-transform {
+  font-weight: 300;
+  text-transform: none;
+}
+
+.paragraph--lheight-bmargin {
+  text-transform: none;
+  max-width: 32.5rem;
+  line-height: 1.3;
+  margin: 0 auto 1.0625rem;
+}
+
+.landing__text--ubuntu {
+  font-family: "Ubuntu Mono", sans-serif;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 700;
+  max-width: 32.5rem;
+  margin: auto;
+  line-height: 1.3;
+}
+
+.span--large-size {
+  font-size: 1.125rem;
+}
+
+.landing__skills {
+  display: flex;
+  width: 32.5rem;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.landing__skills--title {
+  display: block;
+  color: #fff;
+  width: 9.375rem;
+  font-size: 1rem;
+  line-height: 1;
+  text-align: left;
+  border-right: 0.0625rem solid #fff;
+  padding: 0.625rem 1.5625rem 0.625rem 0.625rem;
+}
+
+.landing__skills--skill-name {
+  width: 9.375rem;
+  color: #fff;
+  font-family: "Ubuntu Mono", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 0.6875rem;
+  text-align: left;
+  position: relative;
+}
+
+.landing__skills--skill-name:before {
+  content: '<_';
+  color: #00bcd4;
+  font-family: "Ubuntu Mono", sans-serif;
+  font-size: 1.5625rem;
+  font-weight: 400;
+  position: absolute;
+  top: 3%;
+  right: 96%;
+}
+
+.wrapper-s-two {
+  background-color: #fff;
+}
+
+.faq {
+  padding: 2.375rem 0 3.125rem;
+}
+
+.faq__head {
+  padding-bottom: 3.125rem;
+  text-align: center;
+}
+
+.title--faq-smaller {
+  font-size: 1.5625rem;
+  line-height: 1.2;
+  margin-bottom: 2.5rem;
+}
+
+.paragraph--faq-mobile {
+  font-size: 0.875rem;
+  line-height: 1.2;
+  text-align: center;
+  position: relative;
+}
+
+.paragraph--faq-mobile:before {
+  content: '';
+  display: block;
+  width: 50%;
+  height: 0.0625rem;
+  background-color: #242427;
+  position: absolute;
+  bottom: 180%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.paragraph--faq-tablet-dec {
+  display: none;
+}
+
+.faq__sub-title {
+  text-align: center;
+  font-family: "Ubuntu Mono", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+}
+
+.text--fourteen-regular {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.faq__samples {
+  position: relative;
+  margin-bottom: 2.5rem;
+}
+
+.faq__samples:last-child {
+  margin-bottom: 0;
+}
+
+.faq__sprite-img-first:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 5%;
+  right: 77%;
+  width: 6.25rem;
+  height: 6.25rem;
+  background: url("../img/s2/sprites_s2_01.png") -0.625rem -0.625rem;
+  -webkit-transform: translateY(-50%) scale(0.5);
+  transform: translateY(-50%) scale(0.5);
+}
+
+.faq__sprite-img-second:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 5%;
+  right: 77%;
+  width: 6.25rem;
+  height: 6.25rem;
+  background: url("../img/s2/sprites_s2_01.png") -8.125rem -0.625rem;
+  -webkit-transform: translateY(-50%) scale(0.5);
+  transform: translateY(-50%) scale(0.5);
+}
+
+.faq__sprite-img-third:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 5%;
+  right: 77%;
+  width: 6.25rem;
+  height: 6.25rem;
+  background: url("../img/s2/sprites_s2_01.png") -0.625rem -8.125rem;
+  -webkit-transform: translateY(-50%) scale(0.5);
+  transform: translateY(-50%) scale(0.5);
+}
+
+.faq__sprite-img-fourth:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 5%;
+  right: 77%;
+  width: 6.25rem;
+  height: 6.25rem;
+  background: url("../img/s2/sprites_s2_01.png") -8.125rem -8.125rem;
+  -webkit-transform: translateY(-50%) scale(0.5);
+  transform: translateY(-50%) scale(0.5);
+}
+
+.faq__sprite-img-fifth:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 5%;
+  right: 77%;
+  width: 6.25rem;
+  height: 6.25rem;
+  background: url("../img/s2/sprites_s2_01.png") -15.625rem -0.625rem;
+  -webkit-transform: translateY(-50%) scale(0.5);
+  transform: translateY(-50%) scale(0.5);
 }
 
 @font-face {
@@ -204,4 +580,323 @@ img {
   src: url("../fonts/Ubuntu Mono Bold/Ubuntu Mono Bold.woff") format("woff"), url("../fonts/Ubuntu Mono Bold/Ubuntu Mono Bold.woff2") format("woff2"), url("../fonts/Ubuntu Mono Bold/Ubuntu Mono Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
+}
+
+@media (min-width: 768px) {
+  .wrapper-s-one {
+    background-image: url("../img/s1/wrapper_s1_01.png");
+    background-size: 48rem;
+    background-position: center 77%;
+    background-repeat: no-repeat;
+  }
+
+  .landing__logo-block {
+    width: 13.4375rem;
+  }
+
+  .landing__content--border {
+    order: 1;
+  }
+
+  .landing__phone {
+    order: 2;
+  }
+
+  .landing__slogan {
+    display: block;
+  }
+
+  .landing__text--font-style-mod {
+    font-size: 1.25rem;
+    width: 17.5rem;
+  }
+
+  .landing__text--font-style-mod::after {
+    width: 35.9375rem;
+    height: 0.375rem;
+  }
+
+  .landing__title--mobile {
+    font-size: 2.5rem;
+    width: 28.125rem;
+  }
+
+  .landing__title--mobile:after {
+    display: block;
+  }
+
+  .landing__text--ubuntu {
+    font-size: 1.125rem;
+    letter-spacing: 0.03125rem;
+    margin-bottom: 7.5rem;
+  }
+
+  .faq {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .title--faq-smaller {
+    font-size: 1.875rem;
+    text-align: left;
+  }
+
+  .paragraph--faq-mobile {
+    display: none;
+  }
+
+  .paragraph--faq-tablet-desc {
+    display: block;
+    font-size: 0.875rem;
+  }
+
+  .paragraph--faq-tablet-desc-top {
+    font-size: inherit;
+  }
+
+  .paragraph--faq-tablet-desc-bot {
+    font-size: inherit;
+    border-top: 0.125rem solid #242427;
+  }
+
+  .blueword--fsize-change {
+    font-size: inherit;
+    font-weight: inherit;
+    border: 1px solid #242427;
+  }
+
+  .faq__head,
+  .faq__samples {
+    width: 44%;
+  }
+
+  .faq__sub-title {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .wrapper-s-one {
+    background-size: 79.375rem;
+    background-position: left top;
+  }
+
+  .landing {
+    padding-top: 0;
+  }
+
+  .landing {
+    position: relative;
+  }
+
+  .landing__overlay {
+    display: block;
+  }
+
+  .landing__overlay:after {
+    content: '';
+    position: absolute;
+    top: 4%;
+    right: 0;
+    -webkit-transform: translateX(50%);
+    transform: translateX(50%);
+    background-image: url("../img/s1/wrapper_s1_03.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    width: 26.5625rem;
+    height: 48.125rem;
+    z-index: 3;
+  }
+
+  .landing__headline {
+    justify-content: space-between;
+    margin-bottom: 12.5rem;
+  }
+
+  .landing__logo-block {
+    flex-grow: 0.9;
+  }
+
+  .landing__logo {
+    padding-top: 0.3125rem;
+  }
+
+  .landing__slogan {
+    font-size: 0.9375rem;
+    width: 11.25rem;
+  }
+
+  .landing__slogan--bot {
+    display: block;
+  }
+
+  .landing__content--border {
+    border: none;
+    display: block;
+    width: 15.3125rem;
+    font-size: 1.375rem;
+    padding: 0.8125rem 0 0;
+    -webkit-transform-origin: 2.875rem 0;
+    transform-origin: 2.875rem 0;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    position: relative;
+    text-align: right;
+    z-index: 1;
+  }
+
+  .landing__content--border:before {
+    content: '';
+    background-color: #00bcd4;
+    display: block;
+    width: 15rem;
+    height: 0.0625rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .landing__phone {
+    display: block;
+    width: 14.875rem;
+    font-size: 1rem;
+  }
+
+  .landing__phone--ubuntu-blue {
+    font-size: 1.25rem;
+    position: relative;
+  }
+
+  .landing__phone--ubuntu-blue:after {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 16.25rem;
+  }
+
+  .landing__phone--ubuntu-blue:before {
+    content: 'Запишитесь на курс:';
+    display: block;
+    width: 14.875rem;
+    height: 2.0625rem;
+    font-size: 1rem;
+    color: #000;
+    background-color: #fff;
+    font-family: "Museo Sans Cyrl", sans-serif;
+    font-weight: 900;
+    align-items: center;
+  }
+
+  .landing__coursename {
+    text-align: right;
+    display: block;
+  }
+
+  .landing__text--font-style-mod {
+    font-size: 1.625rem;
+    margin: 0 auto 4.5625rem 6.25rem;
+    width: 23.125rem;
+  }
+
+  .landing__text--font-style-mod:after {
+    width: 37.5rem;
+  }
+
+  .span--regular-sixteen-lowcase {
+    font-size: 1.5rem;
+    margin-left: 0;
+  }
+
+  .landing__title--mobile {
+    font-size: 4rem;
+    margin: 0 auto 5.5rem 0;
+    width: 28.75rem;
+    line-height: 1;
+  }
+
+  .landing__title--mobile:after {
+    display: none;
+  }
+
+  .paragraph--lheight-bmargin {
+    font-size: 1rem;
+    margin: 0 auto 1.0625rem 0;
+    width: 33.125rem;
+  }
+
+  .landing__text--ubuntu {
+    font-size: 1.125rem;
+    margin-left: 0;
+  }
+
+  .wrapper-s-two {
+    background-image: url("../img/s2/wrapper_s2_01.png");
+    -webkit-background-size: auto auto;
+    background-position: left top;
+    background-repeat: no-repeat;
+  }
+
+  .faq {
+    padding: 9.375rem 0 13.125rem;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .faq__head {
+    text-align: left;
+  }
+
+  .title--faq-smaller {
+    font-size: 2.625rem;
+  }
+
+  .paragraph--faq-tablet-desc {
+    font-size: 1.125rem;
+  }
+
+  .faq__sub-title {
+    text-align: left;
+    font-size: 1.875rem;
+  }
+
+  .text--fourteen-regular {
+    font-size: 1.125rem;
+  }
+
+  .faq__sprite-img-first:before {
+    right: 97%;
+    top: 0;
+    -webkit-transform: translateY(-15%) scale(1);
+    transform: translateY(-15%) scale(1);
+  }
+
+  .faq__sprite-img-second:before {
+    right: 97%;
+    top: 0;
+    -webkit-transform: translateY(-15%) scale(1);
+    transform: translateY(-15%) scale(1);
+  }
+
+  .faq__sprite-img-third:before {
+    right: 97%;
+    top: 0;
+    -webkit-transform: translateY(-15%) scale(1);
+    transform: translateY(-15%) scale(1);
+  }
+
+  .faq__sprite-img-fourth:before {
+    right: 97%;
+    top: 0;
+    -webkit-transform: translateY(-15%) scale(1);
+    transform: translateY(-15%) scale(1);
+  }
+
+  .faq__sprite-img-fifth:before {
+    right: 97%;
+    top: 0;
+    -webkit-transform: translateY(-15%) scale(1);
+    transform: translateY(-15%) scale(1);
+  }
 }

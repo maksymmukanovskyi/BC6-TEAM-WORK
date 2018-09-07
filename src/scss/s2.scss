@@ -1,0 +1,237 @@
+.wrapper-s-two {
+  background-color: #fff;
+}
+
+.faq {
+  padding: rem(38) 0 rem(50);
+}
+
+.faq__head {
+  padding-bottom: rem(50);
+  text-align: center;
+}
+
+.title--faq-smaller {
+  font-size: rem(25);
+  line-height: 1.2;
+  margin-bottom: rem(40);
+}
+
+.paragraph--faq-mobile {
+  font-size: rem(14);
+  line-height: 1.2;
+  text-align: center;
+  position: relative;
+}
+
+.paragraph--faq-mobile:before {
+  content: '';
+  display: block;
+  width: 50%;
+  height: rem(1);
+  background-color: $bgDarkgrey;
+  position: absolute;
+  bottom: 180%;
+  left: 50%;
+  transform: translateX(-50%)
+}
+
+.paragraph--faq-tablet-dec {
+  display: none;
+}
+
+.faq__sub-title {
+  text-align: center;
+  font-family: $fontUbuntuMono;
+  font-size: rem(18);
+  font-weight: 700;
+  margin-bottom: rem(40);
+}
+
+.text--fourteen-regular {
+  font-size: rem(14);
+  font-weight: 400;
+}
+
+.faq__samples {
+  position: relative;
+  margin-bottom: rem(40);
+}
+
+.faq__samples:last-child {
+  margin-bottom: 0;
+}
+
+.faq__sprite-img-first:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 5%;
+  right: 77%;
+  width: rem(100);
+  height: rem(100);
+  background: url('../img/s2/sprites_s2_01.png') rem(-10) rem(-10);
+  transform: translateY(-50%) scale(0.5);
+}
+
+.faq__sprite-img-second:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 5%;
+  right: 77%;
+  width: rem(100);
+  height: rem(100);
+  background: url('../img/s2/sprites_s2_01.png') rem(-130) rem(-10);
+  transform: translateY(-50%) scale(0.5);
+}
+
+.faq__sprite-img-third:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 5%;
+  right: 77%;
+  width: rem(100);
+  height: rem(100);
+  background: url('../img/s2/sprites_s2_01.png') rem(-10) rem(-130);
+  transform: translateY(-50%) scale(0.5);
+}
+
+.faq__sprite-img-fourth:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 5%;
+  right: 77%;
+  width: rem(100);
+  height: rem(100);
+  background: url('../img/s2/sprites_s2_01.png') rem(-130) rem(-130);
+  transform: translateY(-50%) scale(0.5);
+}
+
+.faq__sprite-img-fifth:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 5%;
+  right: 77%;
+  width: rem(100);
+  height: rem(100);
+  background: url('../img/s2/sprites_s2_01.png') rem(-250) rem(-10);
+  transform: translateY(-50%) scale(0.5);
+}
+
+@media (min-width: 768px) {
+  .faq {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .title--faq-smaller {
+    font-size: rem(30);
+    text-align: left;
+  }
+
+  .paragraph--faq-mobile {
+    display: none;
+  }
+
+  .paragraph--faq-tablet-desc {
+    display: block;
+    font-size: rem(14);
+
+    &-top {
+      font-size: inherit;
+
+    }
+
+    &-bot {
+      font-size: inherit;
+      border-top: rem(2) solid $textGrey;
+    }
+
+  }
+
+  .blueword--fsize-change {
+    font-size: inherit;
+    font-weight: inherit;
+    border: 1px solid $textGrey;
+  }
+
+  .faq__head, .faq__samples {
+    width: 44%;
+  }
+
+  .faq__sub-title {
+    font-size: rem(24);
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .wrapper-s-two {
+    background-image: url('../img/s2/wrapper_s2_01.png');
+    -webkit-background-size: auto auto;
+    background-position: left top;
+    background-repeat: no-repeat;
+  }
+
+  .faq {
+    padding: rem(150) 0 rem(210);
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .faq__head {
+    text-align: left;
+  }
+
+  .title--faq-smaller {
+    font-size: rem(42);
+  }
+
+  .paragraph--faq-tablet-desc {
+    font-size: rem(18);
+  }
+
+  .faq__sub-title {
+    text-align: left;
+    font-size: rem(30);
+  }
+
+  .text--fourteen-regular {
+    font-size: rem(18);
+  }
+
+  .faq__sprite-img-first:before {
+    right: 97%;
+    top: 0;
+    transform: translateY(-15%) scale(1);
+  }
+
+  .faq__sprite-img-second:before {
+    right: 97%;
+    top: 0;
+    transform: translateY(-15%) scale(1);
+  }
+
+  .faq__sprite-img-third:before {
+    right: 97%;
+    top: 0;
+    transform: translateY(-15%) scale(1);
+  }
+
+  .faq__sprite-img-fourth:before {
+    right: 97%;
+    top: 0;
+    transform: translateY(-15%) scale(1);
+  }
+
+  .faq__sprite-img-fifth:before {
+    right: 97%;
+    top: 0;
+    transform: translateY(-15%) scale(1);
+  }
+}
