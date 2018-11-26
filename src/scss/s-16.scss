@@ -193,21 +193,21 @@
     bottom: rem(-122);
   }
 
-  .section-16__after::after{
-    content: '';
-    background-image: url('../img/s-16/pics/bgpic.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    display: block;
-    width: rem(475);
-    height: rem(953);
-    position: absolute;
-    right: 0%;
-    bottom: 4%;
-    overflow: hidden;
-    z-index: -1;
-    background-position-x: 247px;
-  }
+  // .section-16__after::after{
+  //   content: '';
+  //   background-image: url('../img/s-16/pics/bgpic.png');
+  //   background-size: contain;
+  //   background-repeat: no-repeat;
+  //   display: block;
+  //   width: rem(475);
+  //   height: rem(953);
+  //   position: absolute;
+  //   right: 0%;
+  //   bottom: 4%;
+  //   overflow: hidden;
+  //   z-index: -1;
+  //   background-position-x: 247px;
+  // }
 
 
   .title--margin{
